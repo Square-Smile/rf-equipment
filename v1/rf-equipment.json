@@ -1,0 +1,6385 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-15",
+  "sources": {
+    "ULXD": {
+      "title": "Shure ULX-D Wireless Systems Compatibility Frequency Bands Supplement",
+      "url": "https://content-files.shure.com/publications/frequencyCompatibilityChart/en/ulx-d-frequency-compatibility-chart.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "QLXD": {
+      "title": "Shure QLX-D Frequency Compatibility Chart (incl. 'Frequencies for European countries')",
+      "url": "https://content-files.shure.com/publications/frequencyCompatibilityChart/en/qlx-d-frequency-compatibility-chart.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "SLXD": {
+      "title": "Shure SLX-D Digital Frequency Compatibility Addendum",
+      "url": "https://content-files.shure.com/Pubs/slx/slxd-digital-freq-compatibility-addendum.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "AD": {
+      "title": "Shure Axient Digital Wireless System Frequency Compatibility Supplement",
+      "url": "https://content-files.shure.com/Pubs/AxientDigital/Axient_Digital_Frequency_Chart.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "BLX": {
+      "title": "Shure BLX Wireless Compatibility Frequency Bands Supplement",
+      "url": "https://content-files.shure.com/publications/frequencyCompatibilityChart/en/blx-frequency-compatibility-chart.pdf",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "PGX": {
+      "title": "Shure PGX Wireless user guide",
+      "url": "https://pubs.shure.com/view/guide/PGX/en-US.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "PSM300": {
+      "title": "Shure PSM 300 user guide",
+      "url": "https://pubs.shure.com/view/guide/PSM300/en-US.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "PSM900": {
+      "title": "Shure PSM 900 user guide",
+      "url": "https://pubs.shure.com/view/guide/PSM900/en-US.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "PSM900DS": {
+      "title": "Shure PSM900 Personal Monitor Wireless System datasheet",
+      "url": "https://content-files.shure.com/Pubs/psm900/psm900-datasheet.pdf",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "PSM1000": {
+      "title": "Shure PSM 1000 user guide",
+      "url": "https://pubs.shure.com/view/guide/PSM1000/en-US.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "G4": {
+      "title": "Sennheiser evolution wireless G4 — specifications and manufacturer declarations (06/2025)",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/40941-en-ew_g4_specifications_manufacturer_declarations_06_2025.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "IEMG4": {
+      "title": "Sennheiser EK IEM G4 product specification v2.0",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/41535-en-sp_1129_v2.0_ek_iem_g4_product_specification_en.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "EWD": {
+      "title": "Sennheiser EW-D / EW-DX system specifications",
+      "url": "https://docs.cloud.sennheiser.com/en-us/ew-d/ew-d/specifications-system.html",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "EWDXQ": {
+      "title": "Sennheiser EW-DX Q1-9 Frequency Range datasheet",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/40821-en-ew-dx_q1-9_frequency_range_04_2023.pdf",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "EWDXR": {
+      "title": "Sennheiser EW-DX R1-9 Frequency Range datasheet",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/44776-en-ew-dx_r1-9_frequency_range_04_2023.pdf",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "EWDXS": {
+      "title": "Sennheiser EW-DX S1-10 Frequency Range datasheet",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/40822-en-ew-dx_s1-10_frequency_range_04_2023.pdf",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "D6000": {
+      "title": "Sennheiser SK 6000 product specification v11.0",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/41649-en-sp_1193_v11.0_sk_6000_product_specification_en.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "D9000": {
+      "title": "Sennheiser Digital 9000 instruction manual (06/2017)",
+      "url": "https://assets.sennheiser.com/download/assets/Digital_9000_Manual_06_2017_EN.pdf/2233eeeae7b511f0ae307aeaa9c3764a?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSW": {
+      "title": "Sennheiser XSW system specifications",
+      "url": "https://docs.cloud.sennheiser.com/en-us/xsw/specifications-system.html",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET": {
+      "title": "Sennheiser XS Wireless 1/2 frequency sheets (Range A/B/BC/C/D/E/GB/JB/K, Publ. 02/17-10/20)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_E_XS_WIRELESS_1_2_02_2017.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "IEM2000": {
+      "title": "Sennheiser 2000 IEM specifications (10/2023)",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/40451-en-2000er_iem_specifications_10_2023.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "SPECTERA": {
+      "title": "Sennheiser Spectera SEK product specification v1.2",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/49086-en-spectera_sek_product_specification_v1.2_de.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "LECHM": {
+      "title": "Lectrosonics HM plug-on transmitter manual (HMman.pdf), block table",
+      "url": "https://lectrosonics.com/wp-content/uploads/filr/6937/HMman.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "LECHMA": {
+      "title": "Lectrosonics HMa wideband plug-on transmitter product page",
+      "url": "https://lectrosonics.com/product/hma/",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "LECSRC": {
+      "title": "Lectrosonics SRc / SRc5P receiver technical data",
+      "url": "https://lectrosonics.com/wp-content/uploads/filr/3380/SRc5P_SRc_td.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "LECDSQD": {
+      "title": "Lectrosonics DSQD receiver manual",
+      "url": "https://lectrosonics.com/wp-content/uploads/filr/3315/DSQDman.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "LDU505": {
+      "title": "LD Systems U505 HHD product page",
+      "url": "https://www.ld-systems.com/en/solutions/dj-musician/applications/bands/4496/u505-hhd",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "LDU518": {
+      "title": "LD Systems U518 HHC product page",
+      "url": "https://www.ld-systems.com/en/solutions/dj-musician/wireless-microphones/wireless-systems-with-handheld/14372/u518-hhc",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "LDMEI": {
+      "title": "LD Systems MEI 1000 G2 series page; band 5 per the 'Frequency List MEI Series' D005234/D005233 supplied by the owner 2026-10-08",
+      "url": "https://www.ld-systems.com/en/series/mei-1000-g2-series/",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "LDU305": {
+      "title": "LD Systems U305 IEM product page",
+      "url": "https://www.ld-systems.com/en/u305-iem-ldu305iem",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "LDU306": {
+      "title": "LD Systems U306 IEM product page",
+      "url": "https://www.ld-systems.com/en/u306-iem-ldu306iem",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "LDU308": {
+      "title": "LD Systems U308 IEM product page",
+      "url": "https://www.ld-systems.com/en/u308-iem-ldu308iem",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "MOTO": {
+      "title": "Motorola Solutions MOTOTRBO DP2000 series specification sheet (DP2400 / DP2600)",
+      "url": "https://www.motorolasolutions.com/content/dam/msi/docs/business/products/two-way_radios/portable_radios/wide_area_large_business_portable_radios/sl7550/_documents/_staticfiles/dp2000_specification_sheet.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "TBONE75": {
+      "title": "the t.bone IEM-75 Bedienungsanleitung §7.3 'Frequenztabelle', p. 30",
+      "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/314071_c_314071_r7_de_online.pdf",
+      "retrieved": "2026-10-13",
+      "tier": "primary"
+    },
+    "BEHR": {
+      "title": "Behringer UL 1000G2 Quick Start Guide (Rev. 0, 2025-06-18)",
+      "url": "https://cdn-media.empowertribe.com/7b6bf70d8beb4797866acd84765b4c26/QSG_BE_0404-AAA_UL-1000G2_WW_2025-06-18_Rev.0.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "AT3000": {
+      "title": "Audio-Technica ATW-3211 (3000 Series, 4th generation) dealer listing",
+      "url": "https://www.soundseasy.com.au/products/audio-technica-atw-3211-fourth-generation-3000-series-wireless-system",
+      "retrieved": "2026-10-14",
+      "tier": "dealer"
+    },
+    "AT3255": {
+      "title": "Audio-Technica ATW-3255 dealer listing (Markertek)",
+      "url": "https://www.markertek.com/product/atw-3255df2/audio-technica-atw-3255-3000-series-wireless-in-ear-monitor-system",
+      "retrieved": "2026-10-14",
+      "tier": "dealer"
+    },
+    "AT5000": {
+      "title": "Audio-Technica ATW-T5201 DE1 dealer listing (Athens Pro Audio)",
+      "url": "https://www.athensproaudio.gr/en/audio-technica-atw-t5201-de1.html",
+      "retrieved": "2026-10-14",
+      "tier": "dealer"
+    },
+    "AKG7": {
+      "title": "AKG WMS4500 band-set listing (B&H Photo, AKG band-set SKU) — BD7",
+      "url": "https://www.bhphotovideo.com/c/product/985015-REG",
+      "retrieved": "2026-07-27",
+      "tier": "dealer"
+    },
+    "AKG8": {
+      "title": "AKG WMS4500 band-set listing (B&H Photo, AKG band-set SKU) — BD8",
+      "url": "https://www.bhphotovideo.com/c/product/985010-REG",
+      "retrieved": "2026-07-27",
+      "tier": "dealer"
+    },
+    "SONY": {
+      "title": "Sony URX-P03D datasheet (hosted by Full Compass)",
+      "url": "https://www.fullcompass.com/common/files/34027-SonyURXP03DDatasheet.pdf",
+      "retrieved": "2026-07-27",
+      "tier": "primary"
+    },
+    "TG1000": {
+      "title": "beyerdynamic TG 1000 brochure (08.2016, hosted by LA BS)",
+      "url": "https://www.la-bs.com/Objets/TG-1000B_dc.pdf",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "RODE": {
+      "title": "Rode Wireless GO II listing (B&H Photo)",
+      "url": "https://www.bhphotovideo.com/c/product/1622642-REG/rode_wigoii_wireless_go_ii_compact.html",
+      "retrieved": "2026-07-27",
+      "tier": "dealer"
+    },
+    "XSWSHEET_A": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_A_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571317/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_A_XS_WIRELESS_1_2_02_2017.pdf/54587302e7b811f0b959ce3d75c40f07?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_B": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_B_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571318/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_B_XS_WIRELESS_1_2_02_2017.pdf/558aa538e7b811f097eaea55b5d2fb86?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_GB": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_GB_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571322/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_GB_XS_WIRELESS_1_2_02_2017.pdf/5d556032e7b811f08cbd2a34179bc91d?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_BC": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_BC_XS_WIRELESS_1_2_10_2018.pdf (Publ. 10/18, 581372/A01)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_BC_XS_WIRELESS_1_2_10_2018.pdf/54f2dd7ae7b811f0b2ca768ee8e97aea?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_C": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_C_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571319/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_C_XS_WIRELESS_1_2_02_2017.pdf/55ba5cece7b811f0aabe2a34179bc91d?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_D": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_D_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571320/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_D_XS_WIRELESS_1_2_02_2017.pdf/5852707ae7b811f0ae307aeaa9c3764a?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_JB": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_JB_XS_WIRELESS_1_2_10_2020.pdf (Publ. 10/20, 587420/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_JB_XS_WIRELESS_1_2_10_2020.pdf/5d60f58ce7b811f0ae307aeaa9c3764a?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_E": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_E_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571321/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_E_XS_WIRELESS_1_2_02_2017.pdf/5c474c14e7b811f08c892a34179bc91d?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "XSWSHEET_K": {
+      "title": "Sennheiser XS Wireless frequency sheet Range_K_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571323/A02)",
+      "url": "https://assets.sennheiser.com/download/assets/Range_K_XS_WIRELESS_1_2_02_2017.pdf/5d9b2d4ce7b811f08c892a34179bc91d?attachment=true",
+      "retrieved": "2026-10-14",
+      "tier": "primary"
+    },
+    "EWG4G": {
+      "title": "ew 100 G4 Range G frequency sheet",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/40913-en-ew_100_g4_g_range_frequency_sheet_01_2018.pdf",
+      "retrieved": "2026-08-29",
+      "tier": "primary"
+    }
+  },
+  "manufacturers": [
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "G50",
+      "freqStart": 470,
+      "freqEnd": 534,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ULXD",
+      "note": "Shared band designation for ULXD and QLXD."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "H50",
+      "freqStart": 534,
+      "freqEnd": 598,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ULXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "H51",
+      "freqStart": 534,
+      "freqEnd": 598,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D band."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "J50",
+      "freqStart": 572,
+      "freqEnd": 636,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "J50A",
+      "freqStart": 572,
+      "freqEnd": 616,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ULXD",
+      "note": "Overlaps H50 (534–598) at 572–598 MHz."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "J51",
+      "freqStart": 572,
+      "freqEnd": 636,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ULXD",
+      "note": "ULX-D band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "K51",
+      "freqStart": 606,
+      "freqEnd": 670,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D band."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "K52",
+      "freqStart": 606,
+      "freqEnd": 670,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D, European country table."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "L50",
+      "freqStart": 632,
+      "freqEnd": 696,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D band. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "L51",
+      "freqStart": 632,
+      "freqEnd": 696,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D band. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "L52",
+      "freqStart": 632,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "QLXD",
+      "note": "QLX-D, European country table."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "L53",
+      "freqStart": 632,
+      "freqEnd": 714,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ULXD",
+      "note": "ULX-D band. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "S50",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "QLXD",
+      "note": "QLX-D, Europe: 823–832 MHz and 863–865 MHz (licence-free in DE). 832–862 MHz is the 800 MHz mobile uplink. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "G58",
+      "freqStart": 470,
+      "freqEnd": 514,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "G59",
+      "freqStart": 470,
+      "freqEnd": 514,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "H55",
+      "freqStart": 514,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "H56",
+      "freqStart": 518,
+      "freqEnd": 562,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "H57",
+      "freqStart": 520,
+      "freqEnd": 564,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "J52",
+      "freqStart": 558,
+      "freqEnd": 616,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "J53",
+      "freqStart": 562,
+      "freqEnd": 606,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "J54",
+      "freqStart": 562,
+      "freqEnd": 606,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "K59",
+      "freqStart": 606,
+      "freqEnd": 650,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "L55",
+      "freqStart": 646,
+      "freqEnd": 690,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "L56",
+      "freqStart": 650,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "L57",
+      "freqStart": 650,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "L58",
+      "freqStart": 630,
+      "freqEnd": 674,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "L59",
+      "freqStart": 654,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SLXD",
+      "note": "Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD",
+      "band": "S50",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "SLXD",
+      "note": "Two ranges: 823–832 MHz and 863–865 MHz. 832–862 MHz is the 800 MHz mobile uplink. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "G55",
+      "freqStart": 470,
+      "freqEnd": 636,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "G56",
+      "freqStart": 470,
+      "freqEnd": 636,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "G57",
+      "freqStart": 470,
+      "freqEnd": 616,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "H54",
+      "freqStart": 520,
+      "freqEnd": 636,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "K53",
+      "freqStart": 606,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": "Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "K54",
+      "freqStart": 606,
+      "freqEnd": 663,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "K55",
+      "freqStart": 606,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": "Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "K58",
+      "freqStart": 622,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AD",
+      "note": "Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Shure",
+      "series": "PGX",
+      "band": "J6",
+      "freqStart": 572.25,
+      "freqEnd": 590.875,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PGX",
+      "note": "Discontinued analogue system. EU band J6."
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "H8",
+      "freqStart": 518,
+      "freqEnd": 542,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": "EU common band."
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "H9",
+      "freqStart": 512,
+      "freqEnd": 542,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "H10",
+      "freqStart": 542,
+      "freqEnd": 572,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "H11",
+      "freqStart": 572,
+      "freqEnd": 596,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "J10",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "J11",
+      "freqStart": 596,
+      "freqEnd": 616,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "K3E",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": "EU primary BLX band (K3E = European)."
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "K14",
+      "freqStart": 614,
+      "freqEnd": 638,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "M17",
+      "freqStart": 662,
+      "freqEnd": 686,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "S8",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BLX",
+      "note": "The 823–832 MHz duplex gap (\"Mittenlücke 800\"). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM300 K3E (606–630)",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM300",
+      "note": "PSM 300 (P3T) IEM transmitter. EU band K3E."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM900 G6E (470–506)",
+      "freqStart": 470,
+      "freqEnd": 506,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM900",
+      "note": "PSM 900 (P9T) IEM transmitter. EU band G6E."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM1000 G10E (470–542)",
+      "freqStart": 470,
+      "freqEnd": 542,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM1000",
+      "note": "PSM 1000 (P10T) IEM transmitter. EU band G10E."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM900/1000 K1E (596–632)",
+      "freqStart": 596,
+      "freqEnd": 632,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM900DS",
+      "note": "PSM 900/1000 IEM transmitter. EU band K1E."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM1000 L8E (626–698)",
+      "freqStart": 626,
+      "freqEnd": 698,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM1000",
+      "note": "PSM 1000 (P10T) IEM transmitter. EU band L8E. Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM300 S8 (823–832)",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM300",
+      "note": "PSM 300 IEM transmitter. Licence-free in DE and several EU countries (823–832 MHz duplex gap). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM300 T11 (863–865)",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM300",
+      "note": "PSM 300 IEM transmitter. Licence-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "A1",
+      "freqStart": 470,
+      "freqEnd": 516,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 band."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "A",
+      "freqStart": 516,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 band."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "AS",
+      "freqStart": 520,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 and ew 300/500 G4."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "AW+",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band covering the A range and below."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "G",
+      "freqStart": 566,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 band."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "GW1",
+      "freqStart": 558,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "GW",
+      "freqStart": 558,
+      "freqEnd": 626,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "GB",
+      "freqStart": 606,
+      "freqEnd": 648,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 band (the ew 300/500 G4 equivalent is GBW). 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "GBW",
+      "freqStart": 606,
+      "freqEnd": 678,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band (ew 100 G4 uses GB, 606–648). 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "B",
+      "freqStart": 626,
+      "freqEnd": 668,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 band."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "BW",
+      "freqStart": 626,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band. Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "C",
+      "freqStart": 734,
+      "freqEnd": 776,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "Mostly the 700 MHz mobile band (703–733 MHz uplink, 758–788 MHz downlink). Only 736–753 MHz is wireless-mic spectrum in DE (Vfg. 37/2026) — check your region."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "D",
+      "freqStart": 780,
+      "freqEnd": 822,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "The 800 MHz mobile downlink (791–821 MHz). Not for wireless mics in the EU / UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4 / G5",
+      "band": "E",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "Covers the 823–832 MHz duplex gap (PMSE in the EU, UK, CH, AT) and 863–865 MHz; 832–862 MHz is the 800 MHz uplink — not for wireless mics."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "A1",
+      "freqStart": 470,
+      "freqEnd": 516,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "A",
+      "freqStart": 516,
+      "freqEnd": 558,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "AS",
+      "freqStart": 520,
+      "freqEnd": 558,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "G",
+      "freqStart": 566,
+      "freqEnd": 608,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter. Popular EU touring band."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "GB",
+      "freqStart": 606,
+      "freqEnd": 648,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "B",
+      "freqStart": 626,
+      "freqEnd": 668,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter. Popular DE/EU touring band. The ew 300 IEM G3 predecessor is reported to use the same 626-668 MHz for its Range B; that lettering is not confirmed against a primary Sennheiser G3 document, so always confirm the MHz on a rider rather than trusting a bare band letter."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "C",
+      "freqStart": 734,
+      "freqEnd": 776,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter. Mostly the 700 MHz mobile band; only 736–753 MHz is wireless-mic spectrum in DE (Vfg. 37/2026) — check your region."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "D",
+      "freqStart": 780,
+      "freqEnd": 822,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter. The 800 MHz mobile downlink (791–821 MHz). Not for in-ears in the EU / UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "E",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEMG4",
+      "note": "IEM transmitter. Covers the 823–832 MHz duplex gap and 863–865 MHz; 832–862 MHz is the 800 MHz uplink."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 6000",
+      "band": "A1–A4",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D6000",
+      "note": "SK / SKM 6000 range. The EM 6000 receiver tunes 470–714 MHz."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 6000",
+      "band": "A5–A8",
+      "freqStart": 550,
+      "freqEnd": 638,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D6000",
+      "note": "SK / SKM 6000 range. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 6000",
+      "band": "B1–B4",
+      "freqStart": 630,
+      "freqEnd": 718,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D6000",
+      "note": "SK / SKM 6000 range. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 9000 (EM 9046 / SKM 9000)",
+      "band": "A1–A4",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D9000",
+      "note": "Transmitter range. The EM 9046 receiver covers 470–798 MHz."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 9000 (EM 9046 / SKM 9000)",
+      "band": "A5–A8",
+      "freqStart": 550,
+      "freqEnd": 638,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D9000",
+      "note": "Transmitter range. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 9000 (EM 9046 / SKM 9000)",
+      "band": "B1–B4",
+      "freqStart": 630,
+      "freqEnd": 718,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D9000",
+      "note": "Transmitter range. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 9000 (EM 9046 / SKM 9000)",
+      "band": "B5–B8",
+      "freqStart": 710,
+      "freqEnd": 798,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "D9000",
+      "note": "Transmitter range. Mostly the 700 / 800 MHz mobile bands in Europe; only 736–753 MHz is wireless-mic spectrum in DE — check your region."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "Q1-6",
+      "freqStart": 470.2,
+      "freqEnd": 526,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "R1-6",
+      "freqStart": 520,
+      "freqEnd": 576,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "R4-9",
+      "freqStart": 552,
+      "freqEnd": 607.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "S1-7",
+      "freqStart": 606.2,
+      "freqEnd": 662,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "S4-7",
+      "freqStart": 630,
+      "freqEnd": 662,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "S7-10",
+      "freqStart": 662,
+      "freqEnd": 693.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "U1/5",
+      "freqStart": 823.2,
+      "freqEnd": 864.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823.2,
+          831.8
+        ],
+        [
+          863.2,
+          864.8
+        ]
+      ],
+      "source": "EWD",
+      "note": "Digital series. Two ranges: 823.2–831.8 MHz and 863.2–864.8 MHz. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "Q1-9",
+      "freqStart": 470.2,
+      "freqEnd": 550,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWDXQ",
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "R1-9",
+      "freqStart": 520,
+      "freqEnd": 607.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWDXR",
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "S1-10",
+      "freqStart": 606.2,
+      "freqEnd": 693.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWDXS",
+      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "S2-10",
+      "freqStart": 614.2,
+      "freqEnd": 693.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Starts above channel 38. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "S4-10",
+      "freqStart": 630,
+      "freqEnd": 693.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "U1/5",
+      "freqStart": 823.2,
+      "freqEnd": 864.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823.2,
+          831.8
+        ],
+        [
+          863.2,
+          864.8
+        ]
+      ],
+      "source": "EWD",
+      "note": "Two ranges: 823.2–831.8 MHz and 863.2–864.8 MHz. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "A",
+      "freqStart": 548,
+      "freqEnd": 572,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSW",
+      "note": "EU entry-level band. XSW 1 has fixed presets; XSW 2 also tunes in 25 kHz steps. XSW-D (DECT, 1.9 GHz) is a separate digital system, not listed here."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "GB",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSW",
+      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "B",
+      "freqStart": 614,
+      "freqEnd": 638,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSW",
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "C",
+      "freqStart": 766,
+      "freqEnd": 790,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSWSHEET",
+      "note": "Official band C. Corrected from a previously-recorded 630-662 MHz: the Sennheiser Range C frequency sheet states 766-790 MHz (EBU Ch. 58-60) and its presets run 766.100-789.900. Above the 470-700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "BC",
+      "freqStart": 670,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSW",
+      "note": "Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "D",
+      "freqStart": 794,
+      "freqEnd": 806,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSWSHEET",
+      "note": "Official band D (EBU Ch. 62-63). 8 banks x 10 presets - this sheet has no channel 11/12 row. Above the 470-700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "JB",
+      "freqStart": 806.125,
+      "freqEnd": 809.75,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSWSHEET",
+      "note": "Official band JB (Japan). 8 banks, 6-7 presets per bank - the sheet leaves some channel 7 cells empty. Above the 470-700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "E",
+      "freqStart": 821,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          821,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "XSWSHEET",
+      "note": "Official band E, two disjoint segments: the 821-832 duplex gap and the 863-865 ISM band. Presets 1-4 sit in ISM (863.100-864.900) and 5-12 in the gap (823.100-831.900). The tuning range is labelled from 821.000, but every factory preset in the gap is at or above 823.100, and XSW is preset-only, so 821.0-823.0 is not reachable on this hardware. The DE PMSE allocation is 821.5-832 (BNetzA Vfg. 91/2025; 82 mW EIRP inside 823-832, 20 mW outside). Outside the 470-700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XSW 1 / XSW 2",
+      "band": "K",
+      "freqStart": 925,
+      "freqEnd": 937.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XSWSHEET",
+      "note": "Official band K. 8 banks x 10 presets - this sheet has no channel 11/12 row. Far above the 470-700 MHz scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 IEM (SR 2000)",
+      "band": "Aw+ (470–558)",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEM2000",
+      "note": "IEM stereo rack transmitter."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 IEM (SR 2000)",
+      "band": "Gw1 (558–608)",
+      "freqStart": 558,
+      "freqEnd": 608,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEM2000",
+      "note": "IEM stereo rack transmitter."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 IEM (SR 2000)",
+      "band": "Gw (558–626)",
+      "freqStart": 558,
+      "freqEnd": 626,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEM2000",
+      "note": "IEM stereo rack transmitter. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 IEM (SR 2000)",
+      "band": "GBw (606–678)",
+      "freqStart": 606,
+      "freqEnd": 678,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEM2000",
+      "note": "IEM stereo rack transmitter. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 IEM (SR 2000)",
+      "band": "Bw (626–698)",
+      "freqStart": 626,
+      "freqEnd": 698,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "IEM2000",
+      "note": "IEM stereo rack transmitter. Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Spectera (WMAS)",
+      "band": "UHF",
+      "freqStart": 470,
+      "freqEnd": 698,
+      "deviceType": "wmas",
+      "stepKhz": null,
+      "segments": [
+        [
+          470,
+          608
+        ],
+        [
+          630,
+          698
+        ]
+      ],
+      "source": "SPECTERA",
+      "note": "Wideband multichannel (WMAS): one 6 or 8 MHz RF channel, set per country, carries many mics and in-ears. Tunes 470–608 and 630–698 MHz. Reserve that channel as a block rather than coordinating narrowband channels inside it."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Spectera (WMAS)",
+      "band": "1G4",
+      "freqStart": 1350,
+      "freqEnd": 1525,
+      "deviceType": "wmas",
+      "stepKhz": null,
+      "segments": [
+        [
+          1350,
+          1400
+        ],
+        [
+          1435,
+          1525
+        ]
+      ],
+      "source": "SPECTERA",
+      "note": "Wideband multichannel (WMAS) in 1350–1400 and 1435–1525 MHz — outside this UHF spectrum display."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 470",
+      "freqStart": 470.1,
+      "freqEnd": 495.6,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 19",
+      "freqStart": 486.4,
+      "freqEnd": 511.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 20",
+      "freqStart": 512,
+      "freqEnd": 537.5,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 21",
+      "freqStart": 537.6,
+      "freqEnd": 563.1,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 22",
+      "freqStart": 563.2,
+      "freqEnd": 588.7,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 23",
+      "freqStart": 588.8,
+      "freqEnd": 614.3,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          588.8,
+          607.9
+        ],
+        [
+          614.1,
+          614.3
+        ]
+      ],
+      "source": "LECHM",
+      "note": "Two ranges: 588.8–607.9 and 614.1–614.3 MHz — the gap is channel 37 / 38 (608–614 MHz)."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 24",
+      "freqStart": 614.4,
+      "freqEnd": 639.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 25",
+      "freqStart": 640,
+      "freqEnd": 665.5,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 26",
+      "freqStart": 665.6,
+      "freqEnd": 691.1,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECHM",
+      "note": null
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Various (SMQV / SSM / DBu)",
+      "band": "Block 941",
+      "freqStart": 941.525,
+      "freqEnd": 959.825,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          941.525,
+          951.975
+        ],
+        [
+          953.025,
+          956.225
+        ],
+        [
+          956.475,
+          959.825
+        ]
+      ],
+      "source": "LECHMA",
+      "note": "US 900 MHz band, three ranges: 941.525–951.975, 953.025–956.225, 956.475–959.825 MHz."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "A1",
+      "freqStart": 470.1,
+      "freqEnd": 537.575,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECSRC",
+      "note": "SRc / LR receiver band."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "B1",
+      "freqStart": 537.6,
+      "freqEnd": 614.375,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECSRC",
+      "note": "SRc / LR receiver band. North American transmitter models leave out 608–614 MHz."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "C1",
+      "freqStart": 614.4,
+      "freqEnd": 691.175,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECSRC",
+      "note": "SRc / LR receiver band."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "DSQD (470.1–614.375)",
+      "freqStart": 470.1,
+      "freqEnd": 614.375,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECDSQD",
+      "note": "DSQD receiver: one range. Its NA setting stops at 607.950 MHz (radio astronomy band); the EU setting tunes to 614.375 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U505 / U508",
+      "band": "584–608",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDU505",
+      "note": "U505 common UHF variant: 584.025–607.900 MHz (HHD). U508 is a different band (823–832 + 863–865 MHz). U505 ships in several band variants; the model number alone does not fix the band."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U518",
+      "band": "1785–1800",
+      "freqStart": 1785,
+      "freqEnd": 1800,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDU518",
+      "note": "LD Systems 1.8 GHz band — outside this UHF spectrum display. (655–679 MHz is the U506, not the U518.)"
+    },
+    {
+      "brand": "LD Systems",
+      "series": "MEI 1000 G2",
+      "band": "Band 5 (584–607)",
+      "freqStart": 584,
+      "freqEnd": 607,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDMEI",
+      "note": "In-ear monitor transmitter (LDMEI1000G2B5). 10 groups × 12 factory-coordinated channels; a group is intermod-free only within itself. Lowest / highest channel 584.200 / 607.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "MEI 1000 G2",
+      "band": "Band 6 (655–679)",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDMEI",
+      "note": "In-ear monitor transmitter. Exact: 655.350–678.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U305 / U505 IEM",
+      "band": "Band 5 (584–608)",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDU305",
+      "note": "In-ear monitor transmitter (U305 = 12 ch, U505 = 96 ch). EU variant. A US variant (514–542 MHz) also exists — the band is printed on the unit."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U306 / U506 IEM",
+      "band": "Band 6 (655–679)",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDU306",
+      "note": "In-ear monitor transmitter (U306 = 12 ch, U506 = 96 ch)."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U308 IEM",
+      "band": "ISM 823–832",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDU308",
+      "note": "In-ear monitor transmitter, dual-band (see also 863–865). The 823–832 MHz duplex gap. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U308 IEM",
+      "band": "ISM 863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LDU308",
+      "note": "In-ear monitor transmitter. Licence-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Motorola",
+      "series": "DP 1400 / DP 2400 / DP 2600",
+      "band": "UHF (403–527)",
+      "freqStart": 403,
+      "freqEnd": 527,
+      "deviceType": "radio",
+      "stepKhz": null,
+      "segments": null,
+      "source": "MOTO",
+      "note": "Licensed DMR two-way radio. DP2400 / DP2600 UHF: 403–527 MHz (a DP1400 UHF tunes 403–470 MHz). The 470–527 MHz portion overlaps PMSE whitespace — coordinate to avoid co-channel conflicts with wireless mics."
+    },
+    {
+      "brand": "Motorola",
+      "series": "Note",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "Consumer PMR446 radios (licence-free, EU) operate at 446.000–446.200 MHz — below this spectrum display. US FRS/GMRS operates 462–467 MHz — also below display range."
+    },
+    {
+      "brand": "DPA",
+      "series": "Note",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "DPA capsules use Lectrosonics (or other third-party) transmitter bodies. Select the matching transmitter brand above."
+    },
+    {
+      "brand": "XVive / Fame / t.bone",
+      "series": "Budget ISM",
+      "band": "ISM 863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "TBONE75",
+      "note": "Fixed-channel budget systems in the licence-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. Source: the t.bone IEM 75 channel table, a typical member of this class."
+    },
+    {
+      "brand": "Behringer",
+      "series": "UL 1000G2 (Ultralink)",
+      "band": "ISM 823–832",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BEHR",
+      "note": "In-ear monitor system. EU variant: 823–832 + 863–865 MHz. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Behringer",
+      "series": "UL 1000G2 (Ultralink)",
+      "band": "ISM 863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BEHR",
+      "note": "In-ear monitor system. EU SRD sub-band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Behringer",
+      "series": "UL 1000G2 (Ultralink)",
+      "band": "584–608 (US / AU)",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BEHR",
+      "note": "In-ear monitor system. US and Australia variant."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "DE2",
+      "freqStart": 470.125,
+      "freqEnd": 529.975,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT3000",
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "EE1",
+      "freqStart": 530,
+      "freqEnd": 589.975,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT3000",
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "EF1",
+      "freqStart": 590,
+      "freqEnd": 649.975,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT3000",
+      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "FG1",
+      "freqStart": 650,
+      "freqEnd": 699.875,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT3000",
+      "note": "Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "5000 Series",
+      "band": "DE1",
+      "freqStart": 470.125,
+      "freqEnd": 590,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT5000",
+      "note": "ATW-T5201 / T5202 transmitter band. The 5000 Series receiver (DG1) tunes 470–700 MHz."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "5000 Series",
+      "band": "EG1",
+      "freqStart": 580,
+      "freqEnd": 699.875,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT5000",
+      "note": "Transmitter band. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "5000 Series",
+      "band": "GH1",
+      "freqStart": 700.125,
+      "freqEnd": 819.875,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT5000",
+      "note": "Transmitter band. Mostly the 700 / 800 MHz mobile bands in Europe; only 736–753 MHz is wireless-mic spectrum in DE — check your region."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "ATW-3255 (3000 IEM)",
+      "band": "DF2 (470–608)",
+      "freqStart": 470.125,
+      "freqEnd": 607.875,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT3255",
+      "note": "In-ear monitor system (ATW-T3205 transmitter). Covers the ATW-3255 and the 3000-series IEM."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 4500 / WMS 5000",
+      "band": "BD7",
+      "freqStart": 500.1,
+      "freqEnd": 530.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG7",
+      "note": "Band set BD7, 30 MHz wide."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 4500 / WMS 5000",
+      "band": "BD8",
+      "freqStart": 570.1,
+      "freqEnd": 600.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG8",
+      "note": "Band set BD8, 30 MHz wide."
+    },
+    {
+      "brand": "Sony",
+      "series": "UWP-D (DWT-B01R / URX-P03D)",
+      "band": "CE21 (470–542)",
+      "freqStart": 470,
+      "freqEnd": 542,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SONY",
+      "note": "EU region code CE21: 470.025–542.000 MHz."
+    },
+    {
+      "brand": "Sony",
+      "series": "UWP-D (DWT-B01R / URX-P03D)",
+      "band": "CE33 (566–633)",
+      "freqStart": 566,
+      "freqEnd": 633,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SONY",
+      "note": "EU region code CE33: 566.025–633.000 MHz. EU common band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sony",
+      "series": "UWP-D (DWT-B01R / URX-P03D)",
+      "band": "CE42 (638–694)",
+      "freqStart": 638,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SONY",
+      "note": "EU region code CE42: 638.025–694.000 MHz. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 1000",
+      "band": "Region A",
+      "freqStart": 470,
+      "freqEnd": 789,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "TG1000",
+      "note": "One wideband tuner. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe. The receiver is sold per region code — check the code on yours; beyerdynamic has changed C and D between brochure editions (2015: C 690–720, D 470–628 + 710–716 MHz)."
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 1000",
+      "band": "Region B",
+      "freqStart": 470,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          470,
+          608
+        ],
+        [
+          614,
+          698
+        ]
+      ],
+      "source": "TG1000",
+      "note": "Two ranges: 470–608 and 614–698 MHz. The receiver is sold per region code — check the code on yours; beyerdynamic has changed C and D between brochure editions (2015: C 690–720, D 470–628 + 710–716 MHz)."
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 1000",
+      "band": "Region C",
+      "freqStart": 520,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "TG1000",
+      "note": "Upper edge at the 694 MHz mobile boundary (698 in DE). The receiver is sold per region code — check the code on yours; beyerdynamic has changed C and D between brochure editions (2015: C 690–720, D 470–628 + 710–716 MHz)."
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 1000",
+      "band": "Region D",
+      "freqStart": 650,
+      "freqEnd": 758,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "TG1000",
+      "note": "Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe. The receiver is sold per region code — check the code on yours; beyerdynamic has changed C and D between brochure editions (2015: C 690–720, D 470–628 + 710–716 MHz)."
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 1000",
+      "band": "Region E",
+      "freqStart": 470,
+      "freqEnd": 714,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "TG1000",
+      "note": "Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe. The receiver is sold per region code — check the code on yours; beyerdynamic has changed C and D between brochure editions (2015: C 690–720, D 470–628 + 710–716 MHz)."
+    },
+    {
+      "brand": "Line 6",
+      "series": "Note",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "Line 6 Relay (G10/G30/G50/G70/G90) and XD-V series operate at 2.4 GHz DECT/ISM — outside this UHF spectrum display. Coordinate separately."
+    },
+    {
+      "brand": "XVive",
+      "series": "U4 / U45 (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "Wireless IEM systems. U4 = 2.4 GHz (2400–2483.5 MHz), U45 = 5.8 GHz (5725–5850 MHz) digital — both outside this UHF spectrum display. Licence-free; coordinate separately."
+    },
+    {
+      "brand": "Nux",
+      "series": "B-7PSM (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "Wireless personal IEM. B-7PSM = 5.8 GHz (5725–5850 MHz); the B-7 Pro variant = 2.4 GHz. Both outside this UHF spectrum display. Coordinate separately."
+    },
+    {
+      "brand": "Mipro",
+      "series": "MI-58 / MI-58RT (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "Digital stereo IEM system. 5.8 GHz ISM (5725–5850 MHz) — outside this UHF spectrum display. Licence-free; coordinate separately. (No \"M-58\" product exists; the model is MI-58.)"
+    },
+    {
+      "brand": "the t.bone",
+      "series": "IEM 75 (IEM-75T)",
+      "band": "ISM 863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "TBONE75",
+      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, licence-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 1–4 are the spread set the manual recommends for running two systems at once; channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "IEM D2.4 (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": "Digital IEM system. 2.4 GHz ISM (2400–2483 MHz) — outside this UHF spectrum display. Coordinate separately."
+    },
+    {
+      "brand": "Rode",
+      "series": "Wireless GO II (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "RODE",
+      "note": "Rode Wireless GO II. 2.4 GHz digital FHSS system — outside this UHF spectrum display. Licence-free; no fixed frequency coordination applies (frequency-hopping), but avoid heavy 2.4 GHz Wi-Fi congestion at the venue."
+    }
+  ],
+  "taxonomy": {
+    "Shure — ULXD / QLXD": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — SLXD": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — Axient Digital (ADX / AXT)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — PGX": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — BLX": {
+      "frequencyModel": "group_channel_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "Sennheiser — EW G4 / G5": {
+      "frequencyModel": "bank_channel_plus_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — EW IEM G4 / EW 300 IEM G4": {
+      "frequencyModel": "bank_channel_plus_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — EW 6000 / 6100": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — EW-D (2019+)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — Digital 9000 (EM 9046 / SKM 9000)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — XSW 1 / XSW 2": {
+      "frequencyModel": "bank_channel_preset_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "Lectrosonics — Various (SMQV / SSM / DBu)": {
+      "frequencyModel": "block_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Lectrosonics — DSQD / SRc (Digital Hybrid)": {
+      "frequencyModel": "block_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U505 / U508": {
+      "frequencyModel": "channel_preset_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "LD Systems — U518": {
+      "frequencyModel": "channel_preset_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "LD Systems — MEI 1000 G2": {
+      "frequencyModel": "bank_channel_plus_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "Sony — UWP-D (DWT-B01R / URX-P03D)": {
+      "frequencyModel": "channel_preset_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "Audio-Technica — ATW-3000 / ATW-5000": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "AKG — WMS 4500 / WMS 5000": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Motorola — DP 1400 / DP 2400 / DP 2600": {
+      "frequencyModel": "programmed_channel",
+      "inputMode": "programmed_channel",
+      "defaultInputMode": "mhz"
+    },
+    "Motorola — Note": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "DPA — Note": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Line 6 — Note": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "XVive / Fame / t.bone — Budget ISM": {
+      "frequencyModel": "channel_wheel_only",
+      "inputMode": "channel_only",
+      "defaultInputMode": null
+    },
+    "LD Systems — U305 / U505 IEM": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U306 / U506 IEM": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U308 IEM": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Behringer — UL 1000G2 (Ultralink)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — PSM (300 / 900 / 1000)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — 2000 IEM (SR 2000)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Audio-Technica — ATW-3255 (3000 IEM)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "the t.bone — IEM 200": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "the t.bone — IEM 75 (IEM-75T)": {
+      "frequencyModel": "group_channel_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
+    "XVive — U4 / U45 (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Nux — B-7PSM (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Mipro — MI-58 / MI-58RT (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "the t.bone — IEM D2.4 (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Audio-Technica — 3000 Series (4th Gen)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — EW-DX": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Rode — Wireless GO II (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Sennheiser — Digital 6000": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — Spectera (WMAS)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Audio-Technica — 5000 Series": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Beyerdynamic — TG 1000": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    }
+  },
+  "bandAliases": {
+    "XLive / Fame / t.bone||Budget ISM||ISM 863–865": "XVive / Fame / t.bone||Budget ISM||ISM 863–865",
+    "LD Systems||MEI 1000 G2||Band 5 (584–608)": "LD Systems||MEI 1000 G2||Band 5 (584–607)",
+    "AKG||WMS 4500 / WMS 5000||Band 7 (470–540)": "AKG||WMS 4500 / WMS 5000||BD7",
+    "AKG||WMS 4500 / WMS 5000||Band 8 (630–700)": "AKG||WMS 4500 / WMS 5000||BD8",
+    "Sony||UWP-D (DWT-B01R / URX-P03D)||CH1 (470–542)": "Sony||UWP-D (DWT-B01R / URX-P03D)||CE21 (470–542)",
+    "Sony||UWP-D (DWT-B01R / URX-P03D)||CH2 (606–630)": "Sony||UWP-D (DWT-B01R / URX-P03D)||CE33 (566–633)",
+    "Sony||UWP-D (DWT-B01R / URX-P03D)||CH38 (638–694)": "Sony||UWP-D (DWT-B01R / URX-P03D)||CE42 (638–694)",
+    "Lectrosonics||DSQD / SRc (Digital Hybrid)||Block 470 (470–537)": "Lectrosonics||DSQD / SRc (Digital Hybrid)||A1",
+    "Lectrosonics||DSQD / SRc (Digital Hybrid)||Block 537 (537–608)": "Lectrosonics||DSQD / SRc (Digital Hybrid)||B1",
+    "Lectrosonics||DSQD / SRc (Digital Hybrid)||Block 614 (614–694)": "Lectrosonics||DSQD / SRc (Digital Hybrid)||C1",
+    "Sennheiser||EW 6000 / 6100||L (470–558)": "Sennheiser||Digital 6000||A1–A4",
+    "Sennheiser||EW-D (2019+)||S1-7 (606–663)": "Sennheiser||EW-D (2019+)||S1-7",
+    "Sennheiser||Digital 9000 (EM 9046 / SKM 9000)||A (470–558)": "Sennheiser||Digital 9000 (EM 9046 / SKM 9000)||A1–A4",
+    "Audio-Technica||ATW-3000 / ATW-5000||DE2 (470–530)": "Audio-Technica||3000 Series (4th Gen)||DE2",
+    "Shure||ULXD / QLXD||A": null,
+    "Shure||Axient Digital (ADX / AXT)||J52": null,
+    "Wisycom||MCR42 / MFL||A1": null,
+    "Wisycom||MCR42 / MFL||A2": null,
+    "Wisycom||MCR42 / MFL||A3": null,
+    "Wisycom||MCR54 / MTP41S||A1 (470–550)": null,
+    "Wisycom||MCR54 / MTP41S||A2 (550–630)": null,
+    "Wisycom||MCR54 / MTP41S||A3 (630–694)": null,
+    "LD Systems||U518||655–679": null,
+    "Audio-Technica||ATW-3000 / ATW-5000||DE3 (530–590)": null,
+    "Audio-Technica||ATW-3000 / ATW-5000||DE5 (606–662)": null,
+    "Audio-Technica||3000 Series (4th Gen)||GH2": null,
+    "Audio-Technica||3000 Series (4th Gen)||HH2 (821–832)": null,
+    "Audio-Technica||3000 Series (4th Gen)||HH2 (863–865)": null,
+    "Beyerdynamic||TG 500 / TG 1000||B5 (506–542)": null,
+    "Beyerdynamic||TG 500 / TG 1000||B6 (542–574)": null,
+    "Beyerdynamic||TG 500 / TG 1000||D1 (606–630)": null,
+    "Sennheiser||EW IEM G4 / EW 300 IEM G4||AW+": null,
+    "Sennheiser||EW IEM G4 / EW 300 IEM G4||GBW": null,
+    "Sennheiser||EW IEM G4 / EW 300 IEM G4||GW": null,
+    "Sennheiser||EW IEM G4 / EW 300 IEM G4||GW1": null,
+    "Sennheiser||EW-D (2019+)||Q1-9 (470–558)": null,
+    "Sennheiser||EW-D (2019+)||R1-9 (520–608)": null,
+    "Sennheiser||Digital 9000 (EM 9046 / SKM 9000)||B (558–626)": null,
+    "Sennheiser||Digital 9000 (EM 9046 / SKM 9000)||C (626–694)": null,
+    "the t.bone||IEM 200||606–630": null,
+    "the t.bone||IEM 200||710–734": null,
+    "the t.bone||IEM 200||740–764": null,
+    "the t.bone||IEM 200||820–844": null
+  },
+  "legacyBands": [
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "A",
+      "freqStart": 470,
+      "freqEnd": 530,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (ADX / AXT)",
+      "band": "J52",
+      "freqStart": 558,
+      "freqEnd": 626,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR42 / MFL",
+      "band": "A1",
+      "freqStart": 470,
+      "freqEnd": 550,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR42 / MFL",
+      "band": "A2",
+      "freqStart": 550,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR42 / MFL",
+      "band": "A3",
+      "freqStart": 630,
+      "freqEnd": 710,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR54 / MTP41S",
+      "band": "A1 (470–550)",
+      "freqStart": 470,
+      "freqEnd": 550,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR54 / MTP41S",
+      "band": "A2 (550–630)",
+      "freqStart": 550,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR54 / MTP41S",
+      "band": "A3 (630–694)",
+      "freqStart": 630,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U518",
+      "band": "655–679",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "ATW-3000 / ATW-5000",
+      "band": "DE3 (530–590)",
+      "freqStart": 530,
+      "freqEnd": 590,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "ATW-3000 / ATW-5000",
+      "band": "DE5 (606–662)",
+      "freqStart": 606,
+      "freqEnd": 662,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "GH2",
+      "freqStart": 794,
+      "freqEnd": 806,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "HH2 (821–832)",
+      "freqStart": 821,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "HH2 (863–865)",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 500 / TG 1000",
+      "band": "B5 (506–542)",
+      "freqStart": 506,
+      "freqEnd": 542,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 500 / TG 1000",
+      "band": "B6 (542–574)",
+      "freqStart": 542,
+      "freqEnd": 574,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Beyerdynamic",
+      "series": "TG 500 / TG 1000",
+      "band": "D1 (606–630)",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "AW+",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "GBW",
+      "freqStart": 606,
+      "freqEnd": 678,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "GW",
+      "freqStart": 558,
+      "freqEnd": 626,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW IEM G4 / EW 300 IEM G4",
+      "band": "GW1",
+      "freqStart": 558,
+      "freqEnd": 608,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "Q1-9 (470–558)",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "R1-9 (520–608)",
+      "freqStart": 520,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 9000 (EM 9046 / SKM 9000)",
+      "band": "B (558–626)",
+      "freqStart": 558,
+      "freqEnd": 626,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "Digital 9000 (EM 9046 / SKM 9000)",
+      "band": "C (626–694)",
+      "freqStart": 626,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "the t.bone",
+      "series": "IEM 200",
+      "band": "606–630",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "the t.bone",
+      "series": "IEM 200",
+      "band": "710–734",
+      "freqStart": 710,
+      "freqEnd": 734,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "the t.bone",
+      "series": "IEM 200",
+      "band": "740–764",
+      "freqStart": 740,
+      "freqEnd": 764,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    },
+    {
+      "brand": "the t.bone",
+      "series": "IEM 200",
+      "band": "820–844",
+      "freqStart": 820,
+      "freqEnd": 844,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": null,
+      "note": null
+    }
+  ],
+  "presetTables": {
+    "Shure ULXD": {
+      "G50": {
+        "Group 1": {
+          "Ch1": 470.7,
+          "Ch2": 471.175,
+          "Ch3": 472.15,
+          "Ch4": 472.65,
+          "Ch5": 473.3,
+          "Ch6": 474.2,
+          "Ch7": 474.7,
+          "Ch8": 475.575,
+          "Ch9": 476.6,
+          "Ch10": 477.05,
+          "Ch11": 478,
+          "Ch12": 479.3,
+          "Ch13": 480.15,
+          "Ch14": 481.725,
+          "Ch15": 482.425,
+          "Ch16": 482.8,
+          "Ch17": 483.575,
+          "Ch18": 484.225,
+          "Ch19": 484.6,
+          "Ch20": 485.15,
+          "Ch21": 485.775,
+          "Ch22": 487.725,
+          "Ch23": 488.475,
+          "Ch24": 488.875,
+          "Ch25": 489.375,
+          "Ch26": 489.75,
+          "Ch27": 490.375,
+          "Ch28": 491.1,
+          "Ch29": 492.05,
+          "Ch30": 492.525,
+          "Ch31": 494.825,
+          "Ch32": 495.5,
+          "Ch33": 497.525,
+          "Ch34": 503.475,
+          "Ch35": 507.15,
+          "Ch36": 509.725,
+          "Ch37": 510.275,
+          "Ch38": 510.7,
+          "Ch39": 511.225,
+          "Ch40": 511.875,
+          "Ch41": 512.825,
+          "Ch42": 514.175,
+          "Ch43": 514.575,
+          "Ch44": 515.05,
+          "Ch45": 515.65,
+          "Ch46": 516.05,
+          "Ch47": 516.925,
+          "Ch48": 517.35,
+          "Ch49": 519.75,
+          "Ch50": 520.45,
+          "Ch51": 520.95,
+          "Ch52": 521.3,
+          "Ch53": 522.475,
+          "Ch54": 523.3,
+          "Ch55": 523.725,
+          "Ch56": 524.275,
+          "Ch57": 524.725,
+          "Ch58": 525.525,
+          "Ch59": 525.975,
+          "Ch60": 527.075,
+          "Ch61": 527.475,
+          "Ch62": 527.95,
+          "Ch63": 528.725,
+          "Ch64": 529.6,
+          "Ch65": 531.1,
+          "Ch66": 533,
+          "Ch67": 533.9
+        },
+        "Group 2": {
+          "Ch1": 470.5,
+          "Ch2": 471.325,
+          "Ch3": 471.925,
+          "Ch4": 472.775,
+          "Ch5": 474.5,
+          "Ch6": 475.175,
+          "Ch7": 475.7,
+          "Ch8": 476.3,
+          "Ch9": 476.8,
+          "Ch10": 477.225,
+          "Ch11": 477.75,
+          "Ch12": 478.925,
+          "Ch13": 479.65,
+          "Ch14": 480.225,
+          "Ch15": 481.125,
+          "Ch16": 482.875,
+          "Ch17": 483.775,
+          "Ch18": 484.4,
+          "Ch19": 484.875,
+          "Ch20": 485.85,
+          "Ch21": 486.35,
+          "Ch22": 487.575,
+          "Ch23": 488.375,
+          "Ch24": 488.725,
+          "Ch25": 490.2,
+          "Ch26": 490.65,
+          "Ch27": 491.175,
+          "Ch28": 493.35,
+          "Ch29": 494.2,
+          "Ch30": 495.825,
+          "Ch31": 497.675,
+          "Ch32": 498.7,
+          "Ch33": 503.05,
+          "Ch34": 504.275,
+          "Ch35": 506.325,
+          "Ch36": 509.25,
+          "Ch37": 510.175,
+          "Ch38": 511.325,
+          "Ch39": 511.775,
+          "Ch40": 513.075,
+          "Ch41": 513.475,
+          "Ch42": 514.7,
+          "Ch43": 515.8,
+          "Ch44": 516.625,
+          "Ch45": 517,
+          "Ch46": 517.525,
+          "Ch47": 517.975,
+          "Ch48": 518.8,
+          "Ch49": 519.5,
+          "Ch50": 519.925,
+          "Ch51": 520.75,
+          "Ch52": 522.975,
+          "Ch53": 523.35,
+          "Ch54": 524.4,
+          "Ch55": 525.35,
+          "Ch56": 526.575,
+          "Ch57": 527.575,
+          "Ch58": 528.15,
+          "Ch59": 528.65,
+          "Ch60": 529.05,
+          "Ch61": 529.525,
+          "Ch62": 529.875,
+          "Ch63": 531.4,
+          "Ch64": 532.075,
+          "Ch65": 532.55,
+          "Ch66": 533.45,
+          "Ch67": 533.825
+        },
+        "Group 3": {
+          "Ch1": 470.775,
+          "Ch2": 471.2,
+          "Ch3": 471.55,
+          "Ch4": 472.025,
+          "Ch5": 473.375,
+          "Ch6": 474.275,
+          "Ch7": 474.8,
+          "Ch8": 475.45,
+          "Ch9": 476.875,
+          "Ch10": 477.275,
+          "Ch11": 478.15,
+          "Ch12": 478.575,
+          "Ch13": 479.625,
+          "Ch14": 480.525,
+          "Ch15": 481,
+          "Ch16": 481.625,
+          "Ch17": 482.625,
+          "Ch18": 483.175,
+          "Ch19": 483.975,
+          "Ch20": 484.525,
+          "Ch21": 484.875,
+          "Ch22": 485.425,
+          "Ch23": 486.175,
+          "Ch24": 487.025,
+          "Ch25": 487.575,
+          "Ch26": 488.85,
+          "Ch27": 489.3,
+          "Ch28": 489.65,
+          "Ch29": 490.2,
+          "Ch30": 492.625,
+          "Ch31": 493.45,
+          "Ch32": 495.75,
+          "Ch33": 497.975,
+          "Ch34": 501.025,
+          "Ch35": 504.875,
+          "Ch36": 506.775,
+          "Ch37": 507.65,
+          "Ch38": 510.9,
+          "Ch39": 511.325,
+          "Ch40": 513.825,
+          "Ch41": 514.55,
+          "Ch42": 515.2,
+          "Ch43": 516.45,
+          "Ch44": 516.85,
+          "Ch45": 517.45,
+          "Ch46": 517.95,
+          "Ch47": 518.775,
+          "Ch48": 519.25,
+          "Ch49": 519.8,
+          "Ch50": 520.625,
+          "Ch51": 521.275,
+          "Ch52": 521.75,
+          "Ch53": 523.225,
+          "Ch54": 524.15,
+          "Ch55": 525.45,
+          "Ch56": 526.3,
+          "Ch57": 527.5,
+          "Ch58": 527.925,
+          "Ch59": 528.6,
+          "Ch60": 529.45,
+          "Ch61": 530.2,
+          "Ch62": 530.625,
+          "Ch63": 531.525,
+          "Ch64": 532.3,
+          "Ch65": 533.175,
+          "Ch66": 533.525,
+          "Ch67": 533.825
+        },
+        "Group 4": {
+          "Ch1": 470.125,
+          "Ch2": 470.55,
+          "Ch3": 471.5,
+          "Ch4": 473.45,
+          "Ch5": 474.1,
+          "Ch6": 475.55,
+          "Ch7": 476.85,
+          "Ch8": 477.35,
+          "Ch9": 479.475,
+          "Ch10": 481.05,
+          "Ch11": 481.475,
+          "Ch12": 483.725,
+          "Ch13": 484.225,
+          "Ch14": 485.7,
+          "Ch15": 486.325,
+          "Ch16": 487.075,
+          "Ch17": 489.1,
+          "Ch18": 490,
+          "Ch19": 490.675,
+          "Ch20": 492.175,
+          "Ch21": 493.5,
+          "Ch22": 494.9,
+          "Ch23": 498.1,
+          "Ch24": 499.425,
+          "Ch25": 500.975,
+          "Ch26": 501.725,
+          "Ch27": 502.975,
+          "Ch28": 505.05,
+          "Ch29": 506.425,
+          "Ch30": 509.25,
+          "Ch31": 510.05,
+          "Ch32": 511.375,
+          "Ch33": 514.075,
+          "Ch34": 517.625,
+          "Ch35": 518.025,
+          "Ch36": 519.95,
+          "Ch37": 521.4,
+          "Ch38": 523.525,
+          "Ch39": 524.25,
+          "Ch40": 525.525,
+          "Ch41": 526.25,
+          "Ch42": 527.275,
+          "Ch43": 529.775,
+          "Ch44": 532.4,
+          "Ch45": 533.925
+        },
+        "Group 5": {
+          "Ch1": 470.9,
+          "Ch2": 471.5,
+          "Ch3": 472.475,
+          "Ch4": 473.35,
+          "Ch5": 474.375,
+          "Ch6": 474.825,
+          "Ch7": 476.2,
+          "Ch8": 476.825,
+          "Ch9": 477.95,
+          "Ch10": 479.175,
+          "Ch11": 480.975,
+          "Ch12": 481.825,
+          "Ch13": 482.925,
+          "Ch14": 484.1,
+          "Ch15": 485.475,
+          "Ch16": 486.275,
+          "Ch17": 492.925,
+          "Ch18": 493.75,
+          "Ch19": 494.2,
+          "Ch20": 497,
+          "Ch21": 497.9,
+          "Ch22": 501.95,
+          "Ch23": 502.375,
+          "Ch24": 505.575,
+          "Ch25": 507.1,
+          "Ch26": 508.7,
+          "Ch27": 509.4,
+          "Ch28": 510.75,
+          "Ch29": 512.025,
+          "Ch30": 512.575,
+          "Ch31": 515.25,
+          "Ch32": 515.65,
+          "Ch33": 516.525,
+          "Ch34": 517.025,
+          "Ch35": 520.25,
+          "Ch36": 520.75,
+          "Ch37": 522.675,
+          "Ch38": 526.05,
+          "Ch39": 526.45,
+          "Ch40": 527.4,
+          "Ch41": 529.25,
+          "Ch42": 529.6,
+          "Ch43": 530.45,
+          "Ch44": 530.85,
+          "Ch45": 533.7
+        }
+      }
+    },
+    "Budget ISM 863-865": {
+      "863-865": {
+        "ISM": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864.3,
+          "Ch4": 864.9
+        }
+      }
+    },
+    "the t.bone 823": {
+      "823-832": {
+        "ISM": {}
+      }
+    },
+    "the t.bone IEM 75": {
+      "863-865": {
+        "ISM": {
+          "Ch1": 863.1,
+          "Ch2": 863.9,
+          "Ch3": 864.5,
+          "Ch4": 864.9,
+          "Ch5": 863.2,
+          "Ch6": 863.3,
+          "Ch7": 863.4,
+          "Ch8": 863.5,
+          "Ch9": 863.6,
+          "Ch10": 863.7,
+          "Ch11": 863.8,
+          "Ch12": 864,
+          "Ch13": 864.1,
+          "Ch14": 864.2,
+          "Ch15": 864.3,
+          "Ch16": 864.4
+        }
+      }
+    },
+    "LD Systems MEI 1000 G2": {
+      "B5": {
+        "Group 1": {
+          "Ch1": 584.4,
+          "Ch2": 587.5,
+          "Ch3": 589.575,
+          "Ch4": 591.05,
+          "Ch5": 593.425,
+          "Ch6": 595.2,
+          "Ch7": 598.45,
+          "Ch8": 599.65,
+          "Ch9": 601.275,
+          "Ch10": 603.775,
+          "Ch11": 605.5,
+          "Ch12": 606.75
+        },
+        "Group 2": {
+          "Ch1": 585.25,
+          "Ch2": 586.5,
+          "Ch3": 588.225,
+          "Ch4": 590.725,
+          "Ch5": 592.35,
+          "Ch6": 593.55,
+          "Ch7": 597.8,
+          "Ch8": 598.575,
+          "Ch9": 600.95,
+          "Ch10": 602.425,
+          "Ch11": 604.5,
+          "Ch12": 607.6
+        },
+        "Group 3": {
+          "Ch1": 584.2,
+          "Ch2": 585.675,
+          "Ch3": 586.8,
+          "Ch4": 588.45,
+          "Ch5": 589.75,
+          "Ch6": 592.2,
+          "Ch7": 594.325,
+          "Ch8": 598.225,
+          "Ch9": 600.525,
+          "Ch10": 602.575,
+          "Ch11": 605.6,
+          "Ch12": 607.575
+        },
+        "Group 4": {
+          "Ch1": 585.775,
+          "Ch2": 586.5,
+          "Ch3": 590.2,
+          "Ch4": 591.6,
+          "Ch5": 592.7,
+          "Ch6": 594.25,
+          "Ch7": 595.5,
+          "Ch8": 599.1,
+          "Ch9": 601.425,
+          "Ch10": 603.45,
+          "Ch11": 604.775,
+          "Ch12": 606.9
+        },
+        "Group 5": {
+          "Ch1": 585.1,
+          "Ch2": 587.225,
+          "Ch3": 588.55,
+          "Ch4": 590.575,
+          "Ch5": 592.9,
+          "Ch6": 596.5,
+          "Ch7": 597.75,
+          "Ch8": 599.3,
+          "Ch9": 600.4,
+          "Ch10": 601.8,
+          "Ch11": 603.5,
+          "Ch12": 606.225
+        },
+        "Group 6": {
+          "Ch1": 584.425,
+          "Ch2": 586.4,
+          "Ch3": 589.425,
+          "Ch4": 591.475,
+          "Ch5": 593.775,
+          "Ch6": 597.675,
+          "Ch7": 599.8,
+          "Ch8": 602.25,
+          "Ch9": 603.55,
+          "Ch10": 605.2,
+          "Ch11": 606.325,
+          "Ch12": 607.8
+        },
+        "Group 7": {
+          "Ch1": 584.7,
+          "Ch2": 587.8,
+          "Ch3": 589.875,
+          "Ch4": 591.35,
+          "Ch5": 593.725,
+          "Ch6": 595.5,
+          "Ch7": 598.75,
+          "Ch8": 599.95,
+          "Ch9": 601.575,
+          "Ch10": 604.075,
+          "Ch11": 605.8,
+          "Ch12": 607.05
+        },
+        "Group 8": {
+          "Ch1": 585.55,
+          "Ch2": 586.8,
+          "Ch3": 588.525,
+          "Ch4": 591.025,
+          "Ch5": 592.65,
+          "Ch6": 593.85,
+          "Ch7": 598.1,
+          "Ch8": 598.875,
+          "Ch9": 601.25,
+          "Ch10": 602.725,
+          "Ch11": 604.8,
+          "Ch12": 607.9
+        },
+        "Group 9": {
+          "Ch1": 584.5,
+          "Ch2": 585.975,
+          "Ch3": 587.1,
+          "Ch4": 588.75,
+          "Ch5": 590.05,
+          "Ch6": 592.5,
+          "Ch7": 594.525,
+          "Ch8": 598.525,
+          "Ch9": 600.825,
+          "Ch10": 602.875,
+          "Ch11": 605.9,
+          "Ch12": 607.875
+        },
+        "Group 10": {
+          "Ch1": 586.075,
+          "Ch2": 586.8,
+          "Ch3": 590.5,
+          "Ch4": 591.9,
+          "Ch5": 593,
+          "Ch6": 594.55,
+          "Ch7": 595.8,
+          "Ch8": 599.4,
+          "Ch9": 601.725,
+          "Ch10": 603.75,
+          "Ch11": 605.075,
+          "Ch12": 607.2
+        }
+      },
+      "B6": {
+        "Group 1": {
+          "Ch1": 655.4,
+          "Ch2": 658.5,
+          "Ch3": 660.575,
+          "Ch4": 662.05,
+          "Ch5": 664.425,
+          "Ch6": 666.2,
+          "Ch7": 669.45,
+          "Ch8": 670.65,
+          "Ch9": 672.275,
+          "Ch10": 674.775,
+          "Ch11": 676.5,
+          "Ch12": 677.75
+        },
+        "Group 2": {
+          "Ch1": 656.25,
+          "Ch2": 657.5,
+          "Ch3": 659.225,
+          "Ch4": 661.725,
+          "Ch5": 663.35,
+          "Ch6": 664.55,
+          "Ch7": 667.8,
+          "Ch8": 669.575,
+          "Ch9": 671.95,
+          "Ch10": 673.425,
+          "Ch11": 675.5,
+          "Ch12": 678.6
+        },
+        "Group 3": {
+          "Ch1": 655.2,
+          "Ch2": 656.675,
+          "Ch3": 657.8,
+          "Ch4": 659.45,
+          "Ch5": 660.75,
+          "Ch6": 663.2,
+          "Ch7": 665.325,
+          "Ch8": 669.225,
+          "Ch9": 671.525,
+          "Ch10": 673.575,
+          "Ch11": 676.6,
+          "Ch12": 678.575
+        },
+        "Group 4": {
+          "Ch1": 656.775,
+          "Ch2": 659.5,
+          "Ch3": 661.2,
+          "Ch4": 662.6,
+          "Ch5": 663.7,
+          "Ch6": 665.25,
+          "Ch7": 666.5,
+          "Ch8": 670.1,
+          "Ch9": 672.425,
+          "Ch10": 674.45,
+          "Ch11": 675.775,
+          "Ch12": 677.9
+        },
+        "Group 5": {
+          "Ch1": 656.1,
+          "Ch2": 657.225,
+          "Ch3": 659.55,
+          "Ch4": 661.575,
+          "Ch5": 663.9,
+          "Ch6": 667.5,
+          "Ch7": 668.75,
+          "Ch8": 670.3,
+          "Ch9": 671.4,
+          "Ch10": 672.8,
+          "Ch11": 674.5,
+          "Ch12": 677.225
+        },
+        "Group 6": {
+          "Ch1": 655.425,
+          "Ch2": 657.4,
+          "Ch3": 660.425,
+          "Ch4": 662.475,
+          "Ch5": 664.775,
+          "Ch6": 668.675,
+          "Ch7": 670.8,
+          "Ch8": 673.25,
+          "Ch9": 674.55,
+          "Ch10": 676.2,
+          "Ch11": 677.325,
+          "Ch12": 678.8
+        },
+        "Group 7": {
+          "Ch1": 655.7,
+          "Ch2": 658.8,
+          "Ch3": 660.875,
+          "Ch4": 662.35,
+          "Ch5": 664.725,
+          "Ch6": 666.5,
+          "Ch7": 669.75,
+          "Ch8": 670.95,
+          "Ch9": 672.575,
+          "Ch10": 675.075,
+          "Ch11": 676.8,
+          "Ch12": 678.05
+        },
+        "Group 8": {
+          "Ch1": 656.55,
+          "Ch2": 657.8,
+          "Ch3": 659.825,
+          "Ch4": 662.025,
+          "Ch5": 663.65,
+          "Ch6": 664.85,
+          "Ch7": 668.1,
+          "Ch8": 669.875,
+          "Ch9": 672.25,
+          "Ch10": 673.725,
+          "Ch11": 675.8,
+          "Ch12": 678.9
+        },
+        "Group 9": {
+          "Ch1": 655.5,
+          "Ch2": 656.975,
+          "Ch3": 658.1,
+          "Ch4": 659.75,
+          "Ch5": 660.05,
+          "Ch6": 663.5,
+          "Ch7": 665.525,
+          "Ch8": 669.525,
+          "Ch9": 671.825,
+          "Ch10": 673.875,
+          "Ch11": 676.9,
+          "Ch12": 678.875
+        },
+        "Group 10": {
+          "Ch1": 657.075,
+          "Ch2": 659.8,
+          "Ch3": 661.5,
+          "Ch4": 662.9,
+          "Ch5": 664,
+          "Ch6": 665.55,
+          "Ch7": 666.8,
+          "Ch8": 670.4,
+          "Ch9": 672.725,
+          "Ch10": 674.75,
+          "Ch11": 676.075,
+          "Ch12": 678.2
+        }
+      }
+    },
+    "Shure BLX": {
+      "H8": {
+        "Group A": {
+          "Ch0": 540.925,
+          "Ch1": 518.7,
+          "Ch2": 533.6,
+          "Ch3": 520.425,
+          "Ch4": 534.85,
+          "Ch5": 523.1,
+          "Ch6": 537,
+          "Ch7": 525.05,
+          "Ch8": 538.4,
+          "Ch9": 528.1
+        },
+        "Group b": {
+          "Ch0": 520.55,
+          "Ch1": 518.35,
+          "Ch2": 530.3,
+          "Ch3": 540.7,
+          "Ch4": 536.15,
+          "Ch5": 523.55,
+          "Ch6": 537.55,
+          "Ch7": 525.925,
+          "Ch8": 539.45,
+          "Ch9": 527.65
+        },
+        "Group C": {
+          "Ch0": 541.45,
+          "Ch1": 518.15,
+          "Ch2": 532.025,
+          "Ch3": 520.2,
+          "Ch4": 535.675,
+          "Ch5": 523.35,
+          "Ch6": 537.375,
+          "Ch7": 525.7,
+          "Ch8": 540.175,
+          "Ch9": 527.2
+        },
+        "Group d": {
+          "Ch0": 518.35,
+          "Ch1": 520.325,
+          "Ch2": 522.025,
+          "Ch3": 523.2,
+          "Ch4": 524.75,
+          "Ch5": 529.725,
+          "Ch6": 530.675,
+          "Ch7": 533.825,
+          "Ch8": 535.975,
+          "Ch9": 538.5,
+          "ChA": 539.925,
+          "ChB": 541.775
+        },
+        "Group E": {
+          "Ch0": 541.075,
+          "Ch1": 518.3,
+          "Ch2": 528.7,
+          "Ch3": 520.65,
+          "Ch4": 533.7,
+          "Ch5": 522.1,
+          "Ch6": 537.9,
+          "Ch7": 524.225,
+          "Ch8": 539.825,
+          "Ch9": 526.925
+        },
+        "Group F": {
+          "Ch1": 518.375,
+          "Ch2": 520.325,
+          "Ch3": 521.425,
+          "Ch4": 523.95,
+          "Ch5": 525.3,
+          "Ch6": 527.125,
+          "Ch7": 528.6,
+          "Ch8": 529.825
+        },
+        "Group H": {
+          "Ch1": 518.875,
+          "Ch2": 520.325,
+          "Ch3": 522.475,
+          "Ch4": 523.8,
+          "Ch5": 530.125,
+          "Ch6": 531.825,
+          "Ch7": 533.025,
+          "Ch8": 534.6,
+          "Ch9": 535.6
+        },
+        "Group J": {
+          "Ch1": 518.725,
+          "Ch2": 519.8,
+          "Ch3": 521.575,
+          "Ch4": 522.825,
+          "Ch5": 523.775,
+          "Ch6": 536.2,
+          "Ch7": 538.575,
+          "Ch8": 540.475,
+          "Ch9": 541.85
+        },
+        "Group L": {
+          "Ch1": 524.125,
+          "Ch2": 525.425,
+          "Ch3": 527.075,
+          "Ch4": 528.2,
+          "Ch5": 531.275,
+          "Ch6": 533.275,
+          "Ch7": 534.7,
+          "Ch8": 535.7
+        },
+        "Group n": {
+          "Ch1": 524.25,
+          "Ch2": 525.25,
+          "Ch3": 526.65,
+          "Ch4": 528.4,
+          "Ch5": 529.675,
+          "Ch6": 536.5,
+          "Ch7": 537.625,
+          "Ch8": 539.25,
+          "Ch9": 541.225
+        },
+        "Group o": {
+          "Ch1": 530.3,
+          "Ch2": 531.35,
+          "Ch3": 532.65,
+          "Ch4": 534.35,
+          "Ch5": 536.875,
+          "Ch6": 538.825,
+          "Ch7": 540,
+          "Ch8": 541.475
+        },
+        "Group P": {
+          "Ch1": 518.125,
+          "Ch2": 519.95,
+          "Ch3": 521.15,
+          "Ch4": 522.825,
+          "Ch5": 523.85
+        },
+        "Group r": {
+          "Ch1": 524.375,
+          "Ch2": 526.075,
+          "Ch3": 527.55,
+          "Ch4": 528.725,
+          "Ch5": 529.675
+        },
+        "Group U": {
+          "Ch1": 530.175,
+          "Ch2": 531.3,
+          "Ch3": 532.875,
+          "Ch4": 533.825,
+          "Ch5": 535.275
+        },
+        "Group Y": {
+          "Ch1": 536.375,
+          "Ch2": 538.075,
+          "Ch3": 539.55,
+          "Ch4": 540.725,
+          "Ch5": 541.675
+        }
+      },
+      "K3E": {
+        "Group A": {
+          "Ch0": 629.475,
+          "Ch1": 606.275,
+          "Ch2": 607.85,
+          "Ch3": 610.125,
+          "Ch4": 613.05,
+          "Ch5": 617.575,
+          "Ch6": 620.35,
+          "Ch7": 623.825,
+          "Ch8": 626.325,
+          "Ch9": 628.15
+        },
+        "Group b": {
+          "Ch0": 629.325,
+          "Ch1": 606.125,
+          "Ch2": 607.7,
+          "Ch3": 609.975,
+          "Ch4": 612.9,
+          "Ch5": 617.425,
+          "Ch6": 620.2,
+          "Ch7": 623.675,
+          "Ch8": 626.175,
+          "Ch9": 628
+        },
+        "Group C": {
+          "Ch0": 629.825,
+          "Ch1": 606.625,
+          "Ch2": 608.2,
+          "Ch3": 610.475,
+          "Ch4": 613.4,
+          "Ch5": 617.925,
+          "Ch6": 620.7,
+          "Ch7": 624.175,
+          "Ch8": 626.675,
+          "Ch9": 628.5
+        },
+        "Group d": {
+          "Ch0": 606.35,
+          "Ch1": 607.55,
+          "Ch2": 609.5,
+          "Ch3": 613.2,
+          "Ch4": 616.125,
+          "Ch5": 617.675,
+          "Ch6": 621.1,
+          "Ch7": 623.475,
+          "Ch8": 625.15,
+          "Ch9": 627.3,
+          "ChA": 628.725,
+          "ChB": 629.8
+        },
+        "Group E": {
+          "Ch0": 621.775,
+          "Ch1": 606.125,
+          "Ch2": 607.55,
+          "Ch3": 609.575,
+          "Ch4": 610.875,
+          "Ch5": 612.775,
+          "Ch6": 615.275,
+          "Ch7": 616.85,
+          "Ch8": 619,
+          "Ch9": 620.7
+        },
+        "Group F": {
+          "Ch0": 621.85,
+          "Ch1": 606.2,
+          "Ch2": 607.625,
+          "Ch3": 609.65,
+          "Ch4": 610.95,
+          "Ch5": 612.85,
+          "Ch6": 615.35,
+          "Ch7": 616.925,
+          "Ch8": 619.075,
+          "Ch9": 620.775
+        },
+        "Group H": {
+          "Ch0": 629.575,
+          "Ch1": 606.85,
+          "Ch2": 608.325,
+          "Ch3": 610.875,
+          "Ch4": 611.825,
+          "Ch5": 613.175,
+          "Ch6": 622.15,
+          "Ch7": 623.775,
+          "Ch8": 626.525,
+          "Ch9": 628.35
+        },
+        "Group J": {
+          "Ch0": 629.6,
+          "Ch1": 606.875,
+          "Ch2": 608.35,
+          "Ch3": 610.9,
+          "Ch4": 611.85,
+          "Ch5": 613.2,
+          "Ch6": 622.175,
+          "Ch7": 623.8,
+          "Ch8": 626.55,
+          "Ch9": 628.375
+        },
+        "Group L": {
+          "Ch0": 629.825,
+          "Ch1": 614.175,
+          "Ch2": 615.6,
+          "Ch3": 617.625,
+          "Ch4": 618.925,
+          "Ch5": 620.825,
+          "Ch6": 623.325,
+          "Ch7": 624.9,
+          "Ch8": 627.05,
+          "Ch9": 628.75
+        },
+        "Group n": {
+          "Ch0": 629.875,
+          "Ch1": 614.225,
+          "Ch2": 615.65,
+          "Ch3": 617.675,
+          "Ch4": 618.975,
+          "Ch5": 620.875,
+          "Ch6": 623.375,
+          "Ch7": 624.95,
+          "Ch8": 627.1,
+          "Ch9": 628.8
+        },
+        "Group o": {
+          "Ch1": 606.725,
+          "Ch2": 607.725,
+          "Ch3": 608.475,
+          "Ch4": 609.6,
+          "Ch5": 610.475,
+          "Ch6": 612.1,
+          "Ch7": 613.475
+        },
+        "Group P": {
+          "Ch1": 606.5,
+          "Ch2": 607.575,
+          "Ch3": 609.175,
+          "Ch4": 610.375,
+          "Ch5": 611.175,
+          "Ch6": 612.525,
+          "Ch7": 613.45
+        },
+        "Group r": {
+          "Ch1": 606.525,
+          "Ch2": 607.275,
+          "Ch3": 608.475,
+          "Ch4": 610.075,
+          "Ch5": 611.075,
+          "Ch6": 612.525,
+          "Ch7": 613.4
+        },
+        "Group U": {
+          "Ch1": 614.1,
+          "Ch2": 615.175,
+          "Ch3": 616.625,
+          "Ch4": 617.575,
+          "Ch5": 618.9,
+          "Ch6": 620.65,
+          "Ch7": 621.85
+        },
+        "Group Y": {
+          "Ch1": 622.1,
+          "Ch2": 623.175,
+          "Ch3": 624.625,
+          "Ch4": 625.575,
+          "Ch5": 626.9,
+          "Ch6": 628.65,
+          "Ch7": 629.85
+        }
+      }
+    },
+    "Sennheiser XSW 1": {
+      "A": {
+        "Bank 1": {
+          "Ch1": 548.25,
+          "Ch2": 548.65,
+          "Ch3": 549.15,
+          "Ch4": 549.85,
+          "Ch5": 550.85,
+          "Ch6": 552.35,
+          "Ch7": 553.15,
+          "Ch8": 553.75,
+          "Ch9": 555.05,
+          "Ch0": 556.15
+        },
+        "Bank 2": {
+          "Ch1": 554.4,
+          "Ch2": 554.8,
+          "Ch3": 555.3,
+          "Ch4": 555.9,
+          "Ch5": 556.9,
+          "Ch6": 557.6,
+          "Ch7": 558.8,
+          "Ch8": 559.6,
+          "Ch9": 561.8,
+          "Ch0": 564.2
+        },
+        "Bank 3": {
+          "Ch1": 560.35,
+          "Ch2": 560.75,
+          "Ch3": 561.25,
+          "Ch4": 561.85,
+          "Ch5": 563.15,
+          "Ch6": 563.95,
+          "Ch7": 564.95,
+          "Ch8": 565.65,
+          "Ch9": 550.85,
+          "Ch0": 568.25
+        },
+        "Bank 4": {
+          "Ch1": 566.35,
+          "Ch2": 566.75,
+          "Ch3": 567.25,
+          "Ch4": 567.85,
+          "Ch5": 569.15,
+          "Ch6": 569.95,
+          "Ch7": 570.95,
+          "Ch8": 571.65,
+          "Ch9": 548.75,
+          "Ch0": 550.35
+        },
+        "Bank 5": {
+          "Ch1": 548.35,
+          "Ch2": 549.05,
+          "Ch3": 550.05,
+          "Ch4": 550.85,
+          "Ch5": 552.15,
+          "Ch6": 552.75,
+          "Ch7": 553.25,
+          "Ch8": 553.65,
+          "Ch9": 563.15,
+          "Ch0": 568.25
+        },
+        "Bank 6": {
+          "Ch1": 554.35,
+          "Ch2": 555.05,
+          "Ch3": 556.05,
+          "Ch4": 556.85,
+          "Ch5": 558.15,
+          "Ch6": 558.75,
+          "Ch7": 559.25,
+          "Ch8": 559.65,
+          "Ch9": 548.75,
+          "Ch0": 550.35
+        },
+        "Bank 7": {
+          "Ch1": 560.4,
+          "Ch2": 561.2,
+          "Ch3": 562.4,
+          "Ch4": 563.1,
+          "Ch5": 564.1,
+          "Ch6": 564.7,
+          "Ch7": 565.2,
+          "Ch8": 565.6,
+          "Ch9": 551.3,
+          "Ch0": 554.4
+        },
+        "Bank 8": {
+          "Ch1": 558.25,
+          "Ch2": 561.85,
+          "Ch3": 563.85,
+          "Ch4": 564.95,
+          "Ch5": 566.25,
+          "Ch6": 566.85,
+          "Ch7": 567.65,
+          "Ch8": 569.15,
+          "Ch9": 570.15,
+          "Ch0": 570.85
+        }
+      },
+      "B": {
+        "Bank 1": {
+          "Ch1": 614.2,
+          "Ch2": 614.6,
+          "Ch3": 615.1,
+          "Ch4": 615.8,
+          "Ch5": 617.1,
+          "Ch6": 617.7,
+          "Ch7": 618.8,
+          "Ch8": 619.8,
+          "Ch9": 628.35,
+          "Ch0": 629.85
+        },
+        "Bank 2": {
+          "Ch1": 620.25,
+          "Ch2": 620.65,
+          "Ch3": 621.15,
+          "Ch4": 621.85,
+          "Ch5": 622.85,
+          "Ch6": 624.35,
+          "Ch7": 625.15,
+          "Ch8": 625.75,
+          "Ch9": 614.65,
+          "Ch0": 627.05
+        },
+        "Bank 3": {
+          "Ch1": 626.35,
+          "Ch2": 626.75,
+          "Ch3": 627.25,
+          "Ch4": 627.95,
+          "Ch5": 628.95,
+          "Ch6": 629.75,
+          "Ch7": 631.05,
+          "Ch8": 631.65,
+          "Ch9": 620.65,
+          "Ch0": 634.95
+        },
+        "Bank 4": {
+          "Ch1": 632.4,
+          "Ch2": 632.8,
+          "Ch3": 633.3,
+          "Ch4": 633.9,
+          "Ch5": 634.9,
+          "Ch6": 635.6,
+          "Ch7": 636.8,
+          "Ch8": 637.6,
+          "Ch9": 615.5,
+          "Ch0": 617.3
+        },
+        "Bank 5": {
+          "Ch1": 614.4,
+          "Ch2": 615.2,
+          "Ch3": 616.4,
+          "Ch4": 617.1,
+          "Ch5": 618.1,
+          "Ch6": 618.7,
+          "Ch7": 619.2,
+          "Ch8": 619.6,
+          "Ch9": 624.5,
+          "Ch0": 632.3
+        },
+        "Bank 6": {
+          "Ch1": 620.35,
+          "Ch2": 620.95,
+          "Ch3": 622.25,
+          "Ch4": 623.05,
+          "Ch5": 624.05,
+          "Ch6": 624.75,
+          "Ch7": 625.25,
+          "Ch8": 625.65,
+          "Ch9": 614.15,
+          "Ch0": 615.55
+        },
+        "Bank 7": {
+          "Ch1": 626.25,
+          "Ch2": 626.85,
+          "Ch3": 627.65,
+          "Ch4": 629.15,
+          "Ch5": 630.15,
+          "Ch6": 630.85,
+          "Ch7": 631.35,
+          "Ch8": 631.75,
+          "Ch9": 621.85,
+          "Ch0": 623.85
+        },
+        "Bank 8": {
+          "Ch1": 632.2,
+          "Ch2": 633.2,
+          "Ch3": 634.3,
+          "Ch4": 634.9,
+          "Ch5": 636.2,
+          "Ch6": 636.9,
+          "Ch7": 637.4,
+          "Ch8": 637.8,
+          "Ch9": 615.35,
+          "Ch0": 621.35
+        }
+      },
+      "GB": {
+        "Bank 1": {
+          "Ch1": 606.5,
+          "Ch2": 606.9,
+          "Ch3": 607.4,
+          "Ch4": 608,
+          "Ch5": 608.7,
+          "Ch6": 609.7,
+          "Ch7": 611.1,
+          "Ch8": 612.3,
+          "Ch9": 613.1,
+          "Ch0": 610.6
+        },
+        "Bank 2": {
+          "Ch1": 614.5,
+          "Ch2": 614.9,
+          "Ch3": 615.4,
+          "Ch4": 616,
+          "Ch5": 616.7,
+          "Ch6": 617.7,
+          "Ch7": 619.1,
+          "Ch8": 620.3,
+          "Ch9": 621.1,
+          "Ch0": 618.6
+        },
+        "Bank 3": {
+          "Ch1": 622.5,
+          "Ch2": 622.9,
+          "Ch3": 623.4,
+          "Ch4": 624,
+          "Ch5": 624.7,
+          "Ch6": 625.7,
+          "Ch7": 627.1,
+          "Ch8": 628.3,
+          "Ch9": 629.1,
+          "Ch0": 626.6
+        },
+        "Bank 4": {
+          "Ch1": 607.1,
+          "Ch2": 607.6,
+          "Ch3": 608.5,
+          "Ch4": 609.7,
+          "Ch5": 610.5,
+          "Ch6": 612.4,
+          "Ch7": 616.7,
+          "Ch8": 617.1,
+          "Ch9": 618.2,
+          "Ch0": 618.9
+        },
+        "Bank 5": {
+          "Ch1": 607.1,
+          "Ch2": 607.9,
+          "Ch3": 610,
+          "Ch4": 610.5,
+          "Ch5": 611.4,
+          "Ch6": 611.8,
+          "Ch7": 613.3,
+          "Ch8": 623.6,
+          "Ch9": 624.3,
+          "Ch0": 625.3
+        },
+        "Bank 6": {
+          "Ch1": 615.1,
+          "Ch2": 615.6,
+          "Ch3": 616.5,
+          "Ch4": 617.7,
+          "Ch5": 618.5,
+          "Ch6": 620.4,
+          "Ch7": 624.7,
+          "Ch8": 625.1,
+          "Ch9": 626.2,
+          "Ch0": 626.9
+        },
+        "Bank 7": {
+          "Ch1": 606.7,
+          "Ch2": 610.1,
+          "Ch3": 612,
+          "Ch4": 612.5,
+          "Ch5": 614.8,
+          "Ch6": 615.8,
+          "Ch7": 617.5,
+          "Ch8": 625.8,
+          "Ch9": 623.6,
+          "Ch0": 625.4
+        },
+        "Bank 8": {
+          "Ch1": 608.1,
+          "Ch2": 609.5,
+          "Ch3": 610.6,
+          "Ch4": 612.4,
+          "Ch5": 610.2,
+          "Ch6": 618.5,
+          "Ch7": 620.2,
+          "Ch8": 621.2,
+          "Ch9": 623.5,
+          "Ch0": 624
+        }
+      },
+      "BC": {
+        "Bank 1": {
+          "Ch1": 670.2,
+          "Ch2": 670.6,
+          "Ch3": 671.1,
+          "Ch4": 671.8,
+          "Ch5": 673.1,
+          "Ch6": 673.7,
+          "Ch7": 674.8,
+          "Ch8": 675.8,
+          "Ch9": 684.35,
+          "Ch0": 685.85
+        },
+        "Bank 2": {
+          "Ch1": 676.25,
+          "Ch2": 676.65,
+          "Ch3": 677.15,
+          "Ch4": 677.85,
+          "Ch5": 678.85,
+          "Ch6": 680.35,
+          "Ch7": 681.15,
+          "Ch8": 681.75,
+          "Ch9": 670.65,
+          "Ch0": 683.05
+        },
+        "Bank 3": {
+          "Ch1": 682.35,
+          "Ch2": 682.75,
+          "Ch3": 683.25,
+          "Ch4": 683.95,
+          "Ch5": 684.95,
+          "Ch6": 685.75,
+          "Ch7": 687.05,
+          "Ch8": 687.65,
+          "Ch9": 676.65,
+          "Ch0": 690.95
+        },
+        "Bank 4": {
+          "Ch1": 688.4,
+          "Ch2": 688.8,
+          "Ch3": 689.3,
+          "Ch4": 689.9,
+          "Ch5": 690.9,
+          "Ch6": 691.6,
+          "Ch7": 692.8,
+          "Ch8": 693.6,
+          "Ch9": 671.5,
+          "Ch0": 673.3
+        },
+        "Bank 5": {
+          "Ch1": 670.4,
+          "Ch2": 671.2,
+          "Ch3": 672.4,
+          "Ch4": 673.1,
+          "Ch5": 674.1,
+          "Ch6": 674.7,
+          "Ch7": 675.2,
+          "Ch8": 675.6,
+          "Ch9": 680.5,
+          "Ch0": 688.3
+        },
+        "Bank 6": {
+          "Ch1": 676.35,
+          "Ch2": 676.95,
+          "Ch3": 678.25,
+          "Ch4": 679.05,
+          "Ch5": 680.05,
+          "Ch6": 680.75,
+          "Ch7": 681.25,
+          "Ch8": 681.65,
+          "Ch9": 670.15,
+          "Ch0": 671.55
+        },
+        "Bank 7": {
+          "Ch1": 682.25,
+          "Ch2": 682.85,
+          "Ch3": 683.65,
+          "Ch4": 685.15,
+          "Ch5": 686.15,
+          "Ch6": 686.85,
+          "Ch7": 687.35,
+          "Ch8": 687.75,
+          "Ch9": 677.85,
+          "Ch0": 679.85
+        },
+        "Bank 8": {
+          "Ch1": 688.2,
+          "Ch2": 689.2,
+          "Ch3": 690.3,
+          "Ch4": 690.9,
+          "Ch5": 692.2,
+          "Ch6": 692.9,
+          "Ch7": 693.4,
+          "Ch8": 693.8,
+          "Ch9": 671.35,
+          "Ch0": 677.35
+        }
+      },
+      "C": {
+        "Bank 1": {
+          "Ch1": 766.15,
+          "Ch2": 766.6,
+          "Ch3": 767.25,
+          "Ch4": 768.1,
+          "Ch5": 768.65,
+          "Ch6": 769.4,
+          "Ch7": 770.35,
+          "Ch8": 772.95,
+          "Ch9": 775.35,
+          "Ch0": 778.35
+        },
+        "Bank 2": {
+          "Ch1": 774.15,
+          "Ch2": 774.6,
+          "Ch3": 775.25,
+          "Ch4": 776.1,
+          "Ch5": 776.65,
+          "Ch6": 777.4,
+          "Ch7": 778.35,
+          "Ch8": 780.95,
+          "Ch9": 783.35,
+          "Ch0": 786.35
+        },
+        "Bank 3": {
+          "Ch1": 783.6,
+          "Ch2": 786,
+          "Ch3": 786.9,
+          "Ch4": 787.6,
+          "Ch5": 788.1,
+          "Ch6": 788.9,
+          "Ch7": 789.5,
+          "Ch8": 789.9,
+          "Ch9": 766.7,
+          "Ch0": 768.2
+        },
+        "Bank 4": {
+          "Ch1": 766.1,
+          "Ch2": 766.5,
+          "Ch3": 767.1,
+          "Ch4": 767.9,
+          "Ch5": 768.4,
+          "Ch6": 769.1,
+          "Ch7": 770,
+          "Ch8": 772.4,
+          "Ch9": 782.9,
+          "Ch0": 785.1
+        },
+        "Bank 5": {
+          "Ch1": 775.05,
+          "Ch2": 777.65,
+          "Ch3": 778.6,
+          "Ch4": 779.35,
+          "Ch5": 779.9,
+          "Ch6": 780.75,
+          "Ch7": 781.4,
+          "Ch8": 781.85,
+          "Ch9": 766.2,
+          "Ch0": 768.05
+        },
+        "Bank 6": {
+          "Ch1": 783.05,
+          "Ch2": 785.65,
+          "Ch3": 786.6,
+          "Ch4": 787.35,
+          "Ch5": 787.9,
+          "Ch6": 788.75,
+          "Ch7": 789.4,
+          "Ch8": 789.85,
+          "Ch9": 774.2,
+          "Ch0": 776.05
+        },
+        "Bank 7": {
+          "Ch1": 767.75,
+          "Ch2": 768.5,
+          "Ch3": 769.05,
+          "Ch4": 770.7,
+          "Ch5": 774.15,
+          "Ch6": 774.6,
+          "Ch7": 775.25,
+          "Ch8": 776.1,
+          "Ch9": 782.4,
+          "Ch0": 784.15
+        },
+        "Bank 8": {
+          "Ch1": 779.9,
+          "Ch2": 780.75,
+          "Ch3": 781.4,
+          "Ch4": 781.85,
+          "Ch5": 785.3,
+          "Ch6": 786.95,
+          "Ch7": 787.5,
+          "Ch8": 788.25,
+          "Ch9": 767.65,
+          "Ch0": 769.5
+        }
+      },
+      "D": {
+        "Bank 1": {
+          "Ch1": 794.6,
+          "Ch2": 795.2,
+          "Ch3": 795.9,
+          "Ch4": 796.7,
+          "Ch5": 798.6,
+          "Ch6": 799,
+          "Ch7": 801.8,
+          "Ch8": 802.9,
+          "Ch9": 804.3,
+          "Ch0": 805.3
+        },
+        "Bank 2": {
+          "Ch1": 795.5,
+          "Ch2": 796.1,
+          "Ch3": 797.1,
+          "Ch4": 799.2,
+          "Ch5": 800.7,
+          "Ch6": 801.8,
+          "Ch7": 802.7,
+          "Ch8": 803.1,
+          "Ch9": 804.5,
+          "Ch0": 805
+        },
+        "Bank 3": {
+          "Ch1": 794.65,
+          "Ch2": 795.05,
+          "Ch3": 795.65,
+          "Ch4": 796.45,
+          "Ch5": 796.95,
+          "Ch6": 798.65,
+          "Ch7": 799.85,
+          "Ch8": 801.85,
+          "Ch9": 802.95,
+          "Ch0": 804.45
+        },
+        "Bank 4": {
+          "Ch1": 794.3,
+          "Ch2": 796.4,
+          "Ch3": 796.8,
+          "Ch4": 797.4,
+          "Ch5": 799.7,
+          "Ch6": 801,
+          "Ch7": 801.7,
+          "Ch8": 803.2,
+          "Ch9": 804.4,
+          "Ch0": 804.9
+        },
+        "Bank 5": {
+          "Ch1": 795,
+          "Ch2": 796.6,
+          "Ch3": 797.3,
+          "Ch4": 798.5,
+          "Ch5": 801.4,
+          "Ch6": 802.2,
+          "Ch7": 802.8,
+          "Ch8": 803.9,
+          "Ch9": 804.8,
+          "Ch0": 805.2
+        },
+        "Bank 6": {
+          "Ch1": 795.55,
+          "Ch2": 796.65,
+          "Ch3": 797.25,
+          "Ch4": 798.75,
+          "Ch5": 799.25,
+          "Ch6": 799.95,
+          "Ch7": 803.55,
+          "Ch8": 804.55,
+          "Ch9": 804.95,
+          "Ch0": 805.85
+        },
+        "Bank 7": {
+          "Ch1": 795.45,
+          "Ch2": 795.95,
+          "Ch3": 797.75,
+          "Ch4": 798.45,
+          "Ch5": 799.75,
+          "Ch6": 800.65,
+          "Ch7": 802.15,
+          "Ch8": 803.85,
+          "Ch9": 804.25,
+          "Ch0": 804.85
+        },
+        "Bank 8": {
+          "Ch1": 794.95,
+          "Ch2": 795.85,
+          "Ch3": 797.35,
+          "Ch4": 797.85,
+          "Ch5": 799.95,
+          "Ch6": 800.95,
+          "Ch7": 801.65,
+          "Ch8": 803.25,
+          "Ch9": 804.35,
+          "Ch0": 805.15
+        }
+      },
+      "JB": {
+        "Bank 1": {
+          "Ch1": 806.125,
+          "Ch2": 806.625,
+          "Ch3": 807.25,
+          "Ch4": 807.75,
+          "Ch5": 808.5,
+          "Ch6": 809,
+          "Ch7": 809.625
+        },
+        "Bank 2": {
+          "Ch1": 806.25,
+          "Ch2": 806.75,
+          "Ch3": 807.375,
+          "Ch4": 807.875,
+          "Ch5": 808.625,
+          "Ch6": 809.125,
+          "Ch7": 809.75
+        },
+        "Bank 3": {
+          "Ch1": 806.375,
+          "Ch2": 806.875,
+          "Ch3": 807.5,
+          "Ch4": 808,
+          "Ch5": 808.75,
+          "Ch6": 809.25
+        },
+        "Bank 4": {
+          "Ch1": 806.5,
+          "Ch2": 807,
+          "Ch3": 807.625,
+          "Ch4": 808.125,
+          "Ch5": 808.875,
+          "Ch6": 809.375
+        },
+        "Bank 5": {
+          "Ch1": 806.625,
+          "Ch2": 807.125,
+          "Ch3": 807.875,
+          "Ch4": 808.375,
+          "Ch5": 809,
+          "Ch6": 809.5
+        },
+        "Bank 6": {
+          "Ch1": 806.875,
+          "Ch2": 807.375,
+          "Ch3": 808.125,
+          "Ch4": 808.625,
+          "Ch5": 809.25,
+          "Ch6": 809.75
+        },
+        "Bank 7": {
+          "Ch1": 806.125,
+          "Ch2": 806.75,
+          "Ch3": 807.25,
+          "Ch4": 808,
+          "Ch5": 808.5,
+          "Ch6": 809.125,
+          "Ch7": 809.625
+        },
+        "Bank 8": {
+          "Ch1": 806.25,
+          "Ch2": 806.875,
+          "Ch3": 807.375,
+          "Ch4": 808.125,
+          "Ch5": 808.625,
+          "Ch6": 809.25,
+          "Ch7": 809.75
+        }
+      },
+      "E": {
+        "Bank 1": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864.3,
+          "Ch4": 864.9,
+          "Ch5": 823.1,
+          "Ch6": 823.5,
+          "Ch7": 824.1,
+          "Ch8": 825.5,
+          "Ch9": 826.3,
+          "Ch0": 828.9
+        },
+        "Bank 2": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864,
+          "Ch4": 864.8,
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch0": 827.7
+        },
+        "Bank 3": {
+          "Ch1": 863.2,
+          "Ch2": 863.7,
+          "Ch3": 864.1,
+          "Ch4": 864.8,
+          "Ch5": 823.2,
+          "Ch6": 823.8,
+          "Ch7": 824.6,
+          "Ch8": 825.6,
+          "Ch9": 826.8,
+          "Ch0": 828.1
+        },
+        "Bank 4": {
+          "Ch1": 863.15,
+          "Ch2": 863.55,
+          "Ch3": 864.05,
+          "Ch4": 864.85,
+          "Ch5": 823.15,
+          "Ch6": 823.75,
+          "Ch7": 824.75,
+          "Ch8": 825.85,
+          "Ch9": 826.55,
+          "Ch0": 827.75
+        },
+        "Bank 5": {
+          "Ch1": 863.15,
+          "Ch2": 863.95,
+          "Ch3": 864.45,
+          "Ch4": 864.85,
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch0": 827.7
+        },
+        "Bank 6": {
+          "Ch1": 863.1,
+          "Ch2": 863.7,
+          "Ch3": 864.5,
+          "Ch4": 864.9,
+          "Ch5": 823.1,
+          "Ch6": 823.6,
+          "Ch7": 824.6,
+          "Ch8": 825.3,
+          "Ch9": 826.2,
+          "Ch0": 827.3
+        },
+        "Bank 7": {
+          "Ch1": 863.25,
+          "Ch2": 863.65,
+          "Ch3": 864.15,
+          "Ch4": 864.75,
+          "Ch5": 823.15,
+          "Ch6": 823.85,
+          "Ch7": 824.85,
+          "Ch8": 825.65,
+          "Ch9": 826.85,
+          "Ch0": 828.25
+        },
+        "Bank 8": {
+          "Ch1": 863.25,
+          "Ch2": 863.85,
+          "Ch3": 864.35,
+          "Ch4": 864.75,
+          "Ch5": 823.25,
+          "Ch6": 823.95,
+          "Ch7": 824.95,
+          "Ch8": 825.75,
+          "Ch9": 826.95,
+          "Ch0": 828.35
+        }
+      },
+      "K": {
+        "Bank 1": {
+          "Ch1": 925.3,
+          "Ch2": 925.85,
+          "Ch3": 928.95,
+          "Ch4": 929.35,
+          "Ch5": 930.6,
+          "Ch6": 933.6,
+          "Ch7": 931.65,
+          "Ch8": 934.95,
+          "Ch9": 936.1,
+          "Ch0": 936.8
+        },
+        "Bank 2": {
+          "Ch1": 925.7,
+          "Ch2": 927.2,
+          "Ch3": 929.1,
+          "Ch4": 929.9,
+          "Ch5": 931.3,
+          "Ch6": 932.3,
+          "Ch7": 934.4,
+          "Ch8": 935.1,
+          "Ch9": 936.2,
+          "Ch0": 936.7
+        },
+        "Bank 3": {
+          "Ch1": 926.35,
+          "Ch2": 927.55,
+          "Ch3": 928.25,
+          "Ch4": 930.55,
+          "Ch5": 932.25,
+          "Ch6": 933.35,
+          "Ch7": 935.35,
+          "Ch8": 935.75,
+          "Ch9": 936.65,
+          "Ch0": 937.15
+        },
+        "Bank 4": {
+          "Ch1": 925.9,
+          "Ch2": 927,
+          "Ch3": 928.5,
+          "Ch4": 930.8,
+          "Ch5": 931.8,
+          "Ch6": 933.5,
+          "Ch7": 934.3,
+          "Ch8": 935.5,
+          "Ch9": 936.4,
+          "Ch0": 937.1
+        },
+        "Bank 5": {
+          "Ch1": 925.5,
+          "Ch2": 926.6,
+          "Ch3": 927.4,
+          "Ch4": 928.4,
+          "Ch5": 929.8,
+          "Ch6": 931.5,
+          "Ch7": 932.4,
+          "Ch8": 935.2,
+          "Ch9": 935.9,
+          "Ch0": 937.2
+        },
+        "Bank 6": {
+          "Ch1": 926.55,
+          "Ch2": 927.15,
+          "Ch3": 927.95,
+          "Ch4": 929.75,
+          "Ch5": 933.25,
+          "Ch6": 933.65,
+          "Ch7": 935.15,
+          "Ch8": 935.65,
+          "Ch9": 936.35,
+          "Ch0": 937.3
+        },
+        "Bank 7": {
+          "Ch1": 926.15,
+          "Ch2": 927.35,
+          "Ch3": 928.05,
+          "Ch4": 929.55,
+          "Ch5": 930.35,
+          "Ch6": 932.05,
+          "Ch7": 933.15,
+          "Ch8": 935.55,
+          "Ch9": 936.45,
+          "Ch0": 936.95
+        },
+        "Bank 8": {
+          "Ch1": 926.75,
+          "Ch2": 927.25,
+          "Ch3": 928.1,
+          "Ch4": 928.7,
+          "Ch5": 931.35,
+          "Ch6": 932.5,
+          "Ch7": 933.45,
+          "Ch8": 934.2,
+          "Ch9": 935.25,
+          "Ch0": 936.5
+        }
+      }
+    },
+    "Sennheiser XSW 2": {
+      "A": {
+        "Bank 1": {
+          "Ch1": 548.25,
+          "Ch2": 548.65,
+          "Ch3": 549.15,
+          "Ch4": 549.85,
+          "Ch5": 550.85,
+          "Ch6": 552.35,
+          "Ch7": 553.15,
+          "Ch8": 553.75,
+          "Ch9": 555.05,
+          "Ch10": 556.15,
+          "Ch11": 558.15,
+          "Ch12": 561.75
+        },
+        "Bank 2": {
+          "Ch1": 554.4,
+          "Ch2": 554.8,
+          "Ch3": 555.3,
+          "Ch4": 555.9,
+          "Ch5": 556.9,
+          "Ch6": 557.6,
+          "Ch7": 558.8,
+          "Ch8": 559.6,
+          "Ch9": 561.8,
+          "Ch10": 564.2,
+          "Ch11": 565.6,
+          "Ch12": 568.7
+        },
+        "Bank 3": {
+          "Ch1": 560.35,
+          "Ch2": 560.75,
+          "Ch3": 561.25,
+          "Ch4": 561.85,
+          "Ch5": 563.15,
+          "Ch6": 563.95,
+          "Ch7": 564.95,
+          "Ch8": 565.65,
+          "Ch9": 550.85,
+          "Ch10": 568.25,
+          "Ch11": 569.65,
+          "Ch12": 571.25
+        },
+        "Bank 4": {
+          "Ch1": 566.35,
+          "Ch2": 566.75,
+          "Ch3": 567.25,
+          "Ch4": 567.85,
+          "Ch5": 569.15,
+          "Ch6": 569.95,
+          "Ch7": 570.95,
+          "Ch8": 571.65,
+          "Ch9": 548.75,
+          "Ch10": 550.35,
+          "Ch11": 551.75,
+          "Ch12": 556.85
+        },
+        "Bank 5": {
+          "Ch1": 548.35,
+          "Ch2": 549.05,
+          "Ch3": 550.05,
+          "Ch4": 550.85,
+          "Ch5": 552.15,
+          "Ch6": 552.75,
+          "Ch7": 553.25,
+          "Ch8": 553.65,
+          "Ch9": 563.15,
+          "Ch10": 568.25,
+          "Ch11": 569.65,
+          "Ch12": 571.25
+        },
+        "Bank 6": {
+          "Ch1": 554.35,
+          "Ch2": 555.05,
+          "Ch3": 556.05,
+          "Ch4": 556.85,
+          "Ch5": 558.15,
+          "Ch6": 558.75,
+          "Ch7": 559.25,
+          "Ch8": 559.65,
+          "Ch9": 548.75,
+          "Ch10": 550.35,
+          "Ch11": 551.75,
+          "Ch12": 569.15
+        },
+        "Bank 7": {
+          "Ch1": 560.4,
+          "Ch2": 561.2,
+          "Ch3": 562.4,
+          "Ch4": 563.1,
+          "Ch5": 564.1,
+          "Ch6": 564.7,
+          "Ch7": 565.2,
+          "Ch8": 565.6,
+          "Ch9": 551.3,
+          "Ch10": 554.4,
+          "Ch11": 555.8,
+          "Ch12": 558.2
+        },
+        "Bank 8": {
+          "Ch1": 558.25,
+          "Ch2": 561.85,
+          "Ch3": 563.85,
+          "Ch4": 564.95,
+          "Ch5": 566.25,
+          "Ch6": 566.85,
+          "Ch7": 567.65,
+          "Ch8": 569.15,
+          "Ch9": 570.15,
+          "Ch10": 570.85,
+          "Ch11": 571.35,
+          "Ch12": 571.75
+        }
+      },
+      "B": {
+        "Bank 1": {
+          "Ch1": 614.2,
+          "Ch2": 614.6,
+          "Ch3": 615.1,
+          "Ch4": 615.8,
+          "Ch5": 617.1,
+          "Ch6": 617.7,
+          "Ch7": 618.8,
+          "Ch8": 619.8,
+          "Ch9": 628.35,
+          "Ch10": 629.85,
+          "Ch11": 630.65,
+          "Ch12": 636.65
+        },
+        "Bank 2": {
+          "Ch1": 620.25,
+          "Ch2": 620.65,
+          "Ch3": 621.15,
+          "Ch4": 621.85,
+          "Ch5": 622.85,
+          "Ch6": 624.35,
+          "Ch7": 625.15,
+          "Ch8": 625.75,
+          "Ch9": 614.65,
+          "Ch10": 627.05,
+          "Ch11": 628.15,
+          "Ch12": 630.15
+        },
+        "Bank 3": {
+          "Ch1": 626.35,
+          "Ch2": 626.75,
+          "Ch3": 627.25,
+          "Ch4": 627.95,
+          "Ch5": 628.95,
+          "Ch6": 629.75,
+          "Ch7": 631.05,
+          "Ch8": 631.65,
+          "Ch9": 620.65,
+          "Ch10": 634.95,
+          "Ch11": 636.45,
+          "Ch12": 637.85
+        },
+        "Bank 4": {
+          "Ch1": 632.4,
+          "Ch2": 632.8,
+          "Ch3": 633.3,
+          "Ch4": 633.9,
+          "Ch5": 634.9,
+          "Ch6": 635.6,
+          "Ch7": 636.8,
+          "Ch8": 637.6,
+          "Ch9": 615.5,
+          "Ch10": 617.3,
+          "Ch11": 619.7,
+          "Ch12": 627.5
+        },
+        "Bank 5": {
+          "Ch1": 614.4,
+          "Ch2": 615.2,
+          "Ch3": 616.4,
+          "Ch4": 617.1,
+          "Ch5": 618.1,
+          "Ch6": 618.7,
+          "Ch7": 619.2,
+          "Ch8": 619.6,
+          "Ch9": 624.5,
+          "Ch10": 632.3,
+          "Ch11": 634.7,
+          "Ch12": 636.5
+        },
+        "Bank 6": {
+          "Ch1": 620.35,
+          "Ch2": 620.95,
+          "Ch3": 622.25,
+          "Ch4": 623.05,
+          "Ch5": 624.05,
+          "Ch6": 624.75,
+          "Ch7": 625.25,
+          "Ch8": 625.65,
+          "Ch9": 614.15,
+          "Ch10": 615.55,
+          "Ch11": 617.05,
+          "Ch12": 631.35
+        },
+        "Bank 7": {
+          "Ch1": 626.25,
+          "Ch2": 626.85,
+          "Ch3": 627.65,
+          "Ch4": 629.15,
+          "Ch5": 630.15,
+          "Ch6": 630.85,
+          "Ch7": 631.35,
+          "Ch8": 631.75,
+          "Ch9": 621.85,
+          "Ch10": 623.85,
+          "Ch11": 624.95,
+          "Ch12": 637.35
+        },
+        "Bank 8": {
+          "Ch1": 632.2,
+          "Ch2": 633.2,
+          "Ch3": 634.3,
+          "Ch4": 634.9,
+          "Ch5": 636.2,
+          "Ch6": 636.9,
+          "Ch7": 637.4,
+          "Ch8": 637.8,
+          "Ch9": 615.35,
+          "Ch10": 621.35,
+          "Ch11": 622.15,
+          "Ch12": 623.65
+        }
+      },
+      "GB": {
+        "Bank 1": {
+          "Ch1": 606.5,
+          "Ch2": 606.9,
+          "Ch3": 607.4,
+          "Ch4": 608,
+          "Ch5": 608.7,
+          "Ch6": 609.7,
+          "Ch7": 611.1,
+          "Ch8": 612.3,
+          "Ch9": 613.1,
+          "Ch10": 610.6,
+          "Ch11": 611.9,
+          "Ch12": 610.2
+        },
+        "Bank 2": {
+          "Ch1": 614.5,
+          "Ch2": 614.9,
+          "Ch3": 615.4,
+          "Ch4": 616,
+          "Ch5": 616.7,
+          "Ch6": 617.7,
+          "Ch7": 619.1,
+          "Ch8": 620.3,
+          "Ch9": 621.1,
+          "Ch10": 618.6,
+          "Ch11": 619.9,
+          "Ch12": 618.2
+        },
+        "Bank 3": {
+          "Ch1": 622.5,
+          "Ch2": 622.9,
+          "Ch3": 623.4,
+          "Ch4": 624,
+          "Ch5": 624.7,
+          "Ch6": 625.7,
+          "Ch7": 627.1,
+          "Ch8": 628.3,
+          "Ch9": 629.1,
+          "Ch10": 626.6,
+          "Ch11": 627.9,
+          "Ch12": 626.2
+        },
+        "Bank 4": {
+          "Ch1": 607.1,
+          "Ch2": 607.6,
+          "Ch3": 608.5,
+          "Ch4": 609.7,
+          "Ch5": 610.5,
+          "Ch6": 612.4,
+          "Ch7": 616.7,
+          "Ch8": 617.1,
+          "Ch9": 618.2,
+          "Ch10": 618.9,
+          "Ch11": 619.9,
+          "Ch12": 621.2
+        },
+        "Bank 5": {
+          "Ch1": 607.1,
+          "Ch2": 607.9,
+          "Ch3": 610,
+          "Ch4": 610.5,
+          "Ch5": 611.4,
+          "Ch6": 611.8,
+          "Ch7": 613.3,
+          "Ch8": 623.6,
+          "Ch9": 624.3,
+          "Ch10": 625.3,
+          "Ch11": 628,
+          "Ch12": 629.1
+        },
+        "Bank 6": {
+          "Ch1": 615.1,
+          "Ch2": 615.6,
+          "Ch3": 616.5,
+          "Ch4": 617.7,
+          "Ch5": 618.5,
+          "Ch6": 620.4,
+          "Ch7": 624.7,
+          "Ch8": 625.1,
+          "Ch9": 626.2,
+          "Ch10": 626.9,
+          "Ch11": 627.9,
+          "Ch12": 629.2
+        },
+        "Bank 7": {
+          "Ch1": 606.7,
+          "Ch2": 610.1,
+          "Ch3": 612,
+          "Ch4": 612.5,
+          "Ch5": 614.8,
+          "Ch6": 615.8,
+          "Ch7": 617.5,
+          "Ch8": 625.8,
+          "Ch9": 623.6,
+          "Ch10": 625.4,
+          "Ch11": 626.5,
+          "Ch12": 627.9
+        },
+        "Bank 8": {
+          "Ch1": 608.1,
+          "Ch2": 609.5,
+          "Ch3": 610.6,
+          "Ch4": 612.4,
+          "Ch5": 610.2,
+          "Ch6": 618.5,
+          "Ch7": 620.2,
+          "Ch8": 621.2,
+          "Ch9": 623.5,
+          "Ch10": 624,
+          "Ch11": 625.9,
+          "Ch12": 629.3
+        }
+      },
+      "BC": {
+        "Bank 1": {
+          "Ch1": 670.2,
+          "Ch2": 670.6,
+          "Ch3": 671.1,
+          "Ch4": 671.8,
+          "Ch5": 673.1,
+          "Ch6": 673.7,
+          "Ch7": 674.8,
+          "Ch8": 675.8,
+          "Ch9": 684.35,
+          "Ch10": 685.85,
+          "Ch11": 686.65,
+          "Ch12": 692.65
+        },
+        "Bank 2": {
+          "Ch1": 676.25,
+          "Ch2": 676.65,
+          "Ch3": 677.15,
+          "Ch4": 677.85,
+          "Ch5": 678.85,
+          "Ch6": 680.35,
+          "Ch7": 681.15,
+          "Ch8": 681.75,
+          "Ch9": 670.65,
+          "Ch10": 683.05,
+          "Ch11": 684.15,
+          "Ch12": 686.15
+        },
+        "Bank 3": {
+          "Ch1": 682.35,
+          "Ch2": 682.75,
+          "Ch3": 683.25,
+          "Ch4": 683.95,
+          "Ch5": 684.95,
+          "Ch6": 685.75,
+          "Ch7": 687.05,
+          "Ch8": 687.65,
+          "Ch9": 676.65,
+          "Ch10": 690.95,
+          "Ch11": 692.45,
+          "Ch12": 693.85
+        },
+        "Bank 4": {
+          "Ch1": 688.4,
+          "Ch2": 688.8,
+          "Ch3": 689.3,
+          "Ch4": 689.9,
+          "Ch5": 690.9,
+          "Ch6": 691.6,
+          "Ch7": 692.8,
+          "Ch8": 693.6,
+          "Ch9": 671.5,
+          "Ch10": 673.3,
+          "Ch11": 675.7,
+          "Ch12": 683.5
+        },
+        "Bank 5": {
+          "Ch1": 670.4,
+          "Ch2": 671.2,
+          "Ch3": 672.4,
+          "Ch4": 673.1,
+          "Ch5": 674.1,
+          "Ch6": 674.7,
+          "Ch7": 675.2,
+          "Ch8": 675.6,
+          "Ch9": 680.5,
+          "Ch10": 688.3,
+          "Ch11": 690.7,
+          "Ch12": 692.5
+        },
+        "Bank 6": {
+          "Ch1": 676.35,
+          "Ch2": 676.95,
+          "Ch3": 678.25,
+          "Ch4": 679.05,
+          "Ch5": 680.05,
+          "Ch6": 680.75,
+          "Ch7": 681.25,
+          "Ch8": 681.65,
+          "Ch9": 670.15,
+          "Ch10": 671.55,
+          "Ch11": 673.05,
+          "Ch12": 687.35
+        },
+        "Bank 7": {
+          "Ch1": 682.25,
+          "Ch2": 682.85,
+          "Ch3": 683.65,
+          "Ch4": 685.15,
+          "Ch5": 686.15,
+          "Ch6": 686.85,
+          "Ch7": 687.35,
+          "Ch8": 687.75,
+          "Ch9": 677.85,
+          "Ch10": 679.85,
+          "Ch11": 680.95,
+          "Ch12": 693.35
+        },
+        "Bank 8": {
+          "Ch1": 688.2,
+          "Ch2": 689.2,
+          "Ch3": 690.3,
+          "Ch4": 690.9,
+          "Ch5": 692.2,
+          "Ch6": 692.9,
+          "Ch7": 693.4,
+          "Ch8": 693.8,
+          "Ch9": 671.35,
+          "Ch10": 677.35,
+          "Ch11": 678.15,
+          "Ch12": 679.65
+        }
+      },
+      "C": {
+        "Bank 1": {
+          "Ch1": 766.15,
+          "Ch2": 766.6,
+          "Ch3": 767.25,
+          "Ch4": 768.1,
+          "Ch5": 768.65,
+          "Ch6": 769.4,
+          "Ch7": 770.35,
+          "Ch8": 772.95,
+          "Ch9": 775.35,
+          "Ch10": 778.35,
+          "Ch11": 779.95,
+          "Ch12": 781.8
+        },
+        "Bank 2": {
+          "Ch1": 774.15,
+          "Ch2": 774.6,
+          "Ch3": 775.25,
+          "Ch4": 776.1,
+          "Ch5": 776.65,
+          "Ch6": 777.4,
+          "Ch7": 778.35,
+          "Ch8": 780.95,
+          "Ch9": 783.35,
+          "Ch10": 786.35,
+          "Ch11": 787.95,
+          "Ch12": 789.8
+        },
+        "Bank 3": {
+          "Ch1": 783.6,
+          "Ch2": 786,
+          "Ch3": 786.9,
+          "Ch4": 787.6,
+          "Ch5": 788.1,
+          "Ch6": 788.9,
+          "Ch7": 789.5,
+          "Ch8": 789.9,
+          "Ch9": 766.7,
+          "Ch10": 768.2,
+          "Ch11": 770.9,
+          "Ch12": 773.1
+        },
+        "Bank 4": {
+          "Ch1": 766.1,
+          "Ch2": 766.5,
+          "Ch3": 767.1,
+          "Ch4": 767.9,
+          "Ch5": 768.4,
+          "Ch6": 769.1,
+          "Ch7": 770,
+          "Ch8": 772.4,
+          "Ch9": 782.9,
+          "Ch10": 785.1,
+          "Ch11": 787.8,
+          "Ch12": 789.3
+        },
+        "Bank 5": {
+          "Ch1": 775.05,
+          "Ch2": 777.65,
+          "Ch3": 778.6,
+          "Ch4": 779.35,
+          "Ch5": 779.9,
+          "Ch6": 780.75,
+          "Ch7": 781.4,
+          "Ch8": 781.85,
+          "Ch9": 766.2,
+          "Ch10": 768.05,
+          "Ch11": 769.65,
+          "Ch12": 772.65
+        },
+        "Bank 6": {
+          "Ch1": 783.05,
+          "Ch2": 785.65,
+          "Ch3": 786.6,
+          "Ch4": 787.35,
+          "Ch5": 787.9,
+          "Ch6": 788.75,
+          "Ch7": 789.4,
+          "Ch8": 789.85,
+          "Ch9": 774.2,
+          "Ch10": 776.05,
+          "Ch11": 777.65,
+          "Ch12": 780.65
+        },
+        "Bank 7": {
+          "Ch1": 767.75,
+          "Ch2": 768.5,
+          "Ch3": 769.05,
+          "Ch4": 770.7,
+          "Ch5": 774.15,
+          "Ch6": 774.6,
+          "Ch7": 775.25,
+          "Ch8": 776.1,
+          "Ch9": 782.4,
+          "Ch10": 784.15,
+          "Ch11": 786.5,
+          "Ch12": 788.35
+        },
+        "Bank 8": {
+          "Ch1": 779.9,
+          "Ch2": 780.75,
+          "Ch3": 781.4,
+          "Ch4": 781.85,
+          "Ch5": 785.3,
+          "Ch6": 786.95,
+          "Ch7": 787.5,
+          "Ch8": 788.25,
+          "Ch9": 767.65,
+          "Ch10": 769.5,
+          "Ch11": 771.85,
+          "Ch12": 773.6
+        }
+      },
+      "D": {
+        "Bank 1": {
+          "Ch1": 794.6,
+          "Ch2": 795.2,
+          "Ch3": 795.9,
+          "Ch4": 796.7,
+          "Ch5": 798.6,
+          "Ch6": 799,
+          "Ch7": 801.8,
+          "Ch8": 802.9,
+          "Ch9": 804.3,
+          "Ch10": 805.3
+        },
+        "Bank 2": {
+          "Ch1": 795.5,
+          "Ch2": 796.1,
+          "Ch3": 797.1,
+          "Ch4": 799.2,
+          "Ch5": 800.7,
+          "Ch6": 801.8,
+          "Ch7": 802.7,
+          "Ch8": 803.1,
+          "Ch9": 804.5,
+          "Ch10": 805
+        },
+        "Bank 3": {
+          "Ch1": 794.65,
+          "Ch2": 795.05,
+          "Ch3": 795.65,
+          "Ch4": 796.45,
+          "Ch5": 796.95,
+          "Ch6": 798.65,
+          "Ch7": 799.85,
+          "Ch8": 801.85,
+          "Ch9": 802.95,
+          "Ch10": 804.45
+        },
+        "Bank 4": {
+          "Ch1": 794.3,
+          "Ch2": 796.4,
+          "Ch3": 796.8,
+          "Ch4": 797.4,
+          "Ch5": 799.7,
+          "Ch6": 801,
+          "Ch7": 801.7,
+          "Ch8": 803.2,
+          "Ch9": 804.4,
+          "Ch10": 804.9
+        },
+        "Bank 5": {
+          "Ch1": 795,
+          "Ch2": 796.6,
+          "Ch3": 797.3,
+          "Ch4": 798.5,
+          "Ch5": 801.4,
+          "Ch6": 802.2,
+          "Ch7": 802.8,
+          "Ch8": 803.9,
+          "Ch9": 804.8,
+          "Ch10": 805.2
+        },
+        "Bank 6": {
+          "Ch1": 795.55,
+          "Ch2": 796.65,
+          "Ch3": 797.25,
+          "Ch4": 798.75,
+          "Ch5": 799.25,
+          "Ch6": 799.95,
+          "Ch7": 803.55,
+          "Ch8": 804.55,
+          "Ch9": 804.95,
+          "Ch10": 805.85
+        },
+        "Bank 7": {
+          "Ch1": 795.45,
+          "Ch2": 795.95,
+          "Ch3": 797.75,
+          "Ch4": 798.45,
+          "Ch5": 799.75,
+          "Ch6": 800.65,
+          "Ch7": 802.15,
+          "Ch8": 803.85,
+          "Ch9": 804.25,
+          "Ch10": 804.85
+        },
+        "Bank 8": {
+          "Ch1": 794.95,
+          "Ch2": 795.85,
+          "Ch3": 797.35,
+          "Ch4": 797.85,
+          "Ch5": 799.95,
+          "Ch6": 800.95,
+          "Ch7": 801.65,
+          "Ch8": 803.25,
+          "Ch9": 804.35,
+          "Ch10": 805.15
+        }
+      },
+      "JB": {
+        "Bank 1": {
+          "Ch1": 806.125,
+          "Ch2": 806.625,
+          "Ch3": 807.25,
+          "Ch4": 807.75,
+          "Ch5": 808.5,
+          "Ch6": 809,
+          "Ch7": 809.625
+        },
+        "Bank 2": {
+          "Ch1": 806.25,
+          "Ch2": 806.75,
+          "Ch3": 807.375,
+          "Ch4": 807.875,
+          "Ch5": 808.625,
+          "Ch6": 809.125,
+          "Ch7": 809.75
+        },
+        "Bank 3": {
+          "Ch1": 806.375,
+          "Ch2": 806.875,
+          "Ch3": 807.5,
+          "Ch4": 808,
+          "Ch5": 808.75,
+          "Ch6": 809.25
+        },
+        "Bank 4": {
+          "Ch1": 806.5,
+          "Ch2": 807,
+          "Ch3": 807.625,
+          "Ch4": 808.125,
+          "Ch5": 808.875,
+          "Ch6": 809.375
+        },
+        "Bank 5": {
+          "Ch1": 806.625,
+          "Ch2": 807.125,
+          "Ch3": 807.875,
+          "Ch4": 808.375,
+          "Ch5": 809,
+          "Ch6": 809.5
+        },
+        "Bank 6": {
+          "Ch1": 806.875,
+          "Ch2": 807.375,
+          "Ch3": 808.125,
+          "Ch4": 808.625,
+          "Ch5": 809.25,
+          "Ch6": 809.75
+        },
+        "Bank 7": {
+          "Ch1": 806.125,
+          "Ch2": 806.75,
+          "Ch3": 807.25,
+          "Ch4": 808,
+          "Ch5": 808.5,
+          "Ch6": 809.125,
+          "Ch7": 809.625
+        },
+        "Bank 8": {
+          "Ch1": 806.25,
+          "Ch2": 806.875,
+          "Ch3": 807.375,
+          "Ch4": 808.125,
+          "Ch5": 808.625,
+          "Ch6": 809.25,
+          "Ch7": 809.75
+        }
+      },
+      "E": {
+        "Bank 1": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864.3,
+          "Ch4": 864.9,
+          "Ch5": 823.1,
+          "Ch6": 823.5,
+          "Ch7": 824.1,
+          "Ch8": 825.5,
+          "Ch9": 826.3,
+          "Ch10": 828.9,
+          "Ch11": 830.1,
+          "Ch12": 831.9
+        },
+        "Bank 2": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864,
+          "Ch4": 864.8,
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch10": 827.7,
+          "Ch11": 829.1,
+          "Ch12": 830.6
+        },
+        "Bank 3": {
+          "Ch1": 863.2,
+          "Ch2": 863.7,
+          "Ch3": 864.1,
+          "Ch4": 864.8,
+          "Ch5": 823.2,
+          "Ch6": 823.8,
+          "Ch7": 824.6,
+          "Ch8": 825.6,
+          "Ch9": 826.8,
+          "Ch10": 828.1,
+          "Ch11": 829.6,
+          "Ch12": 831.3
+        },
+        "Bank 4": {
+          "Ch1": 863.15,
+          "Ch2": 863.55,
+          "Ch3": 864.05,
+          "Ch4": 864.85,
+          "Ch5": 823.15,
+          "Ch6": 823.75,
+          "Ch7": 824.75,
+          "Ch8": 825.85,
+          "Ch9": 826.55,
+          "Ch10": 827.75,
+          "Ch11": 829.15,
+          "Ch12": 831.65
+        },
+        "Bank 5": {
+          "Ch1": 863.15,
+          "Ch2": 863.95,
+          "Ch3": 864.45,
+          "Ch4": 864.85,
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch10": 827.7,
+          "Ch11": 829.1,
+          "Ch12": 830.6
+        },
+        "Bank 6": {
+          "Ch1": 863.1,
+          "Ch2": 863.7,
+          "Ch3": 864.5,
+          "Ch4": 864.9,
+          "Ch5": 823.1,
+          "Ch6": 823.6,
+          "Ch7": 824.6,
+          "Ch8": 825.3,
+          "Ch9": 826.2,
+          "Ch10": 827.3,
+          "Ch11": 829.2,
+          "Ch12": 831.6
+        },
+        "Bank 7": {
+          "Ch1": 863.25,
+          "Ch2": 863.65,
+          "Ch3": 864.15,
+          "Ch4": 864.75,
+          "Ch5": 823.15,
+          "Ch6": 823.85,
+          "Ch7": 824.85,
+          "Ch8": 825.65,
+          "Ch9": 826.85,
+          "Ch10": 828.25,
+          "Ch11": 829.55,
+          "Ch12": 831.15
+        },
+        "Bank 8": {
+          "Ch1": 863.25,
+          "Ch2": 863.85,
+          "Ch3": 864.35,
+          "Ch4": 864.75,
+          "Ch5": 823.25,
+          "Ch6": 823.95,
+          "Ch7": 824.95,
+          "Ch8": 825.75,
+          "Ch9": 826.95,
+          "Ch10": 828.35,
+          "Ch11": 829.65,
+          "Ch12": 831.25
+        }
+      },
+      "K": {
+        "Bank 1": {
+          "Ch1": 925.3,
+          "Ch2": 925.85,
+          "Ch3": 928.95,
+          "Ch4": 929.35,
+          "Ch5": 930.6,
+          "Ch6": 933.6,
+          "Ch7": 931.65,
+          "Ch8": 934.95,
+          "Ch9": 936.1,
+          "Ch10": 936.8
+        },
+        "Bank 2": {
+          "Ch1": 925.7,
+          "Ch2": 927.2,
+          "Ch3": 929.1,
+          "Ch4": 929.9,
+          "Ch5": 931.3,
+          "Ch6": 932.3,
+          "Ch7": 934.4,
+          "Ch8": 935.1,
+          "Ch9": 936.2,
+          "Ch10": 936.7
+        },
+        "Bank 3": {
+          "Ch1": 926.35,
+          "Ch2": 927.55,
+          "Ch3": 928.25,
+          "Ch4": 930.55,
+          "Ch5": 932.25,
+          "Ch6": 933.35,
+          "Ch7": 935.35,
+          "Ch8": 935.75,
+          "Ch9": 936.65,
+          "Ch10": 937.15
+        },
+        "Bank 4": {
+          "Ch1": 925.9,
+          "Ch2": 927,
+          "Ch3": 928.5,
+          "Ch4": 930.8,
+          "Ch5": 931.8,
+          "Ch6": 933.5,
+          "Ch7": 934.3,
+          "Ch8": 935.5,
+          "Ch9": 936.4,
+          "Ch10": 937.1
+        },
+        "Bank 5": {
+          "Ch1": 925.5,
+          "Ch2": 926.6,
+          "Ch3": 927.4,
+          "Ch4": 928.4,
+          "Ch5": 929.8,
+          "Ch6": 931.5,
+          "Ch7": 932.4,
+          "Ch8": 935.2,
+          "Ch9": 935.9,
+          "Ch10": 937.2
+        },
+        "Bank 6": {
+          "Ch1": 926.55,
+          "Ch2": 927.15,
+          "Ch3": 927.95,
+          "Ch4": 929.75,
+          "Ch5": 933.25,
+          "Ch6": 933.65,
+          "Ch7": 935.15,
+          "Ch8": 935.65,
+          "Ch9": 936.35,
+          "Ch10": 937.3
+        },
+        "Bank 7": {
+          "Ch1": 926.15,
+          "Ch2": 927.35,
+          "Ch3": 928.05,
+          "Ch4": 929.55,
+          "Ch5": 930.35,
+          "Ch6": 932.05,
+          "Ch7": 933.15,
+          "Ch8": 935.55,
+          "Ch9": 936.45,
+          "Ch10": 936.95
+        },
+        "Bank 8": {
+          "Ch1": 926.75,
+          "Ch2": 927.25,
+          "Ch3": 928.1,
+          "Ch4": 928.7,
+          "Ch5": 931.35,
+          "Ch6": 932.5,
+          "Ch7": 933.45,
+          "Ch8": 934.2,
+          "Ch9": 935.25,
+          "Ch10": 936.5
+        }
+      }
+    },
+    "LD Systems U505": {
+      "584-608": {
+        "Default": {}
+      }
+    },
+    "LD Systems U518": {
+      "1785-1800": {
+        "Default": {}
+      }
+    },
+    "Sony UWP-D": {
+      "CE21": {
+        "Default": {}
+      },
+      "CE33": {
+        "Default": {}
+      },
+      "CE42": {
+        "Default": {}
+      }
+    },
+    "Sennheiser ew 100 G4": {
+      "G": {
+        "Bank 1": {
+          "Ch1": 566.2,
+          "Ch2": 566.6,
+          "Ch3": 568.2,
+          "Ch4": 569.4,
+          "Ch5": 570.4,
+          "Ch6": 571.2,
+          "Ch7": 571.8,
+          "Ch8": 567.275,
+          "Ch9": 568.625,
+          "Ch10": 573.975,
+          "Ch11": 576.525,
+          "Ch12": 577.75
+        },
+        "Bank 2": {
+          "Ch1": 572.2,
+          "Ch2": 572.6,
+          "Ch3": 574.2,
+          "Ch4": 575.4,
+          "Ch5": 576.4,
+          "Ch6": 577.2,
+          "Ch7": 577.8,
+          "Ch8": 573.275,
+          "Ch9": 574.625,
+          "Ch10": 579.975,
+          "Ch11": 582.525,
+          "Ch12": 583.75
+        },
+        "Bank 3": {
+          "Ch1": 578.2,
+          "Ch2": 578.6,
+          "Ch3": 580.2,
+          "Ch4": 581.4,
+          "Ch5": 582.4,
+          "Ch6": 583.2,
+          "Ch7": 583.8,
+          "Ch8": 579.275,
+          "Ch9": 580.625,
+          "Ch10": 585.975,
+          "Ch11": 588.525,
+          "Ch12": 589.75
+        },
+        "Bank 4": {
+          "Ch1": 584.2,
+          "Ch2": 584.6,
+          "Ch3": 586.2,
+          "Ch4": 587.4,
+          "Ch5": 588.4,
+          "Ch6": 589.2,
+          "Ch7": 589.8,
+          "Ch8": 585.275,
+          "Ch9": 586.625,
+          "Ch10": 591.975,
+          "Ch11": 594.525,
+          "Ch12": 595.75
+        },
+        "Bank 5": {
+          "Ch1": 590.2,
+          "Ch2": 590.6,
+          "Ch3": 592.2,
+          "Ch4": 593.4,
+          "Ch5": 594.4,
+          "Ch6": 595.2,
+          "Ch7": 595.8,
+          "Ch8": 591.275,
+          "Ch9": 592.625,
+          "Ch10": 597.975,
+          "Ch11": 600.525,
+          "Ch12": 601.75
+        },
+        "Bank 6": {
+          "Ch1": 596.2,
+          "Ch2": 596.6,
+          "Ch3": 598.2,
+          "Ch4": 599.4,
+          "Ch5": 600.4,
+          "Ch6": 601.2,
+          "Ch7": 601.8,
+          "Ch8": 597.275,
+          "Ch9": 598.625,
+          "Ch10": 603.975,
+          "Ch11": 606.525,
+          "Ch12": 607.75
+        },
+        "Bank 7": {
+          "Ch1": 602.2,
+          "Ch2": 602.6,
+          "Ch3": 604.2,
+          "Ch4": 605.4,
+          "Ch5": 606.4,
+          "Ch6": 607.2,
+          "Ch7": 607.8,
+          "Ch8": 603.275,
+          "Ch9": 604.625,
+          "Ch10": 599.5,
+          "Ch11": 599.95,
+          "Ch12": 600.775
+        },
+        "Bank 8": {
+          "Ch1": 566.5,
+          "Ch2": 567.5,
+          "Ch3": 568.1,
+          "Ch4": 569.5,
+          "Ch5": 569.9,
+          "Ch6": 570.7,
+          "Ch7": 584.2,
+          "Ch8": 584.95,
+          "Ch9": 585.5,
+          "Ch10": 586.45,
+          "Ch11": 587.7,
+          "Ch12": 588.2
+        },
+        "Bank 9": {
+          "Ch1": 572.5,
+          "Ch2": 573.5,
+          "Ch3": 574.1,
+          "Ch4": 575.5,
+          "Ch5": 575.9,
+          "Ch6": 576.7,
+          "Ch7": 590.2,
+          "Ch8": 590.95,
+          "Ch9": 591.5,
+          "Ch10": 592.45,
+          "Ch11": 593.7,
+          "Ch12": 594.2
+        },
+        "Bank 10": {
+          "Ch1": 578.5,
+          "Ch2": 579.5,
+          "Ch3": 580.1,
+          "Ch4": 581.5,
+          "Ch5": 581.9,
+          "Ch6": 582.7,
+          "Ch7": 596.2,
+          "Ch8": 596.95,
+          "Ch9": 597.5,
+          "Ch10": 598.45,
+          "Ch11": 599.7,
+          "Ch12": 600.2
+        },
+        "Bank 11": {
+          "Ch1": 566.2,
+          "Ch2": 566.6,
+          "Ch3": 567.2,
+          "Ch4": 568,
+          "Ch5": 569.2,
+          "Ch6": 571.6,
+          "Ch7": 573.8,
+          "Ch8": 572.9,
+          "Ch9": 568.475,
+          "Ch10": 570.125,
+          "Ch11": 570.575,
+          "Ch12": 572.475
+        },
+        "Bank 12": {
+          "Ch1": 574.2,
+          "Ch2": 574.6,
+          "Ch3": 575.2,
+          "Ch4": 576,
+          "Ch5": 577.2,
+          "Ch6": 579.6,
+          "Ch7": 581.8,
+          "Ch8": 580.9,
+          "Ch9": 576.475,
+          "Ch10": 578.125,
+          "Ch11": 578.575,
+          "Ch12": 580.475
+        },
+        "Bank 13": {
+          "Ch1": 582.2,
+          "Ch2": 582.6,
+          "Ch3": 583.2,
+          "Ch4": 584,
+          "Ch5": 585.2,
+          "Ch6": 587.6,
+          "Ch7": 589.8,
+          "Ch8": 588.9,
+          "Ch9": 584.475,
+          "Ch10": 586.125,
+          "Ch11": 586.575,
+          "Ch12": 588.475
+        },
+        "Bank 14": {
+          "Ch1": 590.2,
+          "Ch2": 590.6,
+          "Ch3": 591.2,
+          "Ch4": 592,
+          "Ch5": 593.2,
+          "Ch6": 595.6,
+          "Ch7": 597.8,
+          "Ch8": 596.9,
+          "Ch9": 592.475,
+          "Ch10": 594.125,
+          "Ch11": 594.575,
+          "Ch12": 596.475
+        },
+        "Bank 15": {
+          "Ch1": 598.2,
+          "Ch2": 598.6,
+          "Ch3": 599.2,
+          "Ch4": 600,
+          "Ch5": 601.2,
+          "Ch6": 603.6,
+          "Ch7": 605.8,
+          "Ch8": 604.9,
+          "Ch9": 600.475,
+          "Ch10": 602.125,
+          "Ch11": 602.575,
+          "Ch12": 604.475
+        },
+        "Bank 16": {
+          "Ch1": 606.2,
+          "Ch2": 606.6,
+          "Ch3": 607.2,
+          "Ch4": 608,
+          "Ch5": 598.2,
+          "Ch6": 599.4,
+          "Ch7": 601,
+          "Ch8": 603.2,
+          "Ch9": 598.95,
+          "Ch10": 600.05,
+          "Ch11": 601.5,
+          "Ch12": 604.25
+        },
+        "Bank 17": {
+          "Ch1": 566.2,
+          "Ch2": 566.6,
+          "Ch3": 567.2,
+          "Ch4": 568,
+          "Ch5": 582.2,
+          "Ch6": 583.4,
+          "Ch7": 586.2,
+          "Ch8": 587.8,
+          "Ch9": 598.6,
+          "Ch10": 601,
+          "Ch11": 603.6,
+          "Ch12": 605.6
+        },
+        "Bank 18": {
+          "Ch1": 574.2,
+          "Ch2": 575.4,
+          "Ch3": 577,
+          "Ch4": 579,
+          "Ch5": 581.2,
+          "Ch6": 590.6,
+          "Ch7": 593.2,
+          "Ch8": 596.2,
+          "Ch9": 606.2,
+          "Ch10": 606.6,
+          "Ch11": 607.2,
+          "Ch12": 608
+        },
+        "Bank 19": {
+          "Ch1": 566.2,
+          "Ch2": 566.6,
+          "Ch3": 567.2,
+          "Ch4": 568,
+          "Ch5": 569.6,
+          "Ch6": 571.8,
+          "Ch7": 590.2,
+          "Ch8": 591.4,
+          "Ch9": 593.1,
+          "Ch10": 595,
+          "Ch11": 597.1,
+          "Ch12": 597.6
+        },
+        "Bank 20": {
+          "Ch1": 574.2,
+          "Ch2": 574.6,
+          "Ch3": 575.2,
+          "Ch4": 576,
+          "Ch5": 577.6,
+          "Ch6": 579.8,
+          "Ch7": 598.2,
+          "Ch8": 599.4,
+          "Ch9": 601.1,
+          "Ch10": 603,
+          "Ch11": 605.1,
+          "Ch12": 605.6
+        }
+      }
+    }
+  },
+  "presetSources": {
+    "Shure ULXD": {
+      "G50": {
+        "source": "ULXD",
+        "citations": [
+          "Shure ULX-D Wireless Systems Compatibility Frequency Bands Supplement, https://content-files.shure.com/publications/frequencyCompatibilityChart/en/ulx-d-frequency-compatibility-chart.pdf, retrieved 2026-07-27"
+        ],
+        "note": null
+      }
+    },
+    "Budget ISM 863-865": {
+      "863-865": {
+        "source": null,
+        "citations": [
+          "Sennheiser-recommended CH70 intermod-clean 4-set"
+        ],
+        "note": "No manufacturer document — generic CH70 4-set; pending manufacturer-sheet audit"
+      }
+    },
+    "the t.bone IEM 75": {
+      "863-865": {
+        "source": "TBONE75",
+        "citations": [
+          "the t.bone IEM-75 manual §7.3 Frequenztabelle, p. 30"
+        ],
+        "note": "Channel order is the manual's order (section 7.3 Frequenztabelle): Ch1-Ch4 are a spread, intermod-friendly set and Ch5-Ch16 fill the 100 kHz grid. Do not sort."
+      }
+    },
+    "LD Systems MEI 1000 G2": {
+      "B5": {
+        "source": "LDMEI",
+        "citations": [
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 1",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 2",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 3",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 4",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 5",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 6",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 7",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 8",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 9",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 584-607 MHz, Group 10"
+        ],
+        "note": null
+      },
+      "B6": {
+        "source": "LDMEI",
+        "citations": [
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 1",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 2",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 3",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 4",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 5",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 6",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 7",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 8",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 9",
+          "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 10"
+        ],
+        "note": null
+      }
+    },
+    "Shure BLX": {
+      "H8": {
+        "source": "BLX",
+        "citations": [
+          "Shure BLX Group & Channel Compatibility Chart PDF, H8",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group A",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group b",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group C",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group d (Grp of 12)",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group E",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group F",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group H",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group J",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group L",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group n",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group o",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group P",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group r",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group U",
+          "Shure BLX G&C Compatibility Chart PDF, H8 Group Y"
+        ],
+        "note": "Channel order is Shure's: Ch0..Ch9, then ChA and ChB for the 12-channel group d. Do not sort."
+      },
+      "K3E": {
+        "source": "BLX",
+        "citations": [
+          "Shure BLX Frequency Map K3E xlsx",
+          "Shure BLX Frequency Map K3E xlsx, Group A",
+          "Shure BLX Frequency Map K3E xlsx, Group b",
+          "Shure BLX Frequency Map K3E xlsx, Group C",
+          "Shure BLX Frequency Map K3E xlsx, Group d (Grp of 12)",
+          "Shure BLX Frequency Map K3E xlsx, Group E",
+          "Shure BLX Frequency Map K3E xlsx, Group F",
+          "Shure BLX Frequency Map K3E xlsx, Group H",
+          "Shure BLX Frequency Map K3E xlsx, Group J",
+          "Shure BLX Frequency Map K3E xlsx, Group L",
+          "Shure BLX Frequency Map K3E xlsx, Group n",
+          "Shure BLX Frequency Map K3E xlsx, Group o",
+          "Shure BLX Frequency Map K3E xlsx, Group P",
+          "Shure BLX Frequency Map K3E xlsx, Group r",
+          "Shure BLX Frequency Map K3E xlsx, Group U",
+          "Shure BLX Frequency Map K3E xlsx, Group Y",
+          "https://www.shure.com/damfiles/default/global/documents/frequencies/en-gb/frequency-lists/wireless/blx_frequency_map_k3e_only.xlsx-b1bd09cdb36eca629d62199cc8d71330.xlsx"
+        ],
+        "note": "Channel order is Shure's: Ch0..Ch9, then ChA and ChB for the 12-channel group d. Do not sort."
+      }
+    },
+    "Sennheiser XSW 1": {
+      "A": {
+        "source": "XSWSHEET_A",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_A_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571317/A02), https://assets.sennheiser.com/download/assets/Range_A_XS_WIRELESS_1_2_02_2017.pdf/54587302e7b811f0b959ce3d75c40f07?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_A_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571317/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "B": {
+        "source": "XSWSHEET_B",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_B_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571318/A02), https://assets.sennheiser.com/download/assets/Range_B_XS_WIRELESS_1_2_02_2017.pdf/558aa538e7b811f097eaea55b5d2fb86?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_B_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571318/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "GB": {
+        "source": "XSWSHEET_GB",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_GB_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571322/A02), https://assets.sennheiser.com/download/assets/Range_GB_XS_WIRELESS_1_2_02_2017.pdf/5d556032e7b811f08cbd2a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_GB_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571322/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "BC": {
+        "source": "XSWSHEET_BC",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_BC_XS_WIRELESS_1_2_10_2018.pdf (Publ. 10/18, 581372/A01), https://assets.sennheiser.com/download/assets/Range_BC_XS_WIRELESS_1_2_10_2018.pdf/54f2dd7ae7b811f0b2ca768ee8e97aea?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_BC_XS_WIRELESS_1_2_10_2018.pdf (Publ. 10/18, 581372/A01), see band header for URL"
+        ],
+        "note": null
+      },
+      "C": {
+        "source": "XSWSHEET_C",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_C_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571319/A02), https://assets.sennheiser.com/download/assets/Range_C_XS_WIRELESS_1_2_02_2017.pdf/55ba5cece7b811f0aabe2a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_C_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571319/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "D": {
+        "source": "XSWSHEET_D",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_D_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571320/A02), https://assets.sennheiser.com/download/assets/Range_D_XS_WIRELESS_1_2_02_2017.pdf/5852707ae7b811f0ae307aeaa9c3764a?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_D_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571320/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "JB": {
+        "source": "XSWSHEET_JB",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_JB_XS_WIRELESS_1_2_10_2020.pdf (Publ. 10/20, 587420/A02), https://assets.sennheiser.com/download/assets/Range_JB_XS_WIRELESS_1_2_10_2020.pdf/5d60f58ce7b811f0ae307aeaa9c3764a?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_JB_XS_WIRELESS_1_2_10_2020.pdf (Publ. 10/20, 587420/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "E": {
+        "source": "XSWSHEET_E",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_E_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571321/A02), https://assets.sennheiser.com/download/assets/Range_E_XS_WIRELESS_1_2_02_2017.pdf/5c474c14e7b811f08c892a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_E_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571321/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "K": {
+        "source": "XSWSHEET_K",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_K_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571323/A02), https://assets.sennheiser.com/download/assets/Range_K_XS_WIRELESS_1_2_02_2017.pdf/5d9b2d4ce7b811f08c892a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_K_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571323/A02), see band header for URL"
+        ],
+        "note": null
+      }
+    },
+    "Sennheiser XSW 2": {
+      "A": {
+        "source": "XSWSHEET_A",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_A_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571317/A02), https://assets.sennheiser.com/download/assets/Range_A_XS_WIRELESS_1_2_02_2017.pdf/54587302e7b811f0b959ce3d75c40f07?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_A_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571317/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "B": {
+        "source": "XSWSHEET_B",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_B_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571318/A02), https://assets.sennheiser.com/download/assets/Range_B_XS_WIRELESS_1_2_02_2017.pdf/558aa538e7b811f097eaea55b5d2fb86?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_B_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571318/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "GB": {
+        "source": "XSWSHEET_GB",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_GB_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571322/A02), https://assets.sennheiser.com/download/assets/Range_GB_XS_WIRELESS_1_2_02_2017.pdf/5d556032e7b811f08cbd2a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_GB_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571322/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "BC": {
+        "source": "XSWSHEET_BC",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_BC_XS_WIRELESS_1_2_10_2018.pdf (Publ. 10/18, 581372/A01), https://assets.sennheiser.com/download/assets/Range_BC_XS_WIRELESS_1_2_10_2018.pdf/54f2dd7ae7b811f0b2ca768ee8e97aea?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_BC_XS_WIRELESS_1_2_10_2018.pdf (Publ. 10/18, 581372/A01), see band header for URL"
+        ],
+        "note": null
+      },
+      "C": {
+        "source": "XSWSHEET_C",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_C_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571319/A02), https://assets.sennheiser.com/download/assets/Range_C_XS_WIRELESS_1_2_02_2017.pdf/55ba5cece7b811f0aabe2a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_C_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571319/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "D": {
+        "source": "XSWSHEET_D",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_D_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571320/A02), https://assets.sennheiser.com/download/assets/Range_D_XS_WIRELESS_1_2_02_2017.pdf/5852707ae7b811f0ae307aeaa9c3764a?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_D_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571320/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "JB": {
+        "source": "XSWSHEET_JB",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_JB_XS_WIRELESS_1_2_10_2020.pdf (Publ. 10/20, 587420/A02), https://assets.sennheiser.com/download/assets/Range_JB_XS_WIRELESS_1_2_10_2020.pdf/5d60f58ce7b811f0ae307aeaa9c3764a?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_JB_XS_WIRELESS_1_2_10_2020.pdf (Publ. 10/20, 587420/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "E": {
+        "source": "XSWSHEET_E",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_E_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571321/A02), https://assets.sennheiser.com/download/assets/Range_E_XS_WIRELESS_1_2_02_2017.pdf/5c474c14e7b811f08c892a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_E_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571321/A02), see band header for URL"
+        ],
+        "note": null
+      },
+      "K": {
+        "source": "XSWSHEET_K",
+        "citations": [
+          "Sennheiser XS Wireless frequency sheet Range_K_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571323/A02), https://assets.sennheiser.com/download/assets/Range_K_XS_WIRELESS_1_2_02_2017.pdf/5d9b2d4ce7b811f08c892a34179bc91d?attachment=true, retrieved 2026-10-14",
+          "Sennheiser Range_K_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571323/A02), see band header for URL"
+        ],
+        "note": null
+      }
+    },
+    "Sennheiser ew 100 G4": {
+      "G": {
+        "source": "EWG4G",
+        "citations": [
+          "ew 100 G4 Range G frequency sheet, https://www.sennheiser.com/globalassets/digizuite/40913-en-ew_100_g4_g_range_frequency_sheet_01_2018.pdf (Publ. 01/18, 578625/A01), retrieved 2026-08-29",
+          "ew 100 G4 Range G frequency sheet, Publ. 01/18 578625/A01 (see block header for URL)"
+        ],
+        "note": null
+      }
+    }
+  },
+  "familyToSystem": {
+    "Shure — ULXD / QLXD": "Shure ULXD",
+    "XVive / Fame / t.bone — Budget ISM": "Budget ISM 863-865",
+    "Shure — BLX": "Shure BLX",
+    "the t.bone — IEM 75 (IEM-75T)": "the t.bone IEM 75",
+    "LD Systems — MEI 1000 G2": "LD Systems MEI 1000 G2"
+  }
+}

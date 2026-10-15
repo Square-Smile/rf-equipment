@@ -1,0 +1,18 @@
+{
+  "reason": "Owner rule: every range must be checked against the manufacturer's own document. These entries are currently backed only by dealer-tier sources (or, for the preset band, a generic recommendation with no manufacturer document) and await the manufacturer-sheet audit. When an entry is promoted to a primary source it MUST be removed from this list; CI fails on stale entries so the list can only shrink.",
+  "rows": [
+    "Audio-Technica||3000 Series (4th Gen)||DE2",
+    "Audio-Technica||3000 Series (4th Gen)||EE1",
+    "Audio-Technica||3000 Series (4th Gen)||EF1",
+    "Audio-Technica||3000 Series (4th Gen)||FG1",
+    "Audio-Technica||5000 Series||DE1",
+    "Audio-Technica||5000 Series||EG1",
+    "Audio-Technica||5000 Series||GH1",
+    "Audio-Technica||ATW-3255 (3000 IEM)||DF2 (470–608)",
+    "AKG||WMS 4500 / WMS 5000||BD7",
+    "AKG||WMS 4500 / WMS 5000||BD8"
+  ],
+  "presetBands": [
+    "Budget ISM 863-865||863-865"
+  ]
+}

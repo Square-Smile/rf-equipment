@@ -1,0 +1,109 @@
+name: Validate and publish
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          PUSH_BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          # Compare against the previously published list so the version must
+          # increase and taxonomy/alias keys can never be dropped. Only a
+          # genuinely absent file at a RESOLVABLE base counts as "first publish";
+          # an unresolvable base or a failed read fails the job, so a broken
+          # checkout can never silently disable the monotonic/key-drop checks.
+          case "$EVENT_NAME" in
+            pull_request) BASE="origin/$BASE_REF" ;;
+            push)         BASE="$PUSH_BEFORE" ;;
+            *)            BASE="origin/main" ;;
+          esac
+          # A brand-new branch push reports an all-zero "before" SHA.
+          if [ "$EVENT_NAME" = "push" ] && { [ -z "$BASE" ] || [ -z "${BASE//0/}" ]; }; then
+            if git rev-parse --verify --quiet "origin/main^{commit}" >/dev/null; then
+              BASE="origin/main"
+            else
+              BASE=""
+            fi
+          fi
+          PREV=""
+          if [ -n "$BASE" ]; then
+            if ! git rev-parse --verify --quiet "${BASE}^{commit}" >/dev/null; then
+              echo "::error::cannot resolve comparison base '$BASE'" >&2
+              exit 1
+            fi
+            if git cat-file -e "$BASE:v1/rf-equipment.json" 2>/dev/null; then
+              git show "$BASE:v1/rf-equipment.json" > "$RUNNER_TEMP/previous.json"
+              PREV="$RUNNER_TEMP/previous.json"
+            fi
+          fi
+          if [ -n "$PREV" ]; then
+            node scripts/validate.mjs --previous "$PREV"
+          else
+            echo "No previous list at a resolvable base (first publish); validating without --previous."
+            node scripts/validate.mjs
+          fi
+
+  deploy:
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site/v1
+          cp v1/rf-equipment.json _site/v1/rf-equipment.json
+          cp LICENSE _site/LICENSE
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <title>rf-equipment</title>
+          <h1>rf-equipment</h1>
+          <p>Wireless mic/IEM equipment frequency database (CC BY 4.0).</p>
+          <p><a href="v1/rf-equipment.json">v1/rf-equipment.json</a></p>
+          HTML
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
