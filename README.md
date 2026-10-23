@@ -4,6 +4,13 @@ Wireless microphone / IEM equipment frequency database used by **KlarFunk** (RTL
 
 This repository is the **only place equipment is edited**. KlarFunk and FreqSense vendor a copy of it at release time; KlarFunk can also download a newer list at runtime ("Update equipment list" in Settings).
 
+## Browse the list
+
+- **[EQUIPMENT.md](EQUIPMENT.md)**: every brand, band and range with a link to the manufacturer document it comes from.
+- **Searchable page:** https://square-smile.github.io/rf-equipment/ (search by brand, model, band or a frequency, e.g. `606`).
+
+Both are generated from `v1/rf-equipment.json` by `scripts/build-list.mjs`. Never edit `EQUIPMENT.md` by hand: after changing the JSON, run `node scripts/build-list.mjs` and commit both. CI fails when it is out of date.
+
 ## Published URL
 
 ```
