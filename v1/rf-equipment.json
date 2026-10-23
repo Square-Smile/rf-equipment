@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-15",
+  "version": "2026-10-23",
   "sources": {
     "ULXD": {
       "title": "Shure ULX-D Wireless Systems Compatibility Frequency Bands Supplement",
@@ -116,12 +116,6 @@
       "retrieved": "2026-10-14",
       "tier": "primary"
     },
-    "XSWSHEET": {
-      "title": "Sennheiser XS Wireless 1/2 frequency sheets (Range A/B/BC/C/D/E/GB/JB/K, Publ. 02/17-10/20)",
-      "url": "https://assets.sennheiser.com/download/assets/Range_E_XS_WIRELESS_1_2_02_2017.pdf",
-      "retrieved": "2026-10-14",
-      "tier": "primary"
-    },
     "IEM2000": {
       "title": "Sennheiser 2000 IEM specifications (10/2023)",
       "url": "https://www.sennheiser.com/globalassets/digizuite/40451-en-2000er_iem_specifications_10_2023.pdf",
@@ -140,12 +134,6 @@
       "retrieved": "2026-10-14",
       "tier": "primary"
     },
-    "LECHMA": {
-      "title": "Lectrosonics HMa wideband plug-on transmitter product page",
-      "url": "https://lectrosonics.com/product/hma/",
-      "retrieved": "2026-07-27",
-      "tier": "primary"
-    },
     "LECSRC": {
       "title": "Lectrosonics SRc / SRc5P receiver technical data",
       "url": "https://lectrosonics.com/wp-content/uploads/filr/3380/SRc5P_SRc_td.pdf",
@@ -158,12 +146,6 @@
       "retrieved": "2026-10-14",
       "tier": "primary"
     },
-    "LDU505": {
-      "title": "LD Systems U505 HHD product page",
-      "url": "https://www.ld-systems.com/en/solutions/dj-musician/applications/bands/4496/u505-hhd",
-      "retrieved": "2026-07-27",
-      "tier": "primary"
-    },
     "LDU518": {
       "title": "LD Systems U518 HHC product page",
       "url": "https://www.ld-systems.com/en/solutions/dj-musician/wireless-microphones/wireless-systems-with-handheld/14372/u518-hhc",
@@ -174,12 +156,6 @@
       "title": "LD Systems MEI 1000 G2 series page; band 5 per the 'Frequency List MEI Series' D005234/D005233 supplied by the owner 2026-10-08",
       "url": "https://www.ld-systems.com/en/series/mei-1000-g2-series/",
       "retrieved": "2026-07-27",
-      "tier": "primary"
-    },
-    "LDU305": {
-      "title": "LD Systems U305 IEM product page",
-      "url": "https://www.ld-systems.com/en/u305-iem-ldu305iem",
-      "retrieved": "2026-10-14",
       "tier": "primary"
     },
     "LDU306": {
@@ -212,36 +188,6 @@
       "retrieved": "2026-10-14",
       "tier": "primary"
     },
-    "AT3000": {
-      "title": "Audio-Technica ATW-3211 (3000 Series, 4th generation) dealer listing",
-      "url": "https://www.soundseasy.com.au/products/audio-technica-atw-3211-fourth-generation-3000-series-wireless-system",
-      "retrieved": "2026-10-14",
-      "tier": "dealer"
-    },
-    "AT3255": {
-      "title": "Audio-Technica ATW-3255 dealer listing (Markertek)",
-      "url": "https://www.markertek.com/product/atw-3255df2/audio-technica-atw-3255-3000-series-wireless-in-ear-monitor-system",
-      "retrieved": "2026-10-14",
-      "tier": "dealer"
-    },
-    "AT5000": {
-      "title": "Audio-Technica ATW-T5201 DE1 dealer listing (Athens Pro Audio)",
-      "url": "https://www.athensproaudio.gr/en/audio-technica-atw-t5201-de1.html",
-      "retrieved": "2026-10-14",
-      "tier": "dealer"
-    },
-    "AKG7": {
-      "title": "AKG WMS4500 band-set listing (B&H Photo, AKG band-set SKU) — BD7",
-      "url": "https://www.bhphotovideo.com/c/product/985015-REG",
-      "retrieved": "2026-07-27",
-      "tier": "dealer"
-    },
-    "AKG8": {
-      "title": "AKG WMS4500 band-set listing (B&H Photo, AKG band-set SKU) — BD8",
-      "url": "https://www.bhphotovideo.com/c/product/985010-REG",
-      "retrieved": "2026-07-27",
-      "tier": "dealer"
-    },
     "SONY": {
       "title": "Sony URX-P03D datasheet (hosted by Full Compass)",
       "url": "https://www.fullcompass.com/common/files/34027-SonyURXP03DDatasheet.pdf",
@@ -253,12 +199,6 @@
       "url": "https://www.la-bs.com/Objets/TG-1000B_dc.pdf",
       "retrieved": "2026-10-14",
       "tier": "primary"
-    },
-    "RODE": {
-      "title": "Rode Wireless GO II listing (B&H Photo)",
-      "url": "https://www.bhphotovideo.com/c/product/1622642-REG/rode_wigoii_wireless_go_ii_compact.html",
-      "retrieved": "2026-07-27",
-      "tier": "dealer"
     },
     "XSWSHEET_A": {
       "title": "Sennheiser XS Wireless frequency sheet Range_A_XS_WIRELESS_1_2_02_2017.pdf (Publ. 02/17, 571317/A02)",
@@ -319,6 +259,588 @@
       "url": "https://www.sennheiser.com/globalassets/digizuite/40913-en-ew_100_g4_g_range_frequency_sheet_01_2018.pdf",
       "retrieved": "2026-08-29",
       "tier": "primary"
+    },
+    "SHURE_AD4Q": {
+      "title": "Shure AD4D/AD4Q Axient Digital receiver user guide",
+      "url": "https://pubs.shure.com/view/guide/AD4Q/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_ULXD_GUIDE": {
+      "title": "Shure ULX-D user guide",
+      "url": "https://pubs.shure.com/view/guide/ULXD/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_SLXD_GUIDE": {
+      "title": "Shure SLX-D user guide",
+      "url": "https://pubs.shure.com/view/guide/SLXD/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_BLX_GUIDE": {
+      "title": "Shure BLX user guide",
+      "url": "https://pubs.shure.com/view/guide/BLX/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "XSW1SPEC": {
+      "title": "Sennheiser XS Wireless 1 specifications and compliance (08/2018)",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/41959-en-xsw1_specifications_compliance_08_2018.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "XSWSHEET_C2": {
+      "title": "Sennheiser XS Wireless 1/2 Range C frequency sheet (02/2017)",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/41247-en-range_c_xs_wireless_1_2__02_2017.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AT3000_EU_UM": {
+      "title": "Audio-Technica 3000 Series user manual, EU (232416960 V1)",
+      "url": "https://docs.audio-technica.com/eu/Wireless3000_UM_232416960_V1_EN_web_180426.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AT5000_EU_UM": {
+      "title": "Audio-Technica 5000 Series user manual, EU (232417000 V1)",
+      "url": "https://docs.audio-technica.com/eu/Wireless5000_UM_232417000_V1_EN_web_180917.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AT_CATALOG_2020": {
+      "title": "Audio-Technica Wireless Systems Catalog 2020 (L00096 ENG V1.0)",
+      "url": "https://www.audio-technica.com/uploads/Wireless-_Catalog_2020-L00096-ENG_V1.0_web.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AT3000_IEM_UM": {
+      "title": "Audio-Technica 3000 Series In-Ear Monitor System user manual",
+      "url": "https://docs.audio-technica.com/all/3000-series-IEM-UM-EN.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_WMS4500": {
+      "title": "AKG WMS4500 cutsheet (band plan as AKG WMS470 / IVM4500 cutsheets)",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwdc6727c3/pdfs/AKG_WMS4500_Cutsheet.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LECHMA_TD": {
+      "title": "Lectrosonics HMa technical data",
+      "url": "https://lectrosonics.com/wp-content/uploads/filr/3321/HMa_td_ALL.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LINE6_RELAY": {
+      "title": "Line 6 Relay family spec sheet",
+      "url": "https://line6.com/data/6/0a020a3fbff95f43e6dba65f2/application/pdf/",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "XVIVE_U45": {
+      "title": "Xvive U45 user manual",
+      "url": "https://eadn-wc04-3257698.nxedge.io/audio/wp-content/uploads/sites/2/2025/03/U45-User-Manual-eng.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "NUX_B7PRO": {
+      "title": "NUX B-7 PRO product page",
+      "url": "https://nuxaudio.com/product/b7pro/",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "MIPRO_MI58": {
+      "title": "Mipro MI-58T product page",
+      "url": "https://www.mipro.com.tw/en/product/iem-systems/mi-58-series/MI-58T",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "RODE_GOII": {
+      "title": "RØDE Wireless GO II product page",
+      "url": "https://rode.com/en/microphones/wireless/wireless-go-ii",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_U500_FREQLIST": {
+      "title": "LD Systems U500 frequency list (D005329)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article-series/download/f94a0c3f-e93d-4131-a53d-200d2bf12a19",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_MEI_FREQLIST": {
+      "title": "LD Systems MEI 1000 G2 frequency list (D005233)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article-series/download/311702d4-1a0a-4046-9b2b-130bd1797a02",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_U500IEM_FREQLIST": {
+      "title": "LD Systems U500 IEM frequency list (D005325)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article-series/download/5ab82404-77b0-4962-ac66-f700d00e5c16",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_AXIENT_DIGITAL_AD_ADX": {
+      "title": "Shure ADX1 user guide",
+      "url": "https://pubs.shure.com/view/guide/ADX1/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_SLXD": {
+      "title": "Shure SLXD4+/SLXD4D+ user guide",
+      "url": "https://pubs.shure.com/view/guide/SLXD4Plus/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_AXIENT_DIGITAL_PSM": {
+      "title": "Shure Axient Digital PSM user guide",
+      "url": "https://pubs.shure.com/view/guide/ADPSM/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_UHF_R_UR": {
+      "title": "Shure UHF-R user guide (German/EU edition, 27EU8849C)",
+      "url": "https://pubs.shure.com/view/guide/UHF-R/de-DE.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_ULX": {
+      "title": "Shure ULX user guide",
+      "url": "https://pubs.shure.com/view/guide/ULX/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_SLX": {
+      "title": "Shure SLX user guide",
+      "url": "https://pubs.shure.com/view/guide/SLX/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_GLX_D_GLX_D_NOTE": {
+      "title": "Shure GLXD4 user guide",
+      "url": "https://pubs.shure.com/view/guide/GLXD4/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SHURE_MICROFLEX_WIRELESS_MXW": {
+      "title": "Shure MXW user guide; MXW neXt user guide",
+      "url": "https://pubs.shure.com/view/guide/MXW/en-US.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SENNHEISER_EW_DX": {
+      "title": "EW-DX system drawings Rev 1.0 (2 to 32 channel)",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/43667-en-ew-dx_system_drawings_rev_1_0_02_to_32-channel.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SENNHEISER_2000_SERIES_SKM_S": {
+      "title": "2000 series specifications (03/2019)",
+      "url": "https://assets.sennheiser.com/download/assets/2000er_Specifications_03_2019.pdf/68790c24e7b411f08c892a34179bc91d?attachment=true",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SENNHEISER_XS_WIRELESS_IEM": {
+      "title": "XS Wireless IEM Set product specification v1.0",
+      "url": "https://www.sennheiser.com/globalassets/digizuite/41850-en-sp_1351_v1.0_xs_wireless_iem_set_en.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SENNHEISER_SKM_5200_II_SK_52": {
+      "title": "SKM 5200-II Bedienungsanleitung (DE)",
+      "url": "https://assets.sennheiser.com/download/assets/SKM_5200-II_542645_1110_DE_INT.pdf/903537b6e7b811f0afd1ea55b5d2fb86?attachment=true",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SENNHEISER_SPEECHLINE_DIGITA": {
+      "title": "SpeechLine Digital Wireless Handheld Set product specification v2.0",
+      "url": "https://sennheiser.com/globalassets/digizuite/41346-en-sl_handheld_set_product_specification_v2.0_es.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SENNHEISER_XS_WIRELESS_DIGIT": {
+      "title": "XSW-D safety instructions, specifications and manufacturer declarations (07/2025)",
+      "url": "https://assets.sennheiser.com/download/assets/XSW-D_Safety_Instructions_Specifications_Manufacturer_Declarations_07_2025.pdf/da6e73c6e7bb11f099e27aeaa9c3764a?attachment=true",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_DMS800": {
+      "title": "AKG DMS800 Spec Sheet + DMS800 Addendum v1.2 (9 Oct 2020)",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw99912afa/pdfs/DMS800_2020_Addendum_v1.2.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_DMS800_2": {
+      "title": "AKG DMS800 Spec Sheet",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw99912afa/pdfs/AKG-DMS800-Spec-Sheet.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_WMS_470": {
+      "title": "AKG WMS470 Cutsheet",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw5b5096e6/pdfs/AKG_WMS470_Cutsheet.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_WMS_420": {
+      "title": "AKG WMS420 Cutsheet",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw99912afa/pdfs/AKG_WMS420_Cutsheet.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_IVM_4500_SST_4500_IEM": {
+      "title": "AKG IVM4500 Cutsheet",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw46647adb/pdfs/AKG_IVM4500_Cutsheet.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "AKG_DMS_100_DMS_300_NOTE": {
+      "title": "AKG DMS300 Microphone Spec Sheet (9-16-19)",
+      "url": "https://www.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8a17a01d/pdfs/AKG_DMS300_Microphone_Spec_Sheet_9-16-19.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LECTROSONICS_DUET_M2T_M2R": {
+      "title": "Lectrosonics M2T-X technical data sheet",
+      "url": "https://lectrosonics.com/wp-content/uploads/filr/3423/M2T-X_td.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_71": {
+      "title": "Phenyx Pro PTU-71/7000/6000 User Manual (English)",
+      "url": "https://cdn.shopify.com/s/files/1/0257/7448/9660/files/PTU-71-7000-6000_User_Manual-English.pdf?v=1739850053",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_7000": {
+      "title": "Phenyx Pro PTU-7000 product page",
+      "url": "https://phenyxpro.com/products/ptu-7000",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_2U_PTU_1U": {
+      "title": "Phenyx Pro PTU-1U/PTU-2U product page",
+      "url": "https://phenyxpro.com/products/ptu-2u",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTAU_2": {
+      "title": "Phenyx Pro PTAU-2 product page",
+      "url": "https://phenyxpro.com/products/ptau-2-2h",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTI_2": {
+      "title": "Phenyx Pro PTI-2 product page",
+      "url": "https://phenyxpro.com/products/pti-2",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTC_4_PTC_8_CONFE": {
+      "title": "Phenyx Pro PTC-8 product page",
+      "url": "https://phenyxpro.com/products/ptc-8",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_52_PTU_5200_P": {
+      "title": "Phenyx Pro PTU-52/5200/4200 User Manual V1.1",
+      "url": "https://cdn.shopify.com/s/files/1/0257/7448/9660/files/PTU-52-5200-4200_User_Manual-V1.1-250724.pdf?v=1753669974",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_5000_PTU_4000": {
+      "title": "Phenyx Pro PTU-5000 product page",
+      "url": "https://phenyxpro.com/products/ptu-5000",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_4000_900_MHZ_": {
+      "title": "Phenyx Pro PTU-4000 product page",
+      "url": "https://phenyxpro.com/products/ptu-4000-8h",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTU_X_PLUG_ON": {
+      "title": "Phenyx Pro PTU-X product page",
+      "url": "https://phenyxpro.com/products/ptu-x",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTV_2000_VHF": {
+      "title": "Phenyx Pro PTV-2000 product page",
+      "url": "https://phenyxpro.com/products/ptv-2000",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PDP_1_PDP_2_DIGIT": {
+      "title": "Phenyx Pro PDP-1 product page",
+      "url": "https://phenyxpro.com/products/pdp-1",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PDP_M_DIGITAL_IEM": {
+      "title": "Phenyx Pro PDP-M product page",
+      "url": "https://phenyxpro.com/products/pdp-m",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTM_10_GEN_1": {
+      "title": "Phenyx Pro PTM-10 product page",
+      "url": "https://phenyxpro.com/products/ptm-10",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTM_10_GEN_2_PTM_": {
+      "title": "Phenyx Pro PTM-10 Gen 2 product page + PTM-10/PTM-20 User Manual V1.1",
+      "url": "https://phenyxpro.com/products/ptm-10-gen2",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTM_11_MONO_IEM": {
+      "title": "Phenyx Pro PTM-11 product page",
+      "url": "https://phenyxpro.com/products/ptm-11",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTM_22_MONO_IEM": {
+      "title": "Phenyx Pro PTM-22 product page",
+      "url": "https://phenyxpro.com/products/ptm-22",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTM_33_MONO_IEM": {
+      "title": "Phenyx Pro PTM-33 product page",
+      "url": "https://phenyxpro.com/products/ptm-33-4b",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "THE_T_BONE_FREE_SOLO_FREE_SO": {
+      "title": "the t.bone free solo Twin manual V8 (Thomann house brand)",
+      "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/380952_etc_v8_de_online.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "THE_T_BONE_FREE_SOLO_FREE_SO_2": {
+      "title": "the t.bone free solo frequency list V2 (2025-07-24)",
+      "url": "https://images.thomann.de/pics/atg/atgdata/document/info/323202_380952_etc_296199_etc_frequency_list.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "THE_T_BONE_FREEU_TWIN_HT_PT": {
+      "title": "the t.bone freeU Twin HT/PT manual V7 (EN)",
+      "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/432864_c_432864_432866_432869_432870_v7_en_online.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "THE_T_BONE_FREE_300_HT_PT": {
+      "title": "the t.bone free 300 HT/PT 823/548 manual (EN)",
+      "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/613183_613184_613185_613186_en_online.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "ALTO_PROFESSIONAL_STEALTH_WI": {
+      "title": "Alto Stealth Wireless MKII User Guide v1.4",
+      "url": "https://www.altoprofessional.com/downloads/Stealth_Wireless_mk2_-_User_Guide_-_v1.4.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "WISYCOM_MTP60_MTP61": {
+      "title": "Wisycom MTP60 user manual (MTP60-en-u07) + MTP61 user manual (MTP61-en-u02)",
+      "url": "https://wisycom.com/app/uploads/2024/03/MTP60-en-u07.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "WISYCOM_MTP40S": {
+      "title": "Wisycom MTP40S user manual (MTP40S-en-u09-A5)",
+      "url": "https://wisycom.com/app/uploads/2024/10/MTP40S-en-u09-A5.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "WISYCOM_MPR50_IEM": {
+      "title": "Wisycom MPR50-IEM brochure (MPR50_IEM-en-b05)",
+      "url": "https://wisycom.com/app/uploads/2023/04/MPR50_IEM-en-b05.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "WISYCOM_MTK982": {
+      "title": "Wisycom MTK982 user manual (MTK982_en-u11-A5)",
+      "url": "https://wisycom.com/app/uploads/MTK982_en-u11-A5.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "WISYCOM_MCR54": {
+      "title": "Wisycom MCR54 brochure (MCR54-en-b18)",
+      "url": "https://wisycom.com/app/uploads/MCR54-en-b18.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "WISYCOM_MRK980": {
+      "title": "Wisycom MRK980 brochure (MRK980-en-b12)",
+      "url": "https://wisycom.com/app/uploads/MRK980-en-b12.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SOUND_DEVICES_A20_MINI_SPECT": {
+      "title": "Sound Devices A20-Mini User Guide v6.00 (manufacturer document, hosted by German distributor Ambient)",
+      "url": "https://ambient.de/media/pdf/57/ce/cc/A20-Mini-v6-00-User-Guide.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "ZAXCOM_ZMT4": {
+      "title": "Zaxcom ZMT4 product page",
+      "url": "https://zaxcom.com/product/zmt4/",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "ZAXCOM_ZMT4_X": {
+      "title": "Zaxcom ZMT4-X product page",
+      "url": "https://zaxcom.com/product/zmt4-x/",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "MIPRO_MI_909_MI_909T_MI_909R": {
+      "title": "Mipro MI-909T datasheet",
+      "url": "https://www.mipro.com.tw/upload/2026_10_19/7_20261019152351kmo7snWLk4.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "ELECTRO_VOICE_RE3": {
+      "title": "Electro-Voice RE3 UHF Wireless user manual (F01U362808)",
+      "url": "https://products.electrovoice.com/binary/F01U362808_EN.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "RTS_TELEX_BTR_800_TR_800_WIR": {
+      "title": "RTS BTR-800 Technical Data Sheet",
+      "url": "https://products.rtsintercoms.com/download/97107",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "CLEAR_COM_FREESPEAK_II_1_9_G": {
+      "title": "Clear-Com knowledge base: What part of the 1.9 GHz band does FreeSpeak II utilize?",
+      "url": "https://clear-com.atlassian.net/wiki/spaces/SF/pages/158813296/Wireless+What+part+of+the+1.9+GHz+band+does+Freespeak+II+utilize",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "CLEAR_COM_FREESPEAK_EDGE_5_G": {
+      "title": "Clear-Com FreeSpeak Edge RF Guide",
+      "url": "https://clear-com.atlassian.net/wiki/rest/api/content/715685926/child/attachment/att715555134/download",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "RIEDEL_BOLERO": {
+      "title": "Riedel BOLERO brochure (EN, v2)",
+      "url": "https://www.riedel.net/wp-json/riedel-downloads/v1/asset/ad8d0fb7-278c-45d0-a1fa-b51f5ef4614a?language=en",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LUMENRADIO_CRMX_WIRELESS_DMX": {
+      "title": "LumenRadio CRMX Slim specifications",
+      "url": "https://lumenradio.com/support-materials/crmx-slim-specifications",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_SYSTEMS_U506_CS4_CONFEREN": {
+      "title": "LD Systems U506 CS4 product page",
+      "url": "https://www.ld-systems.com/en/u506-cs-4-ldu506cs4",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_SYSTEMS_U305": {
+      "title": "LD Systems U300 frequency list (D005310)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article-series/download/471be631-9b9d-4546-bc19-a05148cb49bc",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_SYSTEMS_ANNY_WIRELESS_MOD": {
+      "title": "LD Systems ANNY 10 frequency list (D005784)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article/download/bb9d2811-38ca-4282-b598-724f93287cf0",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_SYSTEMS_MEI_1000_G2": {
+      "title": "LD Systems MEI 100 G2 / MEI 1000 G2 frequency list (D005233)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article-series/download/3e886d53-13ba-49e4-ba01-af8b14c992dc",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_SYSTEMS_WIN_42": {
+      "title": "LD Systems WIN 42 frequency list (D005364)",
+      "url": "https://portal.adamhall.com/api/downloadcenter/article-series/download/b6ff98ca-60c9-416c-b8f3-8a10aaa4f153",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "LD_SYSTEMS_SWEET_SIXTEEN": {
+      "title": "Adam Hall shop: LD Systems Sweet SixTeen (LDWS1616BPH)",
+      "url": "https://www.adamhall.com/shop/pl-pl/4738/sweet-sixteen",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "JTS_RU_8011D_RU_8011DB_RU_99": {
+      "title": "JTS RU-8011D(T) system page",
+      "url": "https://www.jts.com.tw/english/products/detail.php?fid=1&subid=6&pid=133",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SAMSON_CONCERT_88X": {
+      "title": "Samson Concert 88x owner's manual (5-language, v4)",
+      "url": "https://storage.googleapis.com/samson-production/uploads/documents/Concert88x_OM_5L_v4.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SAMSON_CONCERT_99": {
+      "title": "Samson Concert 99 owner's manual (5-language, V4)",
+      "url": "https://storage.googleapis.com/samson-production/uploads/documents/Concert99_OM_5L_V4.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SAMSON_CONCERT_88_CONCERT_28": {
+      "title": "Samson Concert 288m owner's manual (EN v1.2)",
+      "url": "https://storage.googleapis.com/samson-production/uploads/documents/Concert288M_OM_EN_V1.2.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "SAMSON_AIRLINE_MICRO_AWXM": {
+      "title": "Samson AirLine AWXm owner's manual (5-language, v3)",
+      "url": "https://storage.googleapis.com/samson-production/uploads/documents/AWXm_OM_5L_v3.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "ELECTRO_VOICE_R300": {
+      "title": "Electro-Voice R300 HD product page",
+      "url": "https://products.electrovoice.com/na/en/r300-hd",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "BEHRINGER_ULM_NOTE": {
+      "title": "Behringer ULM300MIC product page",
+      "url": "https://www.behringer.com/en/products/0508-AAP",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "XVIVE_U2_U3_U5_NOTE": {
+      "title": "Xvive U3 user manual",
+      "url": "https://xvive.com/audio/wp-content/uploads/sites/2/2021/04/Xvive_U3_MANUAL_EN_V3.pdf",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "BOSS_WL_20_WL_20L_WL_50_NOTE": {
+      "title": "BOSS WL-20/WL-20L specifications",
+      "url": "https://www.boss.info/us/products/wl-20_wl-20l/specifications/",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "DJI_HOLLYLAND_SARAMONIC_CREA": {
+      "title": "DJI Mic 2 specs",
+      "url": "https://www.dji.com/mic-2/specs",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
+    },
+    "PHENYX_PRO_PTM_10_GEN_2": {
+      "title": "Phenyx Pro PTM-10 Gen 2 frequency table",
+      "url": "https://cdn.shopify.com/s/files/1/0257/7448/9660/files/PTM-10-PTM-20_User_Manual-V1.1-20260915_8d3c2b49-76b2-42c2-801b-571fe5a89795.pdf?v=1791950717",
+      "retrieved": "2026-10-23",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -329,7 +851,7 @@
       "freqStart": 470,
       "freqEnd": 534,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "ULXD",
       "note": "Shared band designation for ULXD and QLXD."
@@ -341,7 +863,7 @@
       "freqStart": 534,
       "freqEnd": 598,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "ULXD",
       "note": null
@@ -353,10 +875,10 @@
       "freqStart": 534,
       "freqEnd": 598,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
-      "note": "QLX-D band."
+      "note": "ULX-D and QLX-D EU band."
     },
     {
       "brand": "Shure",
@@ -365,7 +887,7 @@
       "freqStart": 572,
       "freqEnd": 636,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
       "note": "QLX-D band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
@@ -377,10 +899,19 @@
       "freqStart": 572,
       "freqEnd": 616,
       "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": "ULXD",
-      "note": "Overlaps H50 (534–598) at 572–598 MHz."
+      "stepKhz": 25,
+      "segments": [
+        [
+          572,
+          608
+        ],
+        [
+          614,
+          616
+        ]
+      ],
+      "source": "SHURE_ULXD_GUIDE",
+      "note": "US band: 608–614 MHz (TV 37) is skipped; 614–616 MHz at 10 mW max. Not an EU band."
     },
     {
       "brand": "Shure",
@@ -389,10 +920,10 @@
       "freqStart": 572,
       "freqEnd": 636,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "ULXD",
-      "note": "ULX-D band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+      "note": "ULX-D and QLX-D band. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
     },
     {
       "brand": "Shure",
@@ -401,10 +932,10 @@
       "freqStart": 606,
       "freqEnd": 670,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
-      "note": "QLX-D band."
+      "note": "ULX-D and QLX-D EU band."
     },
     {
       "brand": "Shure",
@@ -413,7 +944,7 @@
       "freqStart": 606,
       "freqEnd": 670,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
       "note": "QLX-D, European country table."
@@ -425,10 +956,10 @@
       "freqStart": 632,
       "freqEnd": 696,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
-      "note": "QLX-D band. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+      "note": "ULX-D and QLX-D band. The top 694–696 MHz is in the 700 MHz mobile band (698 in DE)."
     },
     {
       "brand": "Shure",
@@ -437,10 +968,10 @@
       "freqStart": 632,
       "freqEnd": 696,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
-      "note": "QLX-D band. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+      "note": "ULX-D and QLX-D band. The top 694–696 MHz is in the 700 MHz mobile band (698 in DE)."
     },
     {
       "brand": "Shure",
@@ -449,10 +980,10 @@
       "freqStart": 632,
       "freqEnd": 694,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "QLXD",
-      "note": "QLX-D, European country table."
+      "note": "ULX-D and QLX-D EU band; ends exactly at 694 MHz."
     },
     {
       "brand": "Shure",
@@ -461,7 +992,7 @@
       "freqStart": 632,
       "freqEnd": 714,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "ULXD",
       "note": "ULX-D band. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
@@ -473,7 +1004,7 @@
       "freqStart": 823,
       "freqEnd": 865,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": [
         [
           823,
@@ -485,7 +1016,19 @@
         ]
       ],
       "source": "QLXD",
-      "note": "QLX-D, Europe: 823–832 MHz and 863–865 MHz (licence-free in DE). 832–862 MHz is the 800 MHz mobile uplink. Outside the 470–700 MHz scan window."
+      "note": "ULX-D and QLX-D, Europe: 823–832 MHz and 863–865 MHz (license-free in DE). 832–862 MHz is the 800 MHz mobile uplink. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULXD / QLXD",
+      "band": "G51",
+      "freqStart": 470,
+      "freqEnd": 534,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_ULXD_GUIDE",
+      "note": "ULX-D and QLX-D EU band (Shure's European country table)."
     },
     {
       "brand": "Shure",
@@ -494,7 +1037,7 @@
       "freqStart": 470,
       "freqEnd": 514,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -506,7 +1049,7 @@
       "freqStart": 470,
       "freqEnd": 514,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -518,7 +1061,7 @@
       "freqStart": 514,
       "freqEnd": 558,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -530,7 +1073,7 @@
       "freqStart": 518,
       "freqEnd": 562,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -542,7 +1085,7 @@
       "freqStart": 520,
       "freqEnd": 564,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -554,10 +1097,19 @@
       "freqStart": 558,
       "freqEnd": 616,
       "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": "SLXD",
-      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+      "stepKhz": 25,
+      "segments": [
+        [
+          558,
+          602
+        ],
+        [
+          614,
+          616
+        ]
+      ],
+      "source": "SHURE_SLXD_GUIDE",
+      "note": "US band: tunes 558–602 and 614–616 MHz only (US 600 MHz auction). Not an EU band."
     },
     {
       "brand": "Shure",
@@ -566,7 +1118,7 @@
       "freqStart": 562,
       "freqEnd": 606,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -578,7 +1130,7 @@
       "freqStart": 562,
       "freqEnd": 606,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -590,7 +1142,7 @@
       "freqStart": 606,
       "freqEnd": 650,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
@@ -602,7 +1154,7 @@
       "freqStart": 646,
       "freqEnd": 690,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -614,7 +1166,7 @@
       "freqStart": 650,
       "freqEnd": 694,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -626,7 +1178,7 @@
       "freqStart": 650,
       "freqEnd": 694,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -638,7 +1190,7 @@
       "freqStart": 630,
       "freqEnd": 674,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": null
@@ -650,7 +1202,7 @@
       "freqStart": 654,
       "freqEnd": 698,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "SLXD",
       "note": "Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
@@ -662,7 +1214,7 @@
       "freqStart": 823,
       "freqEnd": 865,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": [
         [
           823,
@@ -678,99 +1230,175 @@
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "SLXD",
+      "band": "G60",
+      "freqStart": 470,
+      "freqEnd": 510,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_SLXD_GUIDE",
+      "note": "EU band (Shure's European country table)."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (AD / ADX)",
       "band": "G55",
       "freqStart": 470,
       "freqEnd": 636,
       "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": "AD",
+      "stepKhz": 25,
+      "segments": [
+        [
+          470,
+          608
+        ],
+        [
+          614,
+          636
+        ]
+      ],
+      "source": "SHURE_AD4Q",
       "note": null
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "G56",
       "freqStart": 470,
       "freqEnd": 636,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "AD",
       "note": null
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "G57",
       "freqStart": 470,
       "freqEnd": 616,
       "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": "AD",
-      "note": null
+      "stepKhz": 25,
+      "segments": [
+        [
+          470,
+          608
+        ],
+        [
+          614,
+          616
+        ]
+      ],
+      "source": "SHURE_AD4Q",
+      "note": "US band. 608–614 MHz is skipped; 614–616 MHz only as G57+ (10 mW). Not an EU band."
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "H54",
       "freqStart": 520,
       "freqEnd": 636,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "AD",
       "note": null
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "K53",
       "freqStart": 606,
       "freqEnd": 698,
       "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": "AD",
+      "stepKhz": 25,
+      "segments": [
+        [
+          606,
+          608
+        ],
+        [
+          614,
+          698
+        ]
+      ],
+      "source": "SHURE_AD4Q",
       "note": "Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "K54",
       "freqStart": 606,
       "freqEnd": 663,
       "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": "AD",
+      "stepKhz": 25,
+      "segments": [
+        [
+          606,
+          608
+        ],
+        [
+          614,
+          616
+        ],
+        [
+          653,
+          663
+        ]
+      ],
+      "source": "SHURE_AD4Q",
       "note": null
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "K55",
       "freqStart": 606,
       "freqEnd": 694,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "AD",
       "note": "Upper edge at the 694 MHz mobile boundary (698 in DE)."
     },
     {
       "brand": "Shure",
-      "series": "Axient Digital (ADX / AXT)",
+      "series": "Axient Digital (AD / ADX)",
       "band": "K58",
       "freqStart": 622,
       "freqEnd": 698,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
       "source": "AD",
       "note": "Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (AD / ADX)",
+      "band": "G53",
+      "freqStart": 470,
+      "freqEnd": 510,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_AXIENT_DIGITAL_AD_ADX",
+      "note": "EU band (Shure's European country table)."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital (AD / ADX)",
+      "band": "G54",
+      "freqStart": 479,
+      "freqEnd": 565,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_AXIENT_DIGITAL_AD_ADX",
+      "note": "EU band (Shure's European country table)."
     },
     {
       "brand": "Shure",
@@ -782,7 +1410,19 @@
       "stepKhz": null,
       "segments": null,
       "source": "PGX",
-      "note": "Discontinued analogue system. EU band J6."
+      "note": "Discontinued analog system. Shure's guide gives no region for J6; the EU band is K5E (606–630)."
+    },
+    {
+      "brand": "Shure",
+      "series": "PGX",
+      "band": "K5E",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PGX",
+      "note": "Discontinued analog system. E-suffix band, 10 mW."
     },
     {
       "brand": "Shure",
@@ -794,7 +1434,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "BLX",
-      "note": "EU common band."
+      "note": "Same range as the EU variant H8E (518–542 MHz)."
     },
     {
       "brand": "Shure",
@@ -865,7 +1505,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "BLX",
+      "source": "SHURE_BLX_GUIDE",
       "note": "EU primary BLX band (K3E = European)."
     },
     {
@@ -906,6 +1546,42 @@
     },
     {
       "brand": "Shure",
+      "series": "BLX",
+      "band": "H8E",
+      "freqStart": 518,
+      "freqEnd": 542,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_BLX_GUIDE",
+      "note": "EU variant of H8."
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "H10E",
+      "freqStart": 542,
+      "freqEnd": 572,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_BLX_GUIDE",
+      "note": "EU variant of H10."
+    },
+    {
+      "brand": "Shure",
+      "series": "BLX",
+      "band": "T11",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_BLX_GUIDE",
+      "note": "License-free EU SRD band. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
       "series": "PSM (300 / 900 / 1000)",
       "band": "PSM300 K3E (606–630)",
       "freqStart": 606,
@@ -943,14 +1619,14 @@
     {
       "brand": "Shure",
       "series": "PSM (300 / 900 / 1000)",
-      "band": "PSM900/1000 K1E (596–632)",
+      "band": "PSM900 K1E (596–632)",
       "freqStart": 596,
       "freqEnd": 632,
       "deviceType": "iem",
       "stepKhz": null,
       "segments": null,
       "source": "PSM900DS",
-      "note": "PSM 900/1000 IEM transmitter. EU band K1E."
+      "note": "PSM 900 (P9T) IEM transmitter. EU band K1E."
     },
     {
       "brand": "Shure",
@@ -974,7 +1650,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "PSM300",
-      "note": "PSM 300 IEM transmitter. Licence-free in DE and several EU countries (823–832 MHz duplex gap). Outside the 470–700 MHz scan window."
+      "note": "PSM 300 IEM transmitter. License-free in DE and several EU countries (823–832 MHz duplex gap). Outside the 470–700 MHz scan window."
     },
     {
       "brand": "Shure",
@@ -986,11 +1662,380 @@
       "stepKhz": null,
       "segments": null,
       "source": "PSM300",
-      "note": "PSM 300 IEM transmitter. Licence-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+      "note": "PSM 300 IEM transmitter. License-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM300 H8E (518–542)",
+      "freqStart": 518,
+      "freqEnd": 542,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM300",
+      "note": "PSM 300 (P3T) IEM transmitter. EU band H8E, 10 mW."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM900 G7E (506–542)",
+      "freqStart": 506,
+      "freqEnd": 542,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM900",
+      "note": "PSM 900 (P9T) IEM transmitter. EU band G7E."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM900 L6E (656–692)",
+      "freqStart": 656,
+      "freqEnd": 692,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM900",
+      "note": "PSM 900 (P9T) IEM transmitter. EU band L6E."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM1000 J8E (554–626)",
+      "freqStart": 554,
+      "freqEnd": 626,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM1000",
+      "note": "PSM 1000 (P10T) IEM transmitter. EU band J8E. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM1000 K10E (596–668)",
+      "freqStart": 596,
+      "freqEnd": 668,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM1000",
+      "note": "PSM 1000 (P10T) IEM transmitter. EU band K10E, 10 mW."
+    },
+    {
+      "brand": "Shure",
+      "series": "PSM (300 / 900 / 1000)",
+      "band": "PSM1000 L9E (670–742)",
+      "freqStart": 670,
+      "freqEnd": 742,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PSM1000",
+      "note": "PSM 1000 (P10T) IEM transmitter. EU band L9E. Above 694 MHz (698 in DE) is the 700 MHz mobile band; only 670–694 is usable."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD+",
+      "band": "G60",
+      "freqStart": 470,
+      "freqEnd": 510,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_SLXD",
+      "note": "SLX-D+ EU band."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD+",
+      "band": "G65",
+      "freqStart": 470,
+      "freqEnd": 606,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_SLXD",
+      "note": "SLX-D+ EU band. 608–614 MHz is outside the band."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD+",
+      "band": "K55",
+      "freqStart": 606,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_SLXD",
+      "note": "SLX-D+ EU band. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLXD+",
+      "band": "S50",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "SHURE_SLXD",
+      "note": "Two ranges: 823–832 MHz and 863–865 MHz. 832–862 MHz is the 800 MHz mobile uplink. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital PSM",
+      "band": "G56",
+      "freqStart": 470,
+      "freqEnd": 636,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_AXIENT_DIGITAL_PSM",
+      "note": "ADTD/ADTQ IEM transmitter, ADXR receiver. EU band."
+    },
+    {
+      "brand": "Shure",
+      "series": "Axient Digital PSM",
+      "band": "K55",
+      "freqStart": 606,
+      "freqEnd": 694,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_AXIENT_DIGITAL_PSM",
+      "note": "ADTD/ADTQ IEM transmitter, ADXR receiver. EU band. Upper edge at the 694 MHz mobile boundary (698 in DE)."
+    },
+    {
+      "brand": "Shure",
+      "series": "UHF-R (UR)",
+      "band": "H4E",
+      "freqStart": 518,
+      "freqEnd": 578,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_UHF_R_UR",
+      "note": "Discontinued analog flagship, still common in rental stock. EU band H4E."
+    },
+    {
+      "brand": "Shure",
+      "series": "UHF-R (UR)",
+      "band": "J5E",
+      "freqStart": 578,
+      "freqEnd": 638,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_UHF_R_UR",
+      "note": "EU band J5E. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "UHF-R (UR)",
+      "band": "L3E",
+      "freqStart": 638,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_UHF_R_UR",
+      "note": "EU band L3E. Above 694 MHz (698 in DE) is the 700 MHz mobile band."
+    },
+    {
+      "brand": "Shure",
+      "series": "UHF-R (UR)",
+      "band": "R9",
+      "freqStart": 790,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SHURE_UHF_R_UR",
+      "note": "Only 823–832 and 863–865 MHz are usable in DE today; 790–821 MHz and 832–862 MHz are LTE 800. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULX",
+      "band": "G3E",
+      "freqStart": 470,
+      "freqEnd": 506,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_ULX",
+      "note": "Discontinued analog system. EU band G3E."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULX",
+      "band": "J2",
+      "freqStart": 554,
+      "freqEnd": 590,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_ULX",
+      "note": "Discontinued analog system. EU band (D listed)."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULX",
+      "band": "K2E",
+      "freqStart": 606,
+      "freqEnd": 642,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_ULX",
+      "note": "Discontinued analog system. EU band K2E. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULX",
+      "band": "M2",
+      "freqStart": 662,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_ULX",
+      "note": "Discontinued analog system. Above 694 MHz (698 in DE) is the 700 MHz mobile band."
+    },
+    {
+      "brand": "Shure",
+      "series": "ULX",
+      "band": "S3",
+      "freqStart": 829,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_ULX",
+      "note": "Discontinued analog system. Only 829–832 and 863–865 MHz are usable in DE today; 832–862 MHz is the 800 MHz mobile uplink. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "G4E",
+      "freqStart": 470,
+      "freqEnd": 494,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "G5E",
+      "freqStart": 494,
+      "freqEnd": 518,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "H5",
+      "freqStart": 518,
+      "freqEnd": 542,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "J3",
+      "freqStart": 572,
+      "freqEnd": 596,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "K3E",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "L4E",
+      "freqStart": 638,
+      "freqEnd": 662,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system."
+    },
+    {
+      "brand": "Shure",
+      "series": "SLX",
+      "band": "S10",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_SLX",
+      "note": "Discontinued analog system. The 823–832 MHz duplex gap. Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "Shure",
+      "series": "Microflex Wireless MXW / MXW neXt (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_MICROFLEX_WIRELESS_MXW",
+      "note": "DECT 1880–1900 MHz (Europe). Conference/install system; not visible on a UHF scan."
+    },
+    {
+      "brand": "Shure",
+      "series": "GLX-D / GLX-D+ (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SHURE_GLX_D_GLX_D_NOTE",
+      "note": "GLX-D: 2.4 GHz (2400–2483.5 MHz). GLX-D+: 2.4 GHz plus 5.8 GHz (5725–5875 MHz), Z2–Z5 by region. Both frequency-agile and outside this UHF spectrum display; coordinate separately."
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "A1",
       "freqStart": 470,
       "freqEnd": 516,
@@ -1002,7 +2047,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "A",
       "freqStart": 516,
       "freqEnd": 558,
@@ -1014,7 +2059,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "AS",
       "freqStart": 520,
       "freqEnd": 558,
@@ -1026,7 +2071,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "AW+",
       "freqStart": 470,
       "freqEnd": 558,
@@ -1038,7 +2083,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "G",
       "freqStart": 566,
       "freqEnd": 608,
@@ -1050,7 +2095,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "GW1",
       "freqStart": 558,
       "freqEnd": 608,
@@ -1062,7 +2107,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "GW",
       "freqStart": 558,
       "freqEnd": 626,
@@ -1074,7 +2119,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "GB",
       "freqStart": 606,
       "freqEnd": 648,
@@ -1086,7 +2131,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "GBW",
       "freqStart": 606,
       "freqEnd": 678,
@@ -1098,7 +2143,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "B",
       "freqStart": 626,
       "freqEnd": 668,
@@ -1110,7 +2155,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "BW",
       "freqStart": 626,
       "freqEnd": 698,
@@ -1122,7 +2167,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "C",
       "freqStart": 734,
       "freqEnd": 776,
@@ -1134,7 +2179,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "D",
       "freqStart": 780,
       "freqEnd": 822,
@@ -1146,7 +2191,7 @@
     },
     {
       "brand": "Sennheiser",
-      "series": "EW G4 / G5",
+      "series": "EW G4",
       "band": "E",
       "freqStart": 823,
       "freqEnd": 865,
@@ -1155,6 +2200,42 @@
       "segments": null,
       "source": "G4",
       "note": "Covers the 823–832 MHz duplex gap (PMSE in the EU, UK, CH, AT) and 863–865 MHz; 832–862 MHz is the 800 MHz uplink — not for wireless mics."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4",
+      "band": "1G8",
+      "freqStart": 1785,
+      "freqEnd": 1800,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 100 G4 only (SK/SKM/EM 100 G4). 1.8 GHz PMSE band, limited to 10 mW. Outside the UHF scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4",
+      "band": "CW",
+      "freqStart": 718,
+      "freqEnd": 790,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band. Mostly the 700 MHz mobile band in Europe; only the duplex gap is mic spectrum — check your region."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "EW G4",
+      "band": "DW",
+      "freqStart": 790,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "G4",
+      "note": "ew 300/500 G4 wide band. Only 823–832 MHz (duplex gap) and 863–865 MHz are usable for mics in the EU; the rest is 800 MHz mobile."
     },
     {
       "brand": "Sennheiser",
@@ -1310,7 +2391,7 @@
       "stepKhz": 25,
       "segments": null,
       "source": "D9000",
-      "note": "Transmitter range. The EM 9046 receiver covers 470–798 MHz."
+      "note": "Transmitter range. The EM 9046 receiver covers 470–798 MHz (expandable to 934 MHz)."
     },
     {
       "brand": "Sennheiser",
@@ -1443,6 +2524,18 @@
     },
     {
       "brand": "Sennheiser",
+      "series": "EW-D (2019+)",
+      "band": "Y1-3",
+      "freqStart": 1785.2,
+      "freqEnd": 1799.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "EWD",
+      "note": "Digital series, 1.8 GHz band. Outside the UHF scan window."
+    },
+    {
+      "brand": "Sennheiser",
       "series": "EW-DX",
       "band": "Q1-9",
       "freqStart": 470.2,
@@ -1524,6 +2617,18 @@
     },
     {
       "brand": "Sennheiser",
+      "series": "EW-DX",
+      "band": "Y1-3",
+      "freqStart": 1785.2,
+      "freqEnd": 1799.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_EW_DX",
+      "note": "1.8 GHz band. Outside the UHF scan window."
+    },
+    {
+      "brand": "Sennheiser",
       "series": "XSW 1 / XSW 2",
       "band": "A",
       "freqStart": 548,
@@ -1531,8 +2636,8 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSW",
-      "note": "EU entry-level band. XSW 1 has fixed presets; XSW 2 also tunes in 25 kHz steps. XSW-D (DECT, 1.9 GHz) is a separate digital system, not listed here."
+      "source": "XSW1SPEC",
+      "note": "EU entry-level band. XSW 1 has fixed presets; XSW 2 also tunes in 25 kHz steps. XSW-D (2.4 GHz) is a separate digital system."
     },
     {
       "brand": "Sennheiser",
@@ -1543,7 +2648,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSW",
+      "source": "XSW1SPEC",
       "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
     },
     {
@@ -1555,7 +2660,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSW",
+      "source": "XSW1SPEC",
       "note": null
     },
     {
@@ -1567,7 +2672,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSWSHEET",
+      "source": "XSWSHEET_C2",
       "note": "Official band C. Corrected from a previously-recorded 630-662 MHz: the Sennheiser Range C frequency sheet states 766-790 MHz (EBU Ch. 58-60) and its presets run 766.100-789.900. Above the 470-700 MHz scan window."
     },
     {
@@ -1579,7 +2684,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSW",
+      "source": "XSW1SPEC",
       "note": "Upper edge at the 694 MHz mobile boundary (698 in DE)."
     },
     {
@@ -1591,8 +2696,8 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSWSHEET",
-      "note": "Official band D (EBU Ch. 62-63). 8 banks x 10 presets - this sheet has no channel 11/12 row. Above the 470-700 MHz scan window."
+      "source": "XSW1SPEC",
+      "note": "Official band D (EBU Ch. 62-63). Above the 470-700 MHz scan window."
     },
     {
       "brand": "Sennheiser",
@@ -1603,8 +2708,8 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSWSHEET",
-      "note": "Official band JB (Japan). 8 banks, 6-7 presets per bank - the sheet leaves some channel 7 cells empty. Above the 470-700 MHz scan window."
+      "source": "XSW",
+      "note": "Official band JB (Japan). Above the 470-700 MHz scan window."
     },
     {
       "brand": "Sennheiser",
@@ -1624,8 +2729,8 @@
           865
         ]
       ],
-      "source": "XSWSHEET",
-      "note": "Official band E, two disjoint segments: the 821-832 duplex gap and the 863-865 ISM band. Presets 1-4 sit in ISM (863.100-864.900) and 5-12 in the gap (823.100-831.900). The tuning range is labelled from 821.000, but every factory preset in the gap is at or above 823.100, and XSW is preset-only, so 821.0-823.0 is not reachable on this hardware. The DE PMSE allocation is 821.5-832 (BNetzA Vfg. 91/2025; 82 mW EIRP inside 823-832, 20 mW outside). Outside the 470-700 MHz scan window."
+      "source": "XSW1SPEC",
+      "note": "Official band E, two disjoint segments: the 821-832 duplex gap and the 863-865 ISM band. Presets 1-4 sit in ISM (863.100-864.900) and 5-12 in the gap (823.100-831.900). The tuning range is labeled from 821.000, but every factory preset in the gap is at or above 823.100, and XSW is preset-only, so 821.0-823.0 is not reachable on this hardware. The DE PMSE allocation is 821.5-832 (BNetzA Vfg. 91/2025; 82 mW EIRP inside 823-832, 20 mW outside). Outside the 470-700 MHz scan window."
     },
     {
       "brand": "Sennheiser",
@@ -1636,8 +2741,8 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "XSWSHEET",
-      "note": "Official band K. 8 banks x 10 presets - this sheet has no channel 11/12 row. Far above the 470-700 MHz scan window."
+      "source": "XSW1SPEC",
+      "note": "Official band K. Far above the 470-700 MHz scan window."
     },
     {
       "brand": "Sennheiser",
@@ -1740,6 +2845,210 @@
       ],
       "source": "SPECTERA",
       "note": "Wideband multichannel (WMAS) in 1350–1400 and 1435–1525 MHz — outside this UHF spectrum display."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Aw+",
+      "freqStart": 470,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series mic/receiver. Up to 75 MHz switching bandwidth."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Aw",
+      "freqStart": 516,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series mic/receiver."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Gw1",
+      "freqStart": 558,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series mic/receiver. Stops below channel 38."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Gw",
+      "freqStart": 558,
+      "freqEnd": 626,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series mic/receiver. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "GBw",
+      "freqStart": 606,
+      "freqEnd": 678,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series mic/receiver. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Bw",
+      "freqStart": 626,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series mic/receiver. Upper edge at the DE limit of 698 MHz; above 694 MHz is mobile elsewhere in Europe."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Cw",
+      "freqStart": 718,
+      "freqEnd": 790,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series. Mostly the 700 MHz mobile band in Europe; only the duplex gap is mic spectrum — check your region."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "2000 series (SKM/SK 2000, EM 2000/2050)",
+      "band": "Dw",
+      "freqStart": 790,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SENNHEISER_2000_SERIES_SKM_S",
+      "note": "2000 series. Only 823–832 MHz and 863–865 MHz are mic spectrum in the EU; the rest is 800 MHz mobile."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XS Wireless IEM",
+      "band": "A",
+      "freqStart": 476,
+      "freqEnd": 500,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_XS_WIRELESS_IEM",
+      "note": "Entry-level stereo IEM, 30 mW. Up to 24 MHz switching bandwidth."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XS Wireless IEM",
+      "band": "B",
+      "freqStart": 572,
+      "freqEnd": 596,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_XS_WIRELESS_IEM",
+      "note": "Entry-level stereo IEM, 30 mW."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XS Wireless IEM",
+      "band": "C",
+      "freqStart": 662,
+      "freqEnd": 686,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_XS_WIRELESS_IEM",
+      "note": "Entry-level stereo IEM, 30 mW."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XS Wireless IEM",
+      "band": "E",
+      "freqStart": 823.2,
+      "freqEnd": 831.8,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_XS_WIRELESS_IEM",
+      "note": "Entry-level stereo IEM in the 823–832 MHz duplex gap, 30 mW. Outside the UHF scan window."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "SKM 5200-II / SK 5212-II / EM 3732-II",
+      "band": "L",
+      "freqStart": 470,
+      "freqEnd": 638,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": null,
+      "source": "SENNHEISER_SKM_5200_II_SK_52",
+      "note": "Legacy 5000/3000 series. Up to 184 MHz switching bandwidth, 5 kHz steps. 608–614 MHz (channel 38): excluded in DE."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "SKM 5200-II / SK 5212-II / EM 3732-II",
+      "band": "N",
+      "freqStart": 614,
+      "freqEnd": 798,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": null,
+      "source": "SENNHEISER_SKM_5200_II_SK_52",
+      "note": "Legacy 5000/3000 series. Above 694 MHz (698 in DE) is mostly 700/800 MHz mobile in Europe — check your region."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "SKM 5200-II / SK 5212-II / EM 3732-II",
+      "band": "N-GB",
+      "freqStart": 606,
+      "freqEnd": 790,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": null,
+      "source": "SENNHEISER_SKM_5200_II_SK_52",
+      "note": "Legacy 5000/3000 series, UK variant. Includes channel 38 (608–614 MHz)."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "XS Wireless Digital XSW-D (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_XS_WIRELESS_DIGIT",
+      "note": "XS Wireless Digital (XSW-D): 2400–2483.5 MHz, max. 10 mW EIRP — outside this UHF spectrum display. License-free; coordinate separately."
+    },
+    {
+      "brand": "Sennheiser",
+      "series": "SpeechLine Digital Wireless (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SENNHEISER_SPEECHLINE_DIGITA",
+      "note": "SpeechLine Digital Wireless: 1880–1900 MHz (EU, DECT band) — outside this UHF spectrum display. License-free; coordinate separately."
     },
     {
       "brand": "Lectrosonics",
@@ -1865,7 +3174,7 @@
       "freqStart": 941.525,
       "freqEnd": 959.825,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": [
         [
           941.525,
@@ -1880,8 +3189,8 @@
           959.825
         ]
       ],
-      "source": "LECHMA",
-      "note": "US 900 MHz band, three ranges: 941.525–951.975, 953.025–956.225, 956.475–959.825 MHz."
+      "source": "LECHMA_TD",
+      "note": "900 MHz band, three ranges (HMa/E07-941): 941.525–951.975, 953.025–956.225, 956.475–959.825 MHz. The US HMa-941's middle range starts at 952.875 MHz. Outside the 470–700 MHz scan window."
     },
     {
       "brand": "Lectrosonics",
@@ -1932,16 +3241,64 @@
       "note": "DSQD receiver: one range. Its NA setting stops at 607.950 MHz (radio astronomy band); the EU setting tunes to 614.375 MHz."
     },
     {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "B2",
+      "freqStart": 563.2,
+      "freqEnd": 639.975,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECSRC",
+      "note": "SRc / LR band. The HMa/E01 (Europe) transmitter's B2 stops at 639.900 MHz."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "Block 606",
+      "freqStart": 606,
+      "freqEnd": 631.5,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECSRC",
+      "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK. Lectrosonics' block chart lists 606.5–631.5 MHz."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "DSQD / SRc (Digital Hybrid)",
+      "band": "C2",
+      "freqStart": 640,
+      "freqEnd": 716.775,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LECSRC",
+      "note": "Upper edge selectable 713.900 or 716.775 MHz. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Lectrosonics",
+      "series": "Duet (M2T / M2R)",
+      "band": "M2T/E01 (470–614)",
+      "freqStart": 470.1,
+      "freqEnd": 614.375,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LECTROSONICS_DUET_M2T_M2R",
+      "note": "Digital IEM, EU model. US M2T stops at 607.975 MHz."
+    },
+    {
       "brand": "LD Systems",
       "series": "U505 / U508",
       "band": "584–608",
       "freqStart": 584,
       "freqEnd": 608,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
-      "source": "LDU505",
-      "note": "U505 common UHF variant: 584.025–607.900 MHz (HHD). U508 is a different band (823–832 + 863–865 MHz). U505 ships in several band variants; the model number alone does not fix the band."
+      "source": "LD_U500_FREQLIST",
+      "note": "U505: 584–607 MHz in LD's spec (product pages say 584–608). 10 groups × 12 factory channels, 584.200–607.900 MHz; manual tuning in 25 kHz steps. U506 / U508 / U518 are separate rows."
     },
     {
       "brand": "LD Systems",
@@ -1976,8 +3333,29 @@
       "deviceType": "iem",
       "stepKhz": null,
       "segments": null,
-      "source": "LDMEI",
-      "note": "In-ear monitor transmitter. Exact: 655.350–678.900 MHz."
+      "source": "LD_MEI_FREQLIST",
+      "note": "In-ear monitor transmitter (LDMEI1000G2B6). 10 groups × 12 factory channels, 655.200–678.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "MEI 1000 G2",
+      "band": "823–832 / 863–865",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "LD_SYSTEMS_MEI_1000_G2",
+      "note": "In-ear monitor (LDMEI1000G2). 8 groups × 12 channels: ch 1–4 863.100–864.900, ch 5–12 823.100–831.900 MHz."
     },
     {
       "brand": "LD Systems",
@@ -1988,8 +3366,8 @@
       "deviceType": "iem",
       "stepKhz": null,
       "segments": null,
-      "source": "LDU305",
-      "note": "In-ear monitor transmitter (U305 = 12 ch, U505 = 96 ch). EU variant. A US variant (514–542 MHz) also exists — the band is printed on the unit."
+      "source": "LD_U500IEM_FREQLIST",
+      "note": "In-ear monitor transmitter. U305 IEM = 12 fixed channels, 584.400–606.750 MHz; U505 IEM = 10 groups × 12, 584.200–607.900 MHz (LD lists the U505 IEM band as 584–607). US-only variants exist at 470–490 and 514–542 MHz."
     },
     {
       "brand": "LD Systems",
@@ -2025,7 +3403,235 @@
       "stepKhz": null,
       "segments": null,
       "source": "LDU308",
-      "note": "In-ear monitor transmitter. Licence-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+      "note": "In-ear monitor transmitter. License-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U506",
+      "band": "655–679",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_U500_FREQLIST",
+      "note": "U500 mic system. 10 groups × 12 factory channels, 655.200–678.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U508",
+      "band": "823–832 / 863–865",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "LD_U500_FREQLIST",
+      "note": "U500 mic system, dual segment. 8 groups × 12 channels; ch 1–4 in 863–865 (10 mW max there), ch 5–12 in 823–832. Up to 6 systems at once (LD)."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U506 UK",
+      "band": "606–614 (UK Ch 38)",
+      "freqStart": 606,
+      "freqEnd": 614,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_U500_FREQLIST",
+      "note": "UK-only U500 variant on UK channel 38. 4 groups × 10 channels, 606.000–613.800 MHz. Not for DE/EU use."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U505 CS4 (conference)",
+      "band": "554–586",
+      "freqStart": 554,
+      "freqEnd": 586,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_U500_FREQLIST",
+      "note": "U500 4-channel conference system, 554–586 MHz variant. 10 groups, factory channels 554.650–585.575 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U506 CS4 (conference)",
+      "band": "662–694",
+      "freqStart": 662,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_U506_CS4_CONFEREN",
+      "note": "U500 4-channel conference system, 662–694 MHz variant. 180 channels (10 × 18)."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U305",
+      "band": "584–608",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_U305",
+      "note": "U300 mic system, 12 fixed channels (one group): 584.400–606.750 MHz. Up to 6 systems at once (LD)."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U306",
+      "band": "655–679",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_U305",
+      "note": "U300 mic system, 12 fixed channels: 655.400–677.750 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "U308",
+      "band": "823–832 / 863–865",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "LD_SYSTEMS_U305",
+      "note": "U300 mic system, 12 fixed channels: ch 1–4 863.100–864.900, ch 5–12 823.100–831.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "ANNY (wireless module)",
+      "band": "B5 (584–608)",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_ANNY_WIRELESS_MOD",
+      "note": "ANNY 8 / ANNY 10 / ANNY 12 battery PA wireless modules. 12 fixed channels 584.400–606.750 MHz (same plan as U305). B4.7 (470–490) and B5.1 (514–542) also listed."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "ANNY (wireless module)",
+      "band": "B6 (655–679)",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_ANNY_WIRELESS_MOD",
+      "note": "ANNY wireless module B6. 12 fixed channels 655.400–677.750 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "ANNY (wireless module)",
+      "band": "B8 (823–832 / 863–865)",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "LD_SYSTEMS_ANNY_WIRELESS_MOD",
+      "note": "ANNY wireless module B8. 12 fixed channels: 863.100–864.900 and 823.100–831.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "MEI 100 G2",
+      "band": "Band 5 (584–607)",
+      "freqStart": 584,
+      "freqEnd": 607,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_MEI_1000_G2",
+      "note": "In-ear monitor (LDMEI100G2B5). Same 10 × 12 channel plan as MEI 1000 G2 B5: 584.200–607.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "MEI 100 G2",
+      "band": "Band 6 (655–679)",
+      "freqStart": 655,
+      "freqEnd": 679,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_MEI_1000_G2",
+      "note": "In-ear monitor (LDMEI100G2B6). 655.200–678.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "MEI 100 G2",
+      "band": "823–832 / 863–865",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "LD_SYSTEMS_MEI_1000_G2",
+      "note": "In-ear monitor (LDMEI100G2). 8 groups × 12: 863.100–864.900 and 823.100–831.900 MHz."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "WIN 42",
+      "band": "B5 (516–558)",
+      "freqStart": 516,
+      "freqEnd": 558,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "LD_SYSTEMS_WIN_42",
+      "note": "WIN 42 B5. 1680 frequencies in 25 kHz steps, 20 groups with 577 fixed frequencies + user bank."
+    },
+    {
+      "brand": "LD Systems",
+      "series": "Sweet SixTeen",
+      "band": "ISM 863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LD_SYSTEMS_SWEET_SIXTEEN",
+      "note": "Discontinued budget system (LDWS1616…). 16 channels in the license-free 863–865 MHz band. A B5 (584–607) version also existed — not on a manufacturer page."
     },
     {
       "brand": "Motorola",
@@ -2049,7 +3655,7 @@
       "stepKhz": null,
       "segments": null,
       "source": null,
-      "note": "Consumer PMR446 radios (licence-free, EU) operate at 446.000–446.200 MHz — below this spectrum display. US FRS/GMRS operates 462–467 MHz — also below display range."
+      "note": "Consumer PMR446 radios (license-free, EU) operate at 446.000–446.200 MHz — below this spectrum display. US FRS/GMRS operates 462–467 MHz — also below display range."
     },
     {
       "brand": "DPA",
@@ -2073,7 +3679,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "TBONE75",
-      "note": "Fixed-channel budget systems in the licence-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. Source: the t.bone IEM 75 channel table, a typical member of this class."
+      "note": "Fixed-channel budget systems in the license-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. Source: the t.bone IEM 75 channel table, a typical member of this class."
     },
     {
       "brand": "Behringer",
@@ -2112,6 +3718,18 @@
       "note": "In-ear monitor system. US and Australia variant."
     },
     {
+      "brand": "Behringer",
+      "series": "ULM (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BEHRINGER_ULM_NOTE",
+      "note": "Behringer ULM wireless (ULM300MIC / ULM300USB / ULM300LAV / ULM302MIC / ULM202USB): 2.4 GHz digital — outside this UHF spectrum display. License-free and frequency-agile; keep away from crowded Wi-Fi."
+    },
+    {
       "brand": "Audio-Technica",
       "series": "3000 Series (4th Gen)",
       "band": "DE2",
@@ -2120,7 +3738,7 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT3000",
+      "source": "AT3000_EU_UM",
       "note": null
     },
     {
@@ -2132,7 +3750,7 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT3000",
+      "source": "AT3000_EU_UM",
       "note": null
     },
     {
@@ -2144,7 +3762,7 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT3000",
+      "source": "AT3000_EU_UM",
       "note": "608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
     },
     {
@@ -2156,8 +3774,41 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT3000",
+      "source": "AT3000_EU_UM",
       "note": "Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "GH2 (794–806)",
+      "freqStart": 794.1,
+      "freqEnd": 805.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Inside the 800 MHz LTE downlink (791–821 MHz) in Europe; not usable in DE."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "3000 Series (4th Gen)",
+      "band": "HH2",
+      "freqStart": 821.1,
+      "freqEnd": 864.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          821.1,
+          831.9
+        ],
+        [
+          863.1,
+          864.9
+        ]
+      ],
+      "source": "AT_CATALOG_2020",
+      "note": "Two ranges: the 800 MHz duplex gap (821.1–831.9) and 863.1–864.9 MHz."
     },
     {
       "brand": "Audio-Technica",
@@ -2168,7 +3819,7 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT5000",
+      "source": "AT5000_EU_UM",
       "note": "ATW-T5201 / T5202 transmitter band. The 5000 Series receiver (DG1) tunes 470–700 MHz."
     },
     {
@@ -2180,7 +3831,7 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT5000",
+      "source": "AT5000_EU_UM",
       "note": "Transmitter band. Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
     },
     {
@@ -2192,8 +3843,29 @@
       "deviceType": "mic",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT5000",
+      "source": "AT_CATALOG_2020",
       "note": "Transmitter band. Mostly the 700 / 800 MHz mobile bands in Europe; only 736–753 MHz is wireless-mic spectrum in DE — check your region."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "5000 Series",
+      "band": "EF2",
+      "freqStart": 580,
+      "freqEnd": 662.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          580,
+          607.875
+        ],
+        [
+          657.1,
+          662.9
+        ]
+      ],
+      "source": "AT5000_EU_UM",
+      "note": "Transmitter band, two ranges: 580.000–607.875 and 657.100–662.900 MHz. Pairs with the DF1 receiver (470.125–607.875 + 657.100–662.900). The manual's spec table calls it FE2."
     },
     {
       "brand": "Audio-Technica",
@@ -2204,8 +3876,113 @@
       "deviceType": "iem",
       "stepKhz": 25,
       "segments": null,
-      "source": "AT3255",
+      "source": "AT3000_IEM_UM",
       "note": "In-ear monitor system (ATW-T3205 transmitter). Covers the ATW-3255 and the 3000-series IEM."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "ATW-3255 (3000 IEM)",
+      "band": "EG2 (580–714)",
+      "freqStart": 580,
+      "freqEnd": 713.85,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AT3000_IEM_UM",
+      "note": "Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "2000 Series",
+      "band": "I",
+      "freqStart": 487.125,
+      "freqEnd": 506.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Preset channels only (10 per band)."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "2000 Series",
+      "band": "U",
+      "freqStart": 606.5,
+      "freqEnd": 631,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Preset channels only. 608–614 MHz (channel 38): excluded in DE, the licensed UK-wide mic channel in the UK."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "2000 Series",
+      "band": "D",
+      "freqStart": 656.125,
+      "freqEnd": 678.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Preset channels only."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "2000 Series",
+      "band": "F",
+      "freqStart": 854.9,
+      "freqEnd": 864.9,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Preset channels only. Below 863 MHz is LTE 800 uplink (832–862) in Europe; only 863–865 is mic spectrum."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "AT-One",
+      "band": "DE3",
+      "freqStart": 482.625,
+      "freqEnd": 511.375,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Preset channels only (2x4)."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "AT-One",
+      "band": "HH2",
+      "freqStart": 824.4,
+      "freqEnd": 864.7,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          824.4,
+          830.85
+        ],
+        [
+          863.3,
+          864.7
+        ]
+      ],
+      "source": "AT_CATALOG_2020",
+      "note": "Preset channels only. Two ranges: 824.400–830.850 and 863.300–864.700 MHz."
+    },
+    {
+      "brand": "Audio-Technica",
+      "series": "System 10 (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AT_CATALOG_2020",
+      "note": "Audio-Technica System 10 and System 10 PRO run at 2.4 GHz — outside this UHF spectrum display. Coordinate separately."
     },
     {
       "brand": "AKG",
@@ -2214,9 +3991,9 @@
       "freqStart": 500.1,
       "freqEnd": 530.5,
       "deviceType": "mic",
-      "stepKhz": null,
+      "stepKhz": 25,
       "segments": null,
-      "source": "AKG7",
+      "source": "AKG_WMS4500",
       "note": "Band set BD7, 30 MHz wide."
     },
     {
@@ -2226,10 +4003,287 @@
       "freqStart": 570.1,
       "freqEnd": 600.5,
       "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AKG_WMS4500",
+      "note": "Band set BD8, 30 MHz wide."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 4500 / WMS 5000",
+      "band": "BD1",
+      "freqStart": 650,
+      "freqEnd": 680,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AKG_WMS4500",
+      "note": "AKG lists this band only as 650–680 MHz (rounded) for the WMS4500."
+    },
+    {
+      "brand": "AKG",
+      "series": "DMS800",
+      "band": "Band 1",
+      "freqStart": 550.1,
+      "freqEnd": 662.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "AKG_DMS800",
+      "note": "Digital. DE country block: 550.1–607.9 and 614.1–662.9 MHz. Older units also tuned 548.1–550.1 and 662.9–697.9 MHz; AKG dropped those in 2020."
+    },
+    {
+      "brand": "AKG",
+      "series": "DMS800",
+      "band": "Band 2",
+      "freqStart": 733.1,
+      "freqEnd": 831.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          733.1,
+          785.9
+        ],
+        [
+          823.1,
+          825.9
+        ],
+        [
+          826.1,
+          831.9
+        ]
+      ],
+      "source": "AKG_DMS800_2",
+      "note": "Digital. DE country block: 733.1–757.9, 788.1–790.9, 821.1–831.9 MHz. The addendum quotes the band as 730.1–831.9 MHz; the spec sheet gives these three ranges."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band 7",
+      "freqStart": 500.1,
+      "freqEnd": 530.5,
+      "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "AKG8",
-      "note": "Band set BD8, 30 MHz wide."
+      "source": "AKG_WMS_470",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band 8",
+      "freqStart": 570.1,
+      "freqEnd": 600.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_470",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band 9",
+      "freqStart": 600.1,
+      "freqEnd": 630.5,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          600.1,
+          605.9
+        ],
+        [
+          614.1,
+          630.5
+        ]
+      ],
+      "source": "AKG_WMS_470",
+      "note": "Two ranges: 600.1–605.9 and 614.1–630.5 MHz (skips channel 38). Band 9-U is the full 600.1–630.5 MHz."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band 1",
+      "freqStart": 650,
+      "freqEnd": 680,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_470",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band M",
+      "freqStart": 826.3,
+      "freqEnd": 831.9,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_470",
+      "note": "800 MHz duplex gap."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band D",
+      "freqStart": 863.1,
+      "freqEnd": 864.9,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_470",
+      "note": "License-free 863–865 MHz band."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 470",
+      "band": "Band 6-A-ISM",
+      "freqStart": 835.1,
+      "freqEnd": 864.9,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          835.1,
+          861.9
+        ],
+        [
+          863.1,
+          864.9
+        ]
+      ],
+      "source": "AKG_WMS_470",
+      "note": "835–862 MHz is LTE 800 uplink in Europe now; only 863.1–864.9 MHz is still mic spectrum."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 420",
+      "band": "A",
+      "freqStart": 530.025,
+      "freqEnd": 559,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_420",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 420",
+      "band": "U",
+      "freqStart": 606.1,
+      "freqEnd": 629.9,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          606.1,
+          613.9
+        ],
+        [
+          614.1,
+          629.9
+        ]
+      ],
+      "source": "AKG_WMS_420",
+      "note": "Sold as U1 (606.1–613.9) and U2 (614.1–629.9 MHz). U1 is mostly channel 38 — not allowed in DE."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 420",
+      "band": "M",
+      "freqStart": 826.3,
+      "freqEnd": 831,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_420",
+      "note": "800 MHz duplex gap."
+    },
+    {
+      "brand": "AKG",
+      "series": "WMS 420",
+      "band": "D",
+      "freqStart": 863.1,
+      "freqEnd": 864.9,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_WMS_420",
+      "note": "License-free 863–865 MHz band."
+    },
+    {
+      "brand": "AKG",
+      "series": "IVM 4500 (SST 4500 IEM)",
+      "band": "Band 7",
+      "freqStart": 500.1,
+      "freqEnd": 530.5,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_IVM_4500_SST_4500_IEM",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "IVM 4500 (SST 4500 IEM)",
+      "band": "Band 8",
+      "freqStart": 570.1,
+      "freqEnd": 600.5,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_IVM_4500_SST_4500_IEM",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "IVM 4500 (SST 4500 IEM)",
+      "band": "Band 9",
+      "freqStart": 600.1,
+      "freqEnd": 630.5,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": [
+        [
+          600.1,
+          605.9
+        ],
+        [
+          614.1,
+          630.5
+        ]
+      ],
+      "source": "AKG_IVM_4500_SST_4500_IEM",
+      "note": "Two ranges, skips channel 38. Band 9-U is the full 600.1–630.5 MHz."
+    },
+    {
+      "brand": "AKG",
+      "series": "IVM 4500 (SST 4500 IEM)",
+      "band": "Band 1",
+      "freqStart": 650.1,
+      "freqEnd": 680.5,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_IVM_4500_SST_4500_IEM",
+      "note": null
+    },
+    {
+      "brand": "AKG",
+      "series": "DMS 100 / DMS 300 (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "AKG_DMS_100_DMS_300_NOTE",
+      "note": "AKG DMS100 and DMS300 run at 2.4 GHz — outside this UHF spectrum display. Coordinate separately."
     },
     {
       "brand": "Sony",
@@ -2337,6 +4391,904 @@
       "note": "Above 694 MHz (698 in DE) is the 700 MHz mobile band in Europe. The receiver is sold per region code — check the code on yours; beyerdynamic has changed C and D between brochure editions (2015: C 690–720, D 470–628 + 710–716 MHz)."
     },
     {
+      "brand": "Phenyx Pro",
+      "series": "PTU-71",
+      "band": "536–588",
+      "freqStart": 536.57,
+      "freqEnd": 587.12,
+      "deviceType": "mic",
+      "stepKhz": 250,
+      "segments": [
+        [
+          536.57,
+          561.32
+        ],
+        [
+          562.37,
+          587.12
+        ]
+      ],
+      "source": "PHENYX_PRO_PTU_71",
+      "note": "Dual-channel, 100 freqs per channel, 250 kHz step. Inside the German 470–608 MHz PMSE range. The PWR-71 receiver page lists 538.3–566.5 / 571.3–599.5 MHz instead; the system manual and system page agree on these values."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-7000",
+      "band": "538–600",
+      "freqStart": 538.3,
+      "freqEnd": 599.5,
+      "deviceType": "mic",
+      "stepKhz": 300,
+      "segments": [
+        [
+          538.3,
+          550
+        ],
+        [
+          554.8,
+          566.5
+        ],
+        [
+          571.3,
+          583
+        ],
+        [
+          587.8,
+          599.5
+        ]
+      ],
+      "source": "PHENYX_PRO_PTU_7000",
+      "note": "Quad, 40 freqs per channel, 300 kHz step. Manual prints Ch4 as 587.8–597.4 MHz; product page and 40 × 0.3 MHz both give 599.5. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-6000",
+      "band": "520–603",
+      "freqStart": 520.15,
+      "freqEnd": 602.25,
+      "deviceType": "mic",
+      "stepKhz": 250,
+      "segments": [
+        [
+          520.15,
+          529.9
+        ],
+        [
+          530.3,
+          540.05
+        ],
+        [
+          540.9,
+          550.65
+        ],
+        [
+          551.2,
+          560.95
+        ],
+        [
+          561.5,
+          571.25
+        ],
+        [
+          571.8,
+          581.55
+        ],
+        [
+          582.3,
+          592.05
+        ],
+        [
+          592.5,
+          602.25
+        ]
+      ],
+      "source": "PHENYX_PRO_PTU_71",
+      "note": "8 channels, 40 freqs each, 250 kHz step. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-2U / PTU-1U",
+      "band": "530–580",
+      "freqStart": 530.025,
+      "freqEnd": 580,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "PHENYX_PRO_PTU_2U_PTU_1U",
+      "note": "True diversity, 1000 freqs per channel, 25 kHz step. PTU-1U (single) = 555.025–580 MHz. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTAU-2",
+      "band": "512–562",
+      "freqStart": 512,
+      "freqEnd": 562,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          512,
+          536
+        ],
+        [
+          537,
+          562
+        ]
+      ],
+      "source": "PHENYX_PRO_PTAU_2",
+      "note": "True diversity, 2 × 1000 freqs, 25 kHz step, 5/10/30 mW. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTI-2",
+      "band": "537–589",
+      "freqStart": 537,
+      "freqEnd": 588.75,
+      "deviceType": "mic",
+      "stepKhz": 250,
+      "segments": [
+        [
+          537,
+          561.75
+        ],
+        [
+          564,
+          588.75
+        ]
+      ],
+      "source": "PHENYX_PRO_PTI_2",
+      "note": "Auto-scan dual system, 100 freqs per channel, 250 kHz step. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTC-4 / PTC-8 (conference)",
+      "band": "540–600",
+      "freqStart": 540.1,
+      "freqEnd": 599.8,
+      "deviceType": "mic",
+      "stepKhz": 300,
+      "segments": null,
+      "source": "PHENYX_PRO_PTC_4_PTC_8_CONFE",
+      "note": "Wireless gooseneck conference system, 300 kHz step. PTC-4: 4 × 50 freqs; PTC-8: 8 × 25 freqs. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-52 / PTU-5200 / PTU-4200",
+      "band": "500–590",
+      "freqStart": 500,
+      "freqEnd": 590,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTU_52_PTU_5200_P",
+      "note": "Frequency-hopping UHF sets (PTU-52 2 × 30, PTU-5200 4 × 25, PTU-4200 8 × 20 freqs). Phenyx gives only the overall range; no channel list published."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-5000 / PTU-4000 / PTU-51 (fixed)",
+      "band": "538–572",
+      "freqStart": 538.05,
+      "freqEnd": 571.8,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTU_5000_PTU_4000",
+      "note": "Fixed-frequency. PTU-5000: 541.90 / 546.30 / 561.60 / 568.65 MHz; PTU-51: 558.90 / 571.80 MHz; spare transmitters also on 538.05 / 548.1 MHz. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-4000 (900 MHz channels)",
+      "band": "911–926",
+      "freqStart": 911.3,
+      "freqEnd": 925.2,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTU_4000_900_MHZ_",
+      "note": "US model. Fixed channels 5–8 at 911.30 / 914.90 / 919.70 / 925.20 MHz. 902–928 MHz is not legal for wireless mics in the EU."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTU-X (plug-on)",
+      "band": "550–570",
+      "freqStart": 550,
+      "freqEnd": 570,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTU_X_PLUG_ON",
+      "note": "Plug-on XLR transmitter + receiver, 16 freqs, 10 mW. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTV-2000 (VHF)",
+      "band": "220–280",
+      "freqStart": 220,
+      "freqEnd": 280,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTV_2000_VHF",
+      "note": "VHF fixed-frequency 4-channel set. 220–280 MHz is not a wireless-mic band in Germany/EU; outside the UHF display."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PDP-1 / PDP-2 (digital)",
+      "band": "US 902–927",
+      "freqStart": 902.8,
+      "freqEnd": 926.8,
+      "deviceType": "mic",
+      "stepKhz": 800,
+      "segments": [
+        [
+          902.8,
+          914
+        ],
+        [
+          915.6,
+          926.8
+        ]
+      ],
+      "source": "PHENYX_PRO_PDP_1_PDP_2_DIGIT",
+      "note": "US model, digital. CHA CH01–15 902.8–914.0, CHB CH16–30 915.6–926.8 MHz, 800 kHz grid. 902–928 MHz is not legal for wireless mics in the EU."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PDP-1 / PDP-2 (digital)",
+      "band": "EU 823–832",
+      "freqStart": 823,
+      "freqEnd": 831,
+      "deviceType": "mic",
+      "stepKhz": 800,
+      "segments": [
+        [
+          823,
+          826.2
+        ],
+        [
+          827.8,
+          831
+        ]
+      ],
+      "source": "PHENYX_PRO_PDP_1_PDP_2_DIGIT",
+      "note": "EU (800 MHz) version, digital, 10 fixed channels on an 800 kHz grid in the 823–832 MHz duplex gap. See presetTables."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PDP-M (digital IEM)",
+      "band": "902–910",
+      "freqStart": 902,
+      "freqEnd": 910,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PDP_M_DIGITAL_IEM",
+      "note": "US model. Digital IEM, 16 freqs, 30 mW. 902–928 MHz is not legal for IEMs in the EU."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-10 (Gen 1)",
+      "band": "555–575",
+      "freqStart": 555,
+      "freqEnd": 575,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTM_10_GEN_1",
+      "note": "Stereo IEM, 500 MHz version, 89 freqs, 11 preset groups (see presetTables). Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-10 (Gen 1)",
+      "band": "905–925",
+      "freqStart": 905,
+      "freqEnd": 925,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTM_10_GEN_1",
+      "note": "US model, 900 MHz version, 89 freqs (spec table says 902–928 overall). Not legal in the EU."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-10 Gen 2 / PTM-20",
+      "band": "555–575",
+      "freqStart": 555,
+      "freqEnd": 575,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "PHENYX_PRO_PTM_10_GEN_2_PTM_",
+      "note": "Stereo IEM with auto scan, 63 freqs in 8 preset groups (see presetTables), up to 30 mW. PTM-20 = dual-channel version, same manual. Manual spec says 530–580 MHz carrier; the group list sits in 555.05–574.9 MHz. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-11 (mono IEM)",
+      "band": "530–543",
+      "freqStart": 530.05,
+      "freqEnd": 542.3,
+      "deviceType": "iem",
+      "stepKhz": 250,
+      "segments": null,
+      "source": "PHENYX_PRO_PTM_11_MONO_IEM",
+      "note": "500 MHz version, 5 groups × 10 ch, 250 kHz step. 900 MHz version: 902.35–914.6 MHz (US only). Inside German 470–608 MHz."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-22 (mono IEM)",
+      "band": "530–555",
+      "freqStart": 530.05,
+      "freqEnd": 554.8,
+      "deviceType": "iem",
+      "stepKhz": 250,
+      "segments": null,
+      "source": "PHENYX_PRO_PTM_22_MONO_IEM",
+      "note": "500 MHz version, 2 × 50 freqs (groups 1–10), 250 kHz step. 900 MHz version: 902.35–927.6 MHz (US only)."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-33 (mono IEM)",
+      "band": "542–580",
+      "freqStart": 542.55,
+      "freqEnd": 579.8,
+      "deviceType": "iem",
+      "stepKhz": 250,
+      "segments": [
+        [
+          542.55,
+          554.8
+        ],
+        [
+          567.55,
+          579.8
+        ]
+      ],
+      "source": "PHENYX_PRO_PTM_33_MONO_IEM",
+      "note": "500 MHz version, 4 × 25 freqs, 250 kHz step; gap 554.8–567.55. 900 MHz version: 902.35–927.6 MHz (US only)."
+    },
+    {
+      "brand": "Phenyx Pro",
+      "series": "PTM-11 / PTM-22 / PTM-33 (900 MHz)",
+      "band": "902–928",
+      "freqStart": 902.35,
+      "freqEnd": 927.6,
+      "deviceType": "iem",
+      "stepKhz": 250,
+      "segments": null,
+      "source": "PHENYX_PRO_PTM_22_MONO_IEM",
+      "note": "US model. 900 MHz versions of the mono IEMs (PTM-11 902.35–914.6 only). 902–928 MHz is not legal for IEMs in the EU."
+    },
+    {
+      "brand": "Alto Professional",
+      "series": "Stealth Wireless MKII",
+      "band": "540–570 (US/CA/AU/NZ)",
+      "freqStart": 540,
+      "freqEnd": 570,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ALTO_PROFESSIONAL_STEALTH_WI",
+      "note": "Wireless speaker feed (stereo line-level link to powered speakers), not a mic. US/CA/AU/NZ version."
+    },
+    {
+      "brand": "Alto Professional",
+      "series": "Stealth Wireless MKII",
+      "band": "863–865 (EU/UK)",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ALTO_PROFESSIONAL_STEALTH_WI",
+      "note": "Wireless speaker feed, EU/UK version. License-free SRD, 10 mW."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MTP60 / MTP61",
+      "band": "EU / EUX (470–832)",
+      "freqStart": 470,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": null,
+      "source": "WISYCOM_MTP60_MTP61",
+      "note": "Wideband bodypack. EU = 50 mW max, EUX = 100 mW max (EUX is not an SRD device and needs a local license). Same range on MTP60 and MTP61."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MTP60 / MTP61",
+      "band": "UK1 (470–663 + 960–1075)",
+      "freqStart": 470,
+      "freqEnd": 1075,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": [
+        [
+          470,
+          663
+        ],
+        [
+          960,
+          1075
+        ]
+      ],
+      "source": "WISYCOM_MTP60_MTP61",
+      "note": "UK variant: 470–663 MHz at up to 100 mW plus 960–1075 MHz (DME, UK license) at up to 50 mW. UK2 is 510–698 + 960–1075."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MTP40S",
+      "band": "B7 (470–663)",
+      "freqStart": 470,
+      "freqEnd": 663,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "WISYCOM_MTP40S",
+      "note": "Mini bodypack. Range is set by the band option in the order code (B7). EU = 50 mW, EUX = 100 mW."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MTP40S",
+      "band": "B3 (510–698)",
+      "freqStart": 510,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "WISYCOM_MTP40S",
+      "note": "Mini bodypack, B3 band option."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MTP40S",
+      "band": "B2 (566–798)",
+      "freqStart": 566,
+      "freqEnd": 798,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "WISYCOM_MTP40S",
+      "note": "Mini bodypack, B2 band option. Above 694 MHz is LTE/700 MHz in most of the EU — check local rules."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MPR50-IEM",
+      "band": "N (470–700)",
+      "freqStart": 470,
+      "freqEnd": 700,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "WISYCOM_MPR50_IEM",
+      "note": "Wideband IEM/IFB bodypack receiver, up to 232 MHz switching window. Pairs with MTK982."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MPR50-IEM",
+      "band": "M (566–798)",
+      "freqStart": 566,
+      "freqEnd": 798,
+      "deviceType": "iem",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "WISYCOM_MPR50_IEM",
+      "note": "Wideband IEM/IFB bodypack receiver, M option. Above 694 MHz is mobile spectrum in most of the EU."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MTK982",
+      "band": "EU / EUX (470–760)",
+      "freqStart": 470,
+      "freqEnd": 760,
+      "deviceType": "iem",
+      "stepKhz": 5,
+      "segments": null,
+      "source": "WISYCOM_MTK982",
+      "note": "Dual wideband stereo IEM/IFB transmitter. EU = 50 mW max; EUX = up to 2 W, not an SRD device, needs a license. EUX-C05 variant tunes 412–638 MHz for RPU500 compatibility."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR54",
+      "band": "B2 (470–800 + 823–832 + 941–960)",
+      "freqStart": 470,
+      "freqEnd": 960,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": [
+        [
+          470,
+          800
+        ],
+        [
+          823,
+          832
+        ],
+        [
+          941,
+          960
+        ]
+      ],
+      "source": "WISYCOM_MCR54",
+      "note": "Quad true-diversity receiver. B2 = US/EU config; 941–960 is the US STL band. B2L versions stop at 730 MHz. B12 (from Q4 2025) adds 925–937.5 MHz."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MCR54",
+      "band": "B1 (470–800 + UK DME)",
+      "freqStart": 470,
+      "freqEnd": 1071,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": [
+        [
+          470,
+          800
+        ],
+        [
+          960,
+          1000
+        ],
+        [
+          1045,
+          1071
+        ]
+      ],
+      "source": "WISYCOM_MCR54",
+      "note": "Quad receiver, UK DME config. B14 (from Q4 2025) is 470–800 + 961–1000 + 1044–1076 + 1104–1154 MHz."
+    },
+    {
+      "brand": "Wisycom",
+      "series": "MRK980",
+      "band": "UHF (470–800)",
+      "freqStart": 470,
+      "freqEnd": 800,
+      "deviceType": "mic",
+      "stepKhz": 5,
+      "segments": null,
+      "source": "WISYCOM_MRK980",
+      "note": "2-ch true-diversity rack receiver. UHF front end 470–800 MHz; extra filter options 960–1160 (DME), 940–960 (US), 806–810 / 1240–1260 (JP), VHF 170–230 on request."
+    },
+    {
+      "brand": "Sound Devices",
+      "series": "A20-Mini (SpectraBand, fw 6.00+)",
+      "band": "SpectraBand (470–1525)",
+      "freqStart": 470,
+      "freqEnd": 1525,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "SOUND_DEVICES_A20_MINI_SPECT",
+      "note": "Digital bodypack. Tuning range is region-locked; restricted bands need a Sound Devices unlock code. UK example: 470–702, 823–832, 863–865, DME 961–1015/1045–1075/1105–1154 (licensed), 1518–1525. Pre-v6 firmware: 470–694 MHz."
+    },
+    {
+      "brand": "Zaxcom",
+      "series": "ZMT4",
+      "band": ".6 (578–698)",
+      "freqStart": 578,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": 100,
+      "segments": null,
+      "source": "ZAXCOM_ZMT4",
+      "note": "Digital mini transmitter, outside-US band. ZHD96 = 100 kHz RF bandwidth (200 kHz spacing); XR = 200 kHz (400 kHz spacing)."
+    },
+    {
+      "brand": "Zaxcom",
+      "series": "ZMT4",
+      "band": ".5 (512–608)",
+      "freqStart": 512,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": 100,
+      "segments": null,
+      "source": "ZAXCOM_ZMT4",
+      "note": "Digital mini transmitter, US band — also sits inside the EU 470–694 TV band."
+    },
+    {
+      "brand": "Zaxcom",
+      "series": "ZMT4-X",
+      "band": ".6 (596–698)",
+      "freqStart": 596,
+      "freqEnd": 698,
+      "deviceType": "mic",
+      "stepKhz": 100,
+      "segments": null,
+      "source": "ZAXCOM_ZMT4_X",
+      "note": "Outside-US band. Adds ZHD48 mode (50 kHz RF bandwidth, spacing down to 100 kHz, receiver dependent). The .5 version is 512–614 MHz."
+    },
+    {
+      "brand": "Electro-Voice",
+      "series": "RE3",
+      "band": "6M (653–663)",
+      "freqStart": 653,
+      "freqEnd": 663,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "ELECTRO_VOICE_RE3",
+      "note": "US 600 MHz duplex gap band, 10 MHz."
+    },
+    {
+      "brand": "Electro-Voice",
+      "series": "RE3",
+      "band": "8M (823–832 + 863–865)",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "ELECTRO_VOICE_RE3",
+      "note": "EU duplex gap + 863–865 license-free. 10 mW fixed. 823–832 needs a license in some countries."
+    },
+    {
+      "brand": "Electro-Voice",
+      "series": "RE3",
+      "band": "T (803–806)",
+      "freqStart": 803,
+      "freqEnd": 806,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "ELECTRO_VOICE_RE3",
+      "note": "3 MHz band (not an EU PMSE band)."
+    },
+    {
+      "brand": "Electro-Voice",
+      "series": "R300",
+      "band": "A (618–634)",
+      "freqStart": 618,
+      "freqEnd": 634,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ELECTRO_VOICE_R300",
+      "note": "32 channels, ClearScan. Check local rules before use."
+    },
+    {
+      "brand": "Electro-Voice",
+      "series": "R300",
+      "band": "B (678–694)",
+      "freqStart": 678,
+      "freqEnd": 694,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ELECTRO_VOICE_R300",
+      "note": "32 channels."
+    },
+    {
+      "brand": "Electro-Voice",
+      "series": "R300",
+      "band": "C (516–532)",
+      "freqStart": 516,
+      "freqEnd": 532,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "ELECTRO_VOICE_R300",
+      "note": "32 channels."
+    },
+    {
+      "brand": "RTS (Telex)",
+      "series": "BTR-800 / TR-800 wireless intercom",
+      "band": "Outside North America (482–608 + 614–722)",
+      "freqStart": 482,
+      "freqEnd": 722,
+      "deviceType": "radio",
+      "stepKhz": null,
+      "segments": [
+        [
+          482,
+          608
+        ],
+        [
+          614,
+          722
+        ]
+      ],
+      "source": "RTS_TELEX_BTR_800_TR_800_WIR",
+      "note": "2-ch UHF intercom, full duplex: base TX in one 18 MHz band (482–608), beltpacks TX back in another 18 MHz band (572–608 / 614–722). Band code (e.g. A2, HE, E88) sets both — coordinate BOTH halves."
+    },
+    {
+      "brand": "JTS",
+      "series": "RU-8011D / RU-8011DB / RU-992 / E-7 / US-36G2 (36 MHz PLL)",
+      "band": "I band (487–507)",
+      "freqStart": 487.125,
+      "freqEnd": 506.5,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "JTS_RU_8011D_RU_8011DB_RU_99",
+      "note": "JTS 36 MHz PLL series, I band 487.125–506.500 MHz. 25 kHz fine-tune (RU-8011DB)."
+    },
+    {
+      "brand": "JTS",
+      "series": "RU-8011D / RU-8011DB / RU-992 / E-7 / US-36G2 (36 MHz PLL)",
+      "band": "U band (606–630)",
+      "freqStart": 606.5,
+      "freqEnd": 629.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "JTS_RU_8011D_RU_8011DB_RU_99",
+      "note": "JTS U band 606.500–629.900 MHz."
+    },
+    {
+      "brand": "JTS",
+      "series": "RU-8011D / RU-8011DB / RU-992 / E-7 / US-36G2 (36 MHz PLL)",
+      "band": "D band (658–679)",
+      "freqStart": 658.125,
+      "freqEnd": 678.5,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "JTS_RU_8011D_RU_8011DB_RU_99",
+      "note": "JTS D band 658.125–678.500 MHz."
+    },
+    {
+      "brand": "JTS",
+      "series": "RU-8011D / RU-8011DB / RU-992 / E-7 / US-36G2 (36 MHz PLL)",
+      "band": "G band (722–748)",
+      "freqStart": 721.5,
+      "freqEnd": 748.375,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "JTS_RU_8011D_RU_8011DB_RU_99",
+      "note": "Inside the EU 700 MHz mobile band (694–790 MHz): not for wireless mics in DE. Export band."
+    },
+    {
+      "brand": "JTS",
+      "series": "RU-8011D / RU-8011DB / RU-992 / E-7 / US-36G2 (36 MHz PLL)",
+      "band": "F band (856–865)",
+      "freqStart": 856.1,
+      "freqEnd": 864.9,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "JTS_RU_8011D_RU_8011DB_RU_99",
+      "note": "Only 863–864.9 MHz is usable in DE (the 863–865 MHz SRD band). 856–862 MHz is the 800 MHz mobile uplink: not for wireless mics."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 88x",
+      "band": "K (470–494)",
+      "freqStart": 470,
+      "freqEnd": 494,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_88X",
+      "note": "EU band; license may be needed (Samson). 100 channels across 25 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 88x",
+      "band": "G (863–865)",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_88X",
+      "note": "License-free EU band."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 99",
+      "band": "K (470–494)",
+      "freqStart": 470,
+      "freqEnd": 494,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_99",
+      "note": "80 channels (8 groups × 10). Channels 470.125–493.700 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 99",
+      "band": "F (606–630)",
+      "freqStart": 606,
+      "freqEnd": 630,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_99",
+      "note": "Not for USA/Canada. Channels 606.125–629.700 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 99",
+      "band": "L (823–832)",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_99",
+      "note": "Not for USA/Canada. Channels 823.125–831.700 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 99",
+      "band": "G (863–865)",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": 50,
+      "segments": null,
+      "source": "SAMSON_CONCERT_99",
+      "note": "Not for USA/Canada. 32 channels on a 50 kHz grid, 863.050–864.950 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 88 (Concert 288m)",
+      "band": "K (470–494)",
+      "freqStart": 470,
+      "freqEnd": 494,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_88_CONCERT_28",
+      "note": "Channels 470.125–492.400 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 88 (Concert 288m)",
+      "band": "L (823–832)",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_88_CONCERT_28",
+      "note": "Not for USA/Canada. Channels 823.125–831.700 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "Concert 88 (Concert 288m)",
+      "band": "G (863–865)",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "SAMSON_CONCERT_88_CONCERT_28",
+      "note": "Not for USA/Canada. Channels 863.050–864.950 MHz."
+    },
+    {
+      "brand": "Samson",
+      "series": "AirLine Micro (AWXm)",
+      "band": "K (470–494) / G (863–865)",
+      "freqStart": 470,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": [
+        [
+          470,
+          494
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "SAMSON_AIRLINE_MICRO_AWXM",
+      "note": "EU variants K (license may apply) and G (license-free). Each unit is one band — consider splitting into two rows."
+    },
+    {
       "brand": "Line 6",
       "series": "Note",
       "band": "—",
@@ -2345,8 +5297,8 @@
       "deviceType": "advisory",
       "stepKhz": null,
       "segments": null,
-      "source": null,
-      "note": "Line 6 Relay (G10/G30/G50/G70/G90) and XD-V series operate at 2.4 GHz DECT/ISM — outside this UHF spectrum display. Coordinate separately."
+      "source": "LINE6_RELAY",
+      "note": "Line 6 Relay (G10/G10S/G30/G50/G55/G70/G75/G90) and XD-V series run at 2.4 GHz (ISM, not DECT) — outside this UHF spectrum display. License-free and frequency-agile; keep away from Wi-Fi access points."
     },
     {
       "brand": "XVive",
@@ -2357,8 +5309,20 @@
       "deviceType": "advisory",
       "stepKhz": null,
       "segments": null,
-      "source": null,
-      "note": "Wireless IEM systems. U4 = 2.4 GHz (2400–2483.5 MHz), U45 = 5.8 GHz (5725–5850 MHz) digital — both outside this UHF spectrum display. Licence-free; coordinate separately."
+      "source": "XVIVE_U45",
+      "note": "Wireless IEM systems. U4 = 2.4 GHz (2400–2483.5 MHz), U45 = 5.8 GHz (carriers 5730–5844 MHz) digital — both outside this UHF spectrum display. License-free; coordinate separately."
+    },
+    {
+      "brand": "XVive",
+      "series": "U2 / U3 / U5 (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "XVIVE_U2_U3_U5_NOTE",
+      "note": "Xvive U2 (guitar), U3 / U3C / U3D (mic) and U5 (lav): 2.4 GHz ISM (2400–2483.5 MHz), 6 switchable channels — outside this UHF spectrum display. License-free; keep the receiver 3 m+ from Wi-Fi routers."
     },
     {
       "brand": "Nux",
@@ -2369,8 +5333,8 @@
       "deviceType": "advisory",
       "stepKhz": null,
       "segments": null,
-      "source": null,
-      "note": "Wireless personal IEM. B-7PSM = 5.8 GHz (5725–5850 MHz); the B-7 Pro variant = 2.4 GHz. Both outside this UHF spectrum display. Coordinate separately."
+      "source": "NUX_B7PRO",
+      "note": "Wireless personal IEM. B-7PSM = 5.8 GHz; its successor B-7 PRO = 2.4 GHz (2400–2483.5 MHz, frequency hopping). Both outside this UHF spectrum display. Coordinate separately."
     },
     {
       "brand": "Mipro",
@@ -2381,8 +5345,29 @@
       "deviceType": "advisory",
       "stepKhz": null,
       "segments": null,
-      "source": null,
-      "note": "Digital stereo IEM system. 5.8 GHz ISM (5725–5850 MHz) — outside this UHF spectrum display. Licence-free; coordinate separately. (No \"M-58\" product exists; the model is MI-58.)"
+      "source": "MIPRO_MI58",
+      "note": "Digital stereo IEM system (MI-58T / MI-58R). 5.8 GHz ISM — outside this UHF spectrum display. License-free; coordinate separately."
+    },
+    {
+      "brand": "Mipro",
+      "series": "MI-909 (MI-909T / MI-909R)",
+      "band": "UHF (470–639 + 705–960)",
+      "freqStart": 470,
+      "freqEnd": 960,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": [
+        [
+          470,
+          639
+        ],
+        [
+          705,
+          960
+        ]
+      ],
+      "source": "MIPRO_MI_909_MI_909T_MI_909R",
+      "note": "Digital stereo IEM. Mipro gives only the worldwide envelope (country dependent); the actual tuning window is on the unit's band label. Above 694 MHz is mostly not usable in the EU."
     },
     {
       "brand": "the t.bone",
@@ -2394,7 +5379,151 @@
       "stepKhz": null,
       "segments": null,
       "source": "TBONE75",
-      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, licence-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 1–4 are the spread set the manual recommends for running two systems at once; channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
+      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, license-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 1–4 are the spread set the manual recommends for running two systems at once; channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "520 (518–536)",
+      "freqStart": 518,
+      "freqEnd": 536,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO",
+      "note": "10 groups × 12 ch + user group (25 kHz). Inside German 470–608 MHz."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "590 (584–608)",
+      "freqStart": 584,
+      "freqEnd": 608,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO",
+      "note": "16 groups × 14 ch + 2 user groups. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "660 (655–680)",
+      "freqStart": 655,
+      "freqEnd": 679.3,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO_2",
+      "note": "13 groups × 16 ch + user group. Manual prints 675–679 MHz (typo); the official frequency list spans 655.000–679.300 MHz. Inside German 614–694 MHz."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "600 (596–620, UK)",
+      "freqStart": 596.1,
+      "freqEnd": 619.6,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO_2",
+      "note": "UK variant. Channels 609–613 MHz sit in 608–614 MHz, which is not a PMSE band in Germany. Check before use outside the UK."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "823–832",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": 25,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO",
+      "note": "8 groups × 8 ch + user group; two systems max. Same comb as Behringer UL 1000G2 EU ch 5–12 (common OEM). See presetTables."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO_2",
+      "note": "Single 16-channel group, identical to the IEM 75 table. License-free SRD, 10 mW."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free solo / free solo Twin",
+      "band": "1G8 (1785–1800)",
+      "freqStart": 1785,
+      "freqEnd": 1800,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_SOLO_FREE_SO_2",
+      "note": "16 groups × 12 ch in 1785.1–1799.95 MHz. EU 1.8 GHz PMSE band."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "freeU Twin HT / PT",
+      "band": "823–832",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREEU_TWIN_HT_PT",
+      "note": "10 groups × 10 ch (100 channels), 30 mW. Per-channel table is not published in the manual."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "freeU Twin HT / PT",
+      "band": "863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREEU_TWIN_HT_PT",
+      "note": "4 groups × 4 ch (16). License-free SRD, 10 mW class."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free 300 HT / PT",
+      "band": "548–572",
+      "freqStart": 548,
+      "freqEnd": 572,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_300_HT_PT",
+      "note": "Analog, 3 groups × 10 ch. Inside German 470–608 MHz."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free 300 HT / PT",
+      "band": "823–832",
+      "freqStart": 823,
+      "freqEnd": 832,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_300_HT_PT",
+      "note": "Analog, 3 groups × 10 ch; the 823 model covers 823–832 and 863–865 MHz."
+    },
+    {
+      "brand": "the t.bone",
+      "series": "free 300 HT / PT",
+      "band": "863–865",
+      "freqStart": 863,
+      "freqEnd": 865,
+      "deviceType": "mic",
+      "stepKhz": null,
+      "segments": null,
+      "source": "THE_T_BONE_FREE_300_HT_PT",
+      "note": "Analog, 3 groups × 10 ch; the 823 model covers 823–832 and 863–865 MHz."
     },
     {
       "brand": "the t.bone",
@@ -2417,8 +5546,80 @@
       "deviceType": "advisory",
       "stepKhz": null,
       "segments": null,
-      "source": "RODE",
-      "note": "Rode Wireless GO II. 2.4 GHz digital FHSS system — outside this UHF spectrum display. Licence-free; no fixed frequency coordination applies (frequency-hopping), but avoid heavy 2.4 GHz Wi-Fi congestion at the venue."
+      "source": "RODE_GOII",
+      "note": "Rode Wireless GO II, Wireless GO (Gen 3), Wireless PRO and Wireless ME: 2.4 GHz digital (Series IV) — outside this UHF spectrum display. License-free and frequency-hopping, no fixed coordination; avoid heavy 2.4 GHz Wi-Fi congestion."
+    },
+    {
+      "brand": "Clear-Com",
+      "series": "FreeSpeak II (1.9 GHz)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "CLEAR_COM_FREESPEAK_II_1_9_G",
+      "note": "DECT wireless intercom. EU: 1880–1900 MHz (full band); US/Canada 1920–1930 MHz. Outside this UHF display; no conflict with mics, but keep antennas apart from mic receivers."
+    },
+    {
+      "brand": "Clear-Com",
+      "series": "FreeSpeak Edge (5 GHz)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "CLEAR_COM_FREESPEAK_EDGE_5_G",
+      "note": "5 GHz wireless intercom, 20 MHz OFDM channels from 5180–5825 MHz (U-NII-1/2/2e/3; EU has 26 channels incl. DFS). Shares spectrum with 5 GHz Wi-Fi, not with UHF mics."
+    },
+    {
+      "brand": "Riedel",
+      "series": "Bolero",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "RIEDEL_BOLERO",
+      "note": "Wireless intercom. DECT version 1880–1930 MHz (region dependent; EU DECT is 1880–1900); 2.4 GHz version 2403–2479 MHz. Outside this UHF display."
+    },
+    {
+      "brand": "LumenRadio",
+      "series": "CRMX (wireless DMX)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "LUMENRADIO_CRMX_WIRELESS_DMX",
+      "note": "Wireless DMX/RDM, 2402–2480 MHz ISM with adaptive frequency hopping. Competes with 2.4 GHz mics/Wi-Fi, not UHF."
+    },
+    {
+      "brand": "Boss",
+      "series": "WL-20 / WL-20L / WL-50 (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "BOSS_WL_20_WL_20L_WL_50_NOTE",
+      "note": "BOSS WL guitar wireless: 2.4 GHz digital, auto-picks 1 of 14 channels — outside this UHF spectrum display. License-free; no fixed coordination."
+    },
+    {
+      "brand": "DJI / Hollyland / Saramonic",
+      "series": "Creator wireless mics (Note)",
+      "band": "—",
+      "freqStart": null,
+      "freqEnd": null,
+      "deviceType": "advisory",
+      "stepKhz": null,
+      "segments": null,
+      "source": "DJI_HOLLYLAND_SARAMONIC_CREA",
+      "note": "DJI Mic / Mic 2 / Mic Mini, Hollyland Lark M1 / M2 / Max, Saramonic Blink500: 2.4 GHz (2400–2483.5 MHz) frequency hopping. DJI Mic 3 also uses 5.15–5.85 GHz. Outside this UHF spectrum display; license-free, no fixed coordination."
     }
   ],
   "taxonomy": {
@@ -2641,6 +5842,431 @@
       "frequencyModel": "band_range_free_tune",
       "inputMode": "standard",
       "defaultInputMode": "mhz"
+    },
+    "Shure — Axient Digital (AD / ADX)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — EW G4": {
+      "frequencyModel": "bank_channel_plus_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — SLXD+": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — Axient Digital PSM": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — UHF-R (UR)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — ULX": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — SLX": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Shure — GLX-D / GLX-D+ (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Shure — Microflex Wireless MXW / MXW neXt (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Sennheiser — 2000 series (SKM/SK 2000, EM 2000/2050)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — XS Wireless IEM": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — SKM 5200-II / SK 5212-II / EM 3732-II": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sennheiser — SpeechLine Digital Wireless (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Sennheiser — XS Wireless Digital XSW-D (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Audio-Technica — 2000 Series": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Audio-Technica — AT-One": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Audio-Technica — System 10 (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "AKG — DMS800": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "AKG — WMS 470": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "AKG — WMS 420": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "AKG — IVM 4500 (SST 4500 IEM)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "AKG — DMS 100 / DMS 300 (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Lectrosonics — Duet (M2T / M2R)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-71": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-7000": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-6000": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-2U / PTU-1U": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTAU-2": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTI-2": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTC-4 / PTC-8 (conference)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-52 / PTU-5200 / PTU-4200": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-5000 / PTU-4000 / PTU-51 (fixed)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-4000 (900 MHz channels)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTU-X (plug-on)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTV-2000 (VHF)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PDP-1 / PDP-2 (digital)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PDP-M (digital IEM)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTM-10 (Gen 1)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTM-10 Gen 2 / PTM-20": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTM-11 (mono IEM)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTM-22 (mono IEM)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTM-33 (mono IEM)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Phenyx Pro — PTM-11 / PTM-22 / PTM-33 (900 MHz)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "the t.bone — free solo / free solo Twin": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "the t.bone — freeU Twin HT / PT": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "the t.bone — free 300 HT / PT": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Alto Professional — Stealth Wireless MKII": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Wisycom — MTP60 / MTP61": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Wisycom — MTP40S": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Wisycom — MPR50-IEM": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Wisycom — MTK982": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Wisycom — MCR54": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Wisycom — MRK980": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Sound Devices — A20-Mini (SpectraBand, fw 6.00+)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Zaxcom — ZMT4": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Zaxcom — ZMT4-X": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Mipro — MI-909 (MI-909T / MI-909R)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Electro-Voice — RE3": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "RTS (Telex) — BTR-800 / TR-800 wireless intercom": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Clear-Com — FreeSpeak II (1.9 GHz)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Clear-Com — FreeSpeak Edge (5 GHz)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Riedel — Bolero": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "LumenRadio — CRMX (wireless DMX)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "LD Systems — U506": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U508": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U506 UK": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U505 CS4 (conference)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U506 CS4 (conference)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U305": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U306": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — U308": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — ANNY (wireless module)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — MEI 100 G2": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — WIN 42": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "LD Systems — Sweet SixTeen": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "JTS — RU-8011D / RU-8011DB / RU-992 / E-7 / US-36G2 (36 MHz PLL)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Samson — Concert 88x": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Samson — Concert 99": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Samson — Concert 88 (Concert 288m)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Samson — AirLine Micro (AWXm)": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Electro-Voice — R300": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
+    },
+    "Behringer — ULM (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "XVive — U2 / U3 / U5 (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "Boss — WL-20 / WL-20L / WL-50 (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
+    },
+    "DJI / Hollyland / Saramonic — Creator wireless mics (Note)": {
+      "frequencyModel": "advisory",
+      "inputMode": "advisory",
+      "defaultInputMode": null
     }
   },
   "bandAliases": {
@@ -2669,9 +6295,9 @@
     "LD Systems||U518||655–679": null,
     "Audio-Technica||ATW-3000 / ATW-5000||DE3 (530–590)": null,
     "Audio-Technica||ATW-3000 / ATW-5000||DE5 (606–662)": null,
-    "Audio-Technica||3000 Series (4th Gen)||GH2": null,
-    "Audio-Technica||3000 Series (4th Gen)||HH2 (821–832)": null,
-    "Audio-Technica||3000 Series (4th Gen)||HH2 (863–865)": null,
+    "Audio-Technica||3000 Series (4th Gen)||GH2": "Audio-Technica||3000 Series (4th Gen)||GH2 (794–806)",
+    "Audio-Technica||3000 Series (4th Gen)||HH2 (821–832)": "Audio-Technica||3000 Series (4th Gen)||HH2",
+    "Audio-Technica||3000 Series (4th Gen)||HH2 (863–865)": "Audio-Technica||3000 Series (4th Gen)||HH2",
     "Beyerdynamic||TG 500 / TG 1000||B5 (506–542)": null,
     "Beyerdynamic||TG 500 / TG 1000||B6 (542–574)": null,
     "Beyerdynamic||TG 500 / TG 1000||D1 (606–630)": null,
@@ -2686,7 +6312,30 @@
     "the t.bone||IEM 200||606–630": null,
     "the t.bone||IEM 200||710–734": null,
     "the t.bone||IEM 200||740–764": null,
-    "the t.bone||IEM 200||820–844": null
+    "the t.bone||IEM 200||820–844": null,
+    "Shure||Axient Digital (ADX / AXT)||G55": "Shure||Axient Digital (AD / ADX)||G55",
+    "Shure||Axient Digital (ADX / AXT)||G56": "Shure||Axient Digital (AD / ADX)||G56",
+    "Shure||Axient Digital (ADX / AXT)||G57": "Shure||Axient Digital (AD / ADX)||G57",
+    "Shure||Axient Digital (ADX / AXT)||H54": "Shure||Axient Digital (AD / ADX)||H54",
+    "Shure||Axient Digital (ADX / AXT)||K53": "Shure||Axient Digital (AD / ADX)||K53",
+    "Shure||Axient Digital (ADX / AXT)||K54": "Shure||Axient Digital (AD / ADX)||K54",
+    "Shure||Axient Digital (ADX / AXT)||K55": "Shure||Axient Digital (AD / ADX)||K55",
+    "Shure||Axient Digital (ADX / AXT)||K58": "Shure||Axient Digital (AD / ADX)||K58",
+    "Shure||PSM (300 / 900 / 1000)||PSM900/1000 K1E (596–632)": "Shure||PSM (300 / 900 / 1000)||PSM900 K1E (596–632)",
+    "Sennheiser||EW G4 / G5||A1": "Sennheiser||EW G4||A1",
+    "Sennheiser||EW G4 / G5||A": "Sennheiser||EW G4||A",
+    "Sennheiser||EW G4 / G5||AS": "Sennheiser||EW G4||AS",
+    "Sennheiser||EW G4 / G5||AW+": "Sennheiser||EW G4||AW+",
+    "Sennheiser||EW G4 / G5||G": "Sennheiser||EW G4||G",
+    "Sennheiser||EW G4 / G5||GW1": "Sennheiser||EW G4||GW1",
+    "Sennheiser||EW G4 / G5||GW": "Sennheiser||EW G4||GW",
+    "Sennheiser||EW G4 / G5||GB": "Sennheiser||EW G4||GB",
+    "Sennheiser||EW G4 / G5||GBW": "Sennheiser||EW G4||GBW",
+    "Sennheiser||EW G4 / G5||B": "Sennheiser||EW G4||B",
+    "Sennheiser||EW G4 / G5||BW": "Sennheiser||EW G4||BW",
+    "Sennheiser||EW G4 / G5||C": "Sennheiser||EW G4||C",
+    "Sennheiser||EW G4 / G5||D": "Sennheiser||EW G4||D",
+    "Sennheiser||EW G4 / G5||E": "Sennheiser||EW G4||E"
   },
   "legacyBands": [
     {
@@ -2815,42 +6464,6 @@
       "band": "DE5 (606–662)",
       "freqStart": 606,
       "freqEnd": 662,
-      "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": null,
-      "note": null
-    },
-    {
-      "brand": "Audio-Technica",
-      "series": "3000 Series (4th Gen)",
-      "band": "GH2",
-      "freqStart": 794,
-      "freqEnd": 806,
-      "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": null,
-      "note": null
-    },
-    {
-      "brand": "Audio-Technica",
-      "series": "3000 Series (4th Gen)",
-      "band": "HH2 (821–832)",
-      "freqStart": 821,
-      "freqEnd": 832,
-      "deviceType": "mic",
-      "stepKhz": null,
-      "segments": null,
-      "source": null,
-      "note": null
-    },
-    {
-      "brand": "Audio-Technica",
-      "series": "3000 Series (4th Gen)",
-      "band": "HH2 (863–865)",
-      "freqStart": 863,
-      "freqEnd": 865,
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
@@ -3664,6 +7277,120 @@
           "Ch10": 674.75,
           "Ch11": 676.075,
           "Ch12": 678.2
+        }
+      },
+      "B8": {
+        "Group 1": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864.3,
+          "Ch4": 864.9,
+          "Ch5": 823.1,
+          "Ch6": 823.5,
+          "Ch7": 824.1,
+          "Ch8": 825.5,
+          "Ch9": 826.3,
+          "Ch10": 828.9,
+          "Ch11": 830.1,
+          "Ch12": 831.9
+        },
+        "Group 2": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864,
+          "Ch4": 864.8,
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch10": 827.7,
+          "Ch11": 829.1,
+          "Ch12": 830.6
+        },
+        "Group 3": {
+          "Ch1": 863.2,
+          "Ch2": 863.7,
+          "Ch3": 864.1,
+          "Ch4": 864.8,
+          "Ch5": 823.2,
+          "Ch6": 823.8,
+          "Ch7": 824.6,
+          "Ch8": 825.6,
+          "Ch9": 826.8,
+          "Ch10": 828.1,
+          "Ch11": 829.6,
+          "Ch12": 831.3
+        },
+        "Group 4": {
+          "Ch1": 863.15,
+          "Ch2": 863.55,
+          "Ch3": 864.05,
+          "Ch4": 864.85,
+          "Ch5": 823.15,
+          "Ch6": 823.75,
+          "Ch7": 824.75,
+          "Ch8": 825.85,
+          "Ch9": 826.55,
+          "Ch10": 827.75,
+          "Ch11": 829.15,
+          "Ch12": 831.65
+        },
+        "Group 5": {
+          "Ch1": 863.15,
+          "Ch2": 863.95,
+          "Ch3": 864.45,
+          "Ch4": 864.85,
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch10": 827.7,
+          "Ch11": 829.1,
+          "Ch12": 830.6
+        },
+        "Group 6": {
+          "Ch1": 863.1,
+          "Ch2": 863.7,
+          "Ch3": 864.5,
+          "Ch4": 864.9,
+          "Ch5": 823.1,
+          "Ch6": 823.6,
+          "Ch7": 824.6,
+          "Ch8": 825.3,
+          "Ch9": 826.2,
+          "Ch10": 827.3,
+          "Ch11": 829.2,
+          "Ch12": 831.6
+        },
+        "Group 7": {
+          "Ch1": 863.25,
+          "Ch2": 863.65,
+          "Ch3": 864.15,
+          "Ch4": 864.75,
+          "Ch5": 823.15,
+          "Ch6": 823.85,
+          "Ch7": 824.85,
+          "Ch8": 825.65,
+          "Ch9": 826.85,
+          "Ch10": 828.25,
+          "Ch11": 829.55,
+          "Ch12": 831.15
+        },
+        "Group 8": {
+          "Ch1": 863.25,
+          "Ch2": 863.85,
+          "Ch3": 864.35,
+          "Ch4": 864.75,
+          "Ch5": 823.25,
+          "Ch6": 823.95,
+          "Ch7": 824.95,
+          "Ch8": 825.75,
+          "Ch9": 826.95,
+          "Ch10": 828.35,
+          "Ch11": 829.65,
+          "Ch12": 831.25
         }
       }
     },
@@ -5803,12 +9530,429 @@
     },
     "LD Systems U505": {
       "584-608": {
-        "Default": {}
+        "Group 1": {
+          "Ch1": 584.4,
+          "Ch2": 587.5,
+          "Ch3": 589.575,
+          "Ch4": 591.05,
+          "Ch5": 593.425,
+          "Ch6": 595.2,
+          "Ch7": 598.45,
+          "Ch8": 599.65,
+          "Ch9": 601.275,
+          "Ch10": 603.775,
+          "Ch11": 605.5,
+          "Ch12": 606.75
+        },
+        "Group 2": {
+          "Ch1": 585.25,
+          "Ch2": 586.5,
+          "Ch3": 588.225,
+          "Ch4": 590.725,
+          "Ch5": 592.35,
+          "Ch6": 593.55,
+          "Ch7": 597.8,
+          "Ch8": 598.575,
+          "Ch9": 600.95,
+          "Ch10": 602.425,
+          "Ch11": 604.5,
+          "Ch12": 607.6
+        },
+        "Group 3": {
+          "Ch1": 584.2,
+          "Ch2": 585.675,
+          "Ch3": 586.8,
+          "Ch4": 588.45,
+          "Ch5": 589.75,
+          "Ch6": 592.2,
+          "Ch7": 594.325,
+          "Ch8": 598.225,
+          "Ch9": 600.525,
+          "Ch10": 602.575,
+          "Ch11": 605.6,
+          "Ch12": 607.575
+        },
+        "Group 4": {
+          "Ch1": 585.775,
+          "Ch2": 586.5,
+          "Ch3": 590.2,
+          "Ch4": 591.6,
+          "Ch5": 592.7,
+          "Ch6": 594.25,
+          "Ch7": 595.5,
+          "Ch8": 599.1,
+          "Ch9": 601.425,
+          "Ch10": 603.45,
+          "Ch11": 604.775,
+          "Ch12": 606.9
+        },
+        "Group 5": {
+          "Ch1": 585.1,
+          "Ch2": 587.225,
+          "Ch3": 588.55,
+          "Ch4": 590.575,
+          "Ch5": 592.9,
+          "Ch6": 596.5,
+          "Ch7": 597.75,
+          "Ch8": 599.3,
+          "Ch9": 600.4,
+          "Ch10": 601.8,
+          "Ch11": 603.5,
+          "Ch12": 606.225
+        },
+        "Group 6": {
+          "Ch1": 584.425,
+          "Ch2": 586.4,
+          "Ch3": 589.425,
+          "Ch4": 591.475,
+          "Ch5": 593.775,
+          "Ch6": 597.675,
+          "Ch7": 599.8,
+          "Ch8": 602.25,
+          "Ch9": 603.55,
+          "Ch10": 605.2,
+          "Ch11": 606.325,
+          "Ch12": 607.8
+        },
+        "Group 7": {
+          "Ch1": 584.7,
+          "Ch2": 587.8,
+          "Ch3": 589.875,
+          "Ch4": 591.35,
+          "Ch5": 593.725,
+          "Ch6": 595.5,
+          "Ch7": 598.75,
+          "Ch8": 599.95,
+          "Ch9": 601.575,
+          "Ch10": 604.075,
+          "Ch11": 605.8,
+          "Ch12": 607.05
+        },
+        "Group 8": {
+          "Ch1": 585.55,
+          "Ch2": 586.8,
+          "Ch3": 588.525,
+          "Ch4": 591.025,
+          "Ch5": 592.65,
+          "Ch6": 593.85,
+          "Ch7": 598.1,
+          "Ch8": 598.875,
+          "Ch9": 601.25,
+          "Ch10": 602.725,
+          "Ch11": 604.8,
+          "Ch12": 607.9
+        },
+        "Group 9": {
+          "Ch1": 584.5,
+          "Ch2": 585.975,
+          "Ch3": 587.1,
+          "Ch4": 588.75,
+          "Ch5": 590.05,
+          "Ch6": 592.5,
+          "Ch7": 594.525,
+          "Ch8": 598.525,
+          "Ch9": 600.825,
+          "Ch10": 602.875,
+          "Ch11": 605.9,
+          "Ch12": 607.875
+        },
+        "Group 10": {
+          "Ch1": 586.075,
+          "Ch2": 586.8,
+          "Ch3": 590.5,
+          "Ch4": 591.9,
+          "Ch5": 593,
+          "Ch6": 594.55,
+          "Ch7": 595.8,
+          "Ch8": 599.4,
+          "Ch9": 601.725,
+          "Ch10": 603.75,
+          "Ch11": 605.075,
+          "Ch12": 607.2
+        }
       }
     },
     "LD Systems U518": {
       "1785-1800": {
-        "Default": {}
+        "Group 1": {
+          "Ch1": 1795.65,
+          "Ch2": 1796.05,
+          "Ch3": 1796.75,
+          "Ch4": 1797.25,
+          "Ch5": 1797.65,
+          "Ch6": 1799,
+          "Ch7": 1799.4,
+          "Ch8": 1785.7,
+          "Ch9": 1786.1,
+          "Ch10": 1786.95,
+          "Ch11": 1787.45,
+          "Ch12": 1788.3
+        },
+        "Group 2": {
+          "Ch1": 1795.05,
+          "Ch2": 1795.45,
+          "Ch3": 1796.15,
+          "Ch4": 1797.1,
+          "Ch5": 1797.5,
+          "Ch6": 1798.35,
+          "Ch7": 1798.95,
+          "Ch8": 1799.35,
+          "Ch9": 1785.1,
+          "Ch10": 1785.5,
+          "Ch11": 1786.35,
+          "Ch12": 1786.85
+        },
+        "Group 3": {
+          "Ch1": 1785.5,
+          "Ch2": 1785.95,
+          "Ch3": 1786.85,
+          "Ch4": 1787.25,
+          "Ch5": 1788.1,
+          "Ch6": 1788.65,
+          "Ch7": 1789.5,
+          "Ch8": 1789.95,
+          "Ch9": 1790.55,
+          "Ch10": 1791,
+          "Ch11": 1791.9,
+          "Ch12": 1793.15
+        },
+        "Group 4": {
+          "Ch1": 1795.1,
+          "Ch2": 1795.5,
+          "Ch3": 1796.35,
+          "Ch4": 1796.85,
+          "Ch5": 1797.7,
+          "Ch6": 1798.1,
+          "Ch7": 1799.5,
+          "Ch8": 1795.95,
+          "Ch9": 1797.25,
+          "Ch10": 1798.65,
+          "Ch11": 1799.1,
+          "Ch12": 1799.65
+        },
+        "Group 5": {
+          "Ch1": 1795.1,
+          "Ch2": 1795.95,
+          "Ch3": 1797.25,
+          "Ch4": 1797.7,
+          "Ch5": 1798.65,
+          "Ch6": 1799.1,
+          "Ch7": 1785.1,
+          "Ch8": 1785.5,
+          "Ch9": 1786.35,
+          "Ch10": 1786.85,
+          "Ch11": 1788.1,
+          "Ch12": 1789.1
+        },
+        "Group 6": {
+          "Ch1": 1785.15,
+          "Ch2": 1785.55,
+          "Ch3": 1786.4,
+          "Ch4": 1786.9,
+          "Ch5": 1787.75,
+          "Ch6": 1795.85,
+          "Ch7": 1796.25,
+          "Ch8": 1797.2,
+          "Ch9": 1797.95,
+          "Ch10": 1798.4,
+          "Ch11": 1799.05,
+          "Ch12": 1799.45
+        },
+        "Group 7": {
+          "Ch1": 1799.85,
+          "Ch2": 1799.45,
+          "Ch3": 1798.6,
+          "Ch4": 1798.1,
+          "Ch5": 1797.25,
+          "Ch6": 1795.85,
+          "Ch7": 1795.45,
+          "Ch8": 1793.95,
+          "Ch9": 1793.55,
+          "Ch10": 1792.65,
+          "Ch11": 1792.2,
+          "Ch12": 1790.75
+        },
+        "Group 8": {
+          "Ch1": 1785.2,
+          "Ch2": 1785.6,
+          "Ch3": 1786.45,
+          "Ch4": 1786.95,
+          "Ch5": 1787.8,
+          "Ch6": 1788.2,
+          "Ch7": 1795.95,
+          "Ch8": 1796.7,
+          "Ch9": 1797.65,
+          "Ch10": 1798.5,
+          "Ch11": 1798.9,
+          "Ch12": 1799.45
+        },
+        "Group 9": {
+          "Ch1": 1799.8,
+          "Ch2": 1799.4,
+          "Ch3": 1798.55,
+          "Ch4": 1798.05,
+          "Ch5": 1797.2,
+          "Ch6": 1795.8,
+          "Ch7": 1795.4,
+          "Ch8": 1794.35,
+          "Ch9": 1793.5,
+          "Ch10": 1793,
+          "Ch11": 1792.15,
+          "Ch12": 1791.75
+        },
+        "Group 10": {
+          "Ch1": 1795.25,
+          "Ch2": 1795.85,
+          "Ch3": 1796.35,
+          "Ch4": 1797.3,
+          "Ch5": 1797.75,
+          "Ch6": 1798.65,
+          "Ch7": 1799.05,
+          "Ch8": 1799.9,
+          "Ch9": 1796.9,
+          "Ch10": 1798.15,
+          "Ch11": 1799.5,
+          "Ch12": 1799.95
+        },
+        "Group 11": {
+          "Ch1": 1785.15,
+          "Ch2": 1785.8,
+          "Ch3": 1786.25,
+          "Ch4": 1786.8,
+          "Ch5": 1787.25,
+          "Ch6": 1788.1,
+          "Ch7": 1788.6,
+          "Ch8": 1790.05,
+          "Ch9": 1790.5,
+          "Ch10": 1791.9,
+          "Ch11": 1792.75,
+          "Ch12": 1793.15
+        },
+        "Group 12": {
+          "Ch1": 1794.05,
+          "Ch2": 1793.15,
+          "Ch3": 1792.75,
+          "Ch4": 1791.9,
+          "Ch5": 1791.35,
+          "Ch6": 1790.5,
+          "Ch7": 1790.05,
+          "Ch8": 1789.45,
+          "Ch9": 1789,
+          "Ch10": 1788.1,
+          "Ch11": 1787.7,
+          "Ch12": 1786.55
+        },
+        "Group 13": {
+          "Ch1": 1795.35,
+          "Ch2": 1795.75,
+          "Ch3": 1796.9,
+          "Ch4": 1797.3,
+          "Ch5": 1798.15,
+          "Ch6": 1798.65,
+          "Ch7": 1799.5,
+          "Ch8": 1799.9,
+          "Ch9": 1796.35,
+          "Ch10": 1797.75,
+          "Ch11": 1799.05,
+          "Ch12": 1799.45
+        },
+        "Group 14": {
+          "Ch1": 1799.05,
+          "Ch2": 1798.6,
+          "Ch3": 1798.05,
+          "Ch4": 1797.6,
+          "Ch5": 1796.7,
+          "Ch6": 1796.25,
+          "Ch7": 1795.55,
+          "Ch8": 1795.15,
+          "Ch9": 1793.75,
+          "Ch10": 1793.25,
+          "Ch11": 1792.85,
+          "Ch12": 1791.1
+        },
+        "Group 15": {
+          "Ch1": 1785.5,
+          "Ch2": 1786.05,
+          "Ch3": 1786.5,
+          "Ch4": 1787.4,
+          "Ch5": 1787.85,
+          "Ch6": 1788.55,
+          "Ch7": 1788.95,
+          "Ch8": 1795.9,
+          "Ch9": 1796.75,
+          "Ch10": 1797.15,
+          "Ch11": 1798.05,
+          "Ch12": 1798.5
+        },
+        "Group 16": {
+          "Ch1": 1785.25,
+          "Ch2": 1785.65,
+          "Ch3": 1786.5,
+          "Ch4": 1787,
+          "Ch5": 1788.25,
+          "Ch6": 1789.65,
+          "Ch7": 1790.1,
+          "Ch8": 1790.7,
+          "Ch9": 1797.65,
+          "Ch10": 1798.1,
+          "Ch11": 1798.7,
+          "Ch12": 1799.1
+        },
+        "Group 17": {
+          "Ch1": 1785.45,
+          "Ch2": 1785.9,
+          "Ch3": 1786.9,
+          "Ch4": 1787.35,
+          "Ch5": 1788.25,
+          "Ch6": 1788.7,
+          "Ch7": 1789.4,
+          "Ch8": 1796.2,
+          "Ch9": 1796.75,
+          "Ch10": 1797.6,
+          "Ch11": 1799.35,
+          "Ch12": 1799.75
+        },
+        "Group 18": {
+          "Ch1": 1795.15,
+          "Ch2": 1795.55,
+          "Ch3": 1796.4,
+          "Ch4": 1796.9,
+          "Ch5": 1797.75,
+          "Ch6": 1798.15,
+          "Ch7": 1799.55,
+          "Ch8": 1796,
+          "Ch9": 1797.3,
+          "Ch10": 1798.7,
+          "Ch11": 1799.15,
+          "Ch12": 1799.65
+        },
+        "Group 19": {
+          "Ch1": 1799.9,
+          "Ch2": 1799.5,
+          "Ch3": 1798.15,
+          "Ch4": 1797.3,
+          "Ch5": 1796.9,
+          "Ch6": 1795.9,
+          "Ch7": 1795.5,
+          "Ch8": 1796.35,
+          "Ch9": 1797.75,
+          "Ch10": 1798.65,
+          "Ch11": 1799.05,
+          "Ch12": 1799.75
+        },
+        "Group 20": {
+          "Ch1": 1785.1,
+          "Ch2": 1785.5,
+          "Ch3": 1786.35,
+          "Ch4": 1786.85,
+          "Ch5": 1787.7,
+          "Ch6": 1788.1,
+          "Ch7": null,
+          "Ch8": 1790.55,
+          "Ch9": 1791,
+          "Ch10": 1791.9,
+          "Ch11": 1792.3
+        }
       }
     },
     "Sony UWP-D": {
@@ -6105,6 +10249,582 @@
           "Ch12": 605.6
         }
       }
+    },
+    "the t.bone free solo 823": {
+      "823-832": {
+        "G1": {
+          "Ch1": 823.1,
+          "Ch2": 823.5,
+          "Ch3": 824.1,
+          "Ch4": 825.5,
+          "Ch5": 826.3,
+          "Ch6": 828.9,
+          "Ch7": 830.1,
+          "Ch8": 831.9
+        },
+        "G2": {
+          "Ch1": 823.1,
+          "Ch2": 823.7,
+          "Ch3": 824.7,
+          "Ch4": 825.8,
+          "Ch5": 826.5,
+          "Ch6": 827.7,
+          "Ch7": 829.1,
+          "Ch8": 830.6
+        },
+        "G3": {
+          "Ch1": 823.2,
+          "Ch2": 823.8,
+          "Ch3": 824.6,
+          "Ch4": 825.6,
+          "Ch5": 826.8,
+          "Ch6": 828.1,
+          "Ch7": 829.6,
+          "Ch8": 831.3
+        },
+        "G4": {
+          "Ch1": 823.15,
+          "Ch2": 823.75,
+          "Ch3": 824.75,
+          "Ch4": 825.85,
+          "Ch5": 826.55,
+          "Ch6": 827.75,
+          "Ch7": 829.15,
+          "Ch8": 831.65
+        },
+        "G5": {
+          "Ch1": 823.5,
+          "Ch2": 824.1,
+          "Ch3": 824.9,
+          "Ch4": 825.9,
+          "Ch5": 827.1,
+          "Ch6": 828.4,
+          "Ch7": 829.9,
+          "Ch8": 831.6
+        },
+        "G6": {
+          "Ch1": 823.1,
+          "Ch2": 823.6,
+          "Ch3": 824.6,
+          "Ch4": 825.3,
+          "Ch5": 826.2,
+          "Ch6": 827.3,
+          "Ch7": 829.2,
+          "Ch8": 831.6
+        },
+        "G7": {
+          "Ch1": 823.15,
+          "Ch2": 823.85,
+          "Ch3": 824.85,
+          "Ch4": 825.65,
+          "Ch5": 826.85,
+          "Ch6": 828.25,
+          "Ch7": 829.55,
+          "Ch8": 831.15
+        },
+        "G8": {
+          "Ch1": 823.25,
+          "Ch2": 823.95,
+          "Ch3": 824.95,
+          "Ch4": 825.75,
+          "Ch5": null,
+          "Ch6": 828.35,
+          "Ch7": 829.65,
+          "Ch8": 831.25
+        }
+      }
+    },
+    "Behringer UL 1000G2": {
+      "863-865": {
+        "G1": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864.3,
+          "Ch4": 864.9
+        },
+        "G2": {
+          "Ch1": 863.1,
+          "Ch2": 863.5,
+          "Ch3": 864,
+          "Ch4": 864.8
+        },
+        "G3": {
+          "Ch1": 863.2,
+          "Ch2": 863.7,
+          "Ch3": 864.1,
+          "Ch4": 864.8
+        },
+        "G4": {
+          "Ch1": 863.15,
+          "Ch2": 863.55,
+          "Ch3": 864.05,
+          "Ch4": 864.85
+        },
+        "G5": {
+          "Ch1": 863.15,
+          "Ch2": 863.95,
+          "Ch3": 864.45,
+          "Ch4": 864.85
+        },
+        "G6": {
+          "Ch1": 863.1,
+          "Ch2": 863.7,
+          "Ch3": 864.5,
+          "Ch4": 864.9
+        },
+        "G7": {
+          "Ch1": 863.25,
+          "Ch2": 863.65,
+          "Ch3": 864.15,
+          "Ch4": 864.75
+        },
+        "G8": {
+          "Ch1": 863.25,
+          "Ch2": 863.85,
+          "Ch3": 864.35,
+          "Ch4": 864.75
+        }
+      },
+      "823-832": {
+        "G1": {
+          "Ch5": 823.1,
+          "Ch6": 823.5,
+          "Ch7": 824.1,
+          "Ch8": 825.5,
+          "Ch9": 826.3,
+          "Ch10": 828.9,
+          "Ch11": 830.1,
+          "Ch12": 831.9
+        },
+        "G2": {
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch10": 827.7,
+          "Ch11": 829.1,
+          "Ch12": 830.6
+        },
+        "G3": {
+          "Ch5": 823.2,
+          "Ch6": 823.8,
+          "Ch7": 824.6,
+          "Ch8": 825.6,
+          "Ch9": 826.8,
+          "Ch10": 828.1,
+          "Ch11": 829.6,
+          "Ch12": 831.3
+        },
+        "G4": {
+          "Ch5": 823.15,
+          "Ch6": 823.75,
+          "Ch7": 824.75,
+          "Ch8": 825.85,
+          "Ch9": 826.55,
+          "Ch10": 827.75,
+          "Ch11": 829.15,
+          "Ch12": 831.65
+        },
+        "G5": {
+          "Ch5": 823.1,
+          "Ch6": 823.7,
+          "Ch7": 824.7,
+          "Ch8": 825.8,
+          "Ch9": 826.5,
+          "Ch10": 827.7,
+          "Ch11": 829.1,
+          "Ch12": 830.6
+        },
+        "G6": {
+          "Ch5": 823.1,
+          "Ch6": 823.6,
+          "Ch7": 824.6,
+          "Ch8": 825.3,
+          "Ch9": 826.2,
+          "Ch10": 827.3,
+          "Ch11": 829.2,
+          "Ch12": 831.6
+        },
+        "G7": {
+          "Ch5": 823.15,
+          "Ch6": 823.85,
+          "Ch7": 824.85,
+          "Ch8": 825.65,
+          "Ch9": 826.85,
+          "Ch10": 828.25,
+          "Ch11": 829.55,
+          "Ch12": 831.15
+        },
+        "G8": {
+          "Ch5": 823.25,
+          "Ch6": 823.95,
+          "Ch7": 824.95,
+          "Ch8": 825.75,
+          "Ch9": 826.95,
+          "Ch10": 828.35,
+          "Ch11": 829.65,
+          "Ch12": 831.25
+        }
+      },
+      "584-608": {
+        "G1": {
+          "Ch1": 584.4,
+          "Ch2": 587.5,
+          "Ch3": 589.575,
+          "Ch4": 591.05,
+          "Ch5": 593.425,
+          "Ch6": 595.2,
+          "Ch7": 598.45,
+          "Ch8": 599.65,
+          "Ch9": 601.275,
+          "Ch10": 603.775,
+          "Ch11": 605.5,
+          "Ch12": 606.75
+        },
+        "G2": {
+          "Ch1": 585.25,
+          "Ch2": 586.5,
+          "Ch3": 588.225,
+          "Ch4": 590.725,
+          "Ch5": 592.35,
+          "Ch6": 593.55,
+          "Ch7": 597.8,
+          "Ch8": 598.575,
+          "Ch9": 600.95,
+          "Ch10": 602.425,
+          "Ch11": 604.5,
+          "Ch12": 607.6
+        },
+        "G3": {
+          "Ch1": 584.2,
+          "Ch2": 585.675,
+          "Ch3": 586.8,
+          "Ch4": 588.45,
+          "Ch5": 589.75,
+          "Ch6": 592.2,
+          "Ch7": 594.325,
+          "Ch8": 598.225,
+          "Ch9": 600.525,
+          "Ch10": 602.575,
+          "Ch11": 605.6,
+          "Ch12": 607.575
+        },
+        "G4": {
+          "Ch1": 585.775,
+          "Ch2": 586.5,
+          "Ch3": 590.2,
+          "Ch4": 591.6,
+          "Ch5": 592.7,
+          "Ch6": 594.25,
+          "Ch7": 595.5,
+          "Ch8": 599.1,
+          "Ch9": 601.425,
+          "Ch10": 603.45,
+          "Ch11": 604.775,
+          "Ch12": 606.9
+        },
+        "G5": {
+          "Ch1": 585.1,
+          "Ch2": 587.225,
+          "Ch3": 588.55,
+          "Ch4": 590.575,
+          "Ch5": 592.9,
+          "Ch6": 596.5,
+          "Ch7": 597.75,
+          "Ch8": 599.3,
+          "Ch9": 600.4,
+          "Ch10": 601.8,
+          "Ch11": 603.5,
+          "Ch12": 606.225
+        },
+        "G6": {
+          "Ch1": 584.425,
+          "Ch2": 586.4,
+          "Ch3": 589.425,
+          "Ch4": 591.475,
+          "Ch5": 593.775,
+          "Ch6": 597.675,
+          "Ch7": 599.8,
+          "Ch8": 602.25,
+          "Ch9": 603.55,
+          "Ch10": 605.2,
+          "Ch11": 606.325,
+          "Ch12": 607.8
+        },
+        "G7": {
+          "Ch1": 584.7,
+          "Ch2": 587.8,
+          "Ch3": 589.875,
+          "Ch4": 591.35,
+          "Ch5": 593.725,
+          "Ch6": 595.5,
+          "Ch7": 598.75,
+          "Ch8": 599.95,
+          "Ch9": 601.575,
+          "Ch10": 604.075,
+          "Ch11": 605.8,
+          "Ch12": 607.05
+        },
+        "G8": {
+          "Ch1": 585.55,
+          "Ch2": 586.8,
+          "Ch3": 588.525,
+          "Ch4": 591.025,
+          "Ch5": 592.65,
+          "Ch6": 593.85,
+          "Ch7": 598.1,
+          "Ch8": 598.875,
+          "Ch9": 601.25,
+          "Ch10": 602.725,
+          "Ch11": 604.8,
+          "Ch12": 607.9
+        },
+        "G9": {
+          "Ch1": 584.5,
+          "Ch2": 585.975,
+          "Ch3": 587.1,
+          "Ch4": 588.75,
+          "Ch5": 590.05,
+          "Ch6": 592.5,
+          "Ch7": 594.525,
+          "Ch8": 598.525,
+          "Ch9": 600.825,
+          "Ch10": 602.875,
+          "Ch11": 605.9,
+          "Ch12": 607.875
+        },
+        "G10": {
+          "Ch1": 586.075,
+          "Ch2": 586.8,
+          "Ch3": 590.5,
+          "Ch4": 591.9,
+          "Ch5": 593,
+          "Ch6": 594.55,
+          "Ch7": 595.8,
+          "Ch8": 599.4,
+          "Ch9": 601.725,
+          "Ch10": 603.75,
+          "Ch11": 605.075,
+          "Ch12": 607.2
+        }
+      }
+    },
+    "Phenyx Pro PDP-1/PDP-2 EU": {
+      "823-832": {
+        "CHA": {
+          "CH01": 823,
+          "CH02": 823.8,
+          "CH03": 824.6,
+          "CH04": 825.4,
+          "CH05": 826.2
+        },
+        "CHB": {
+          "CH06": 827.8,
+          "CH07": 828.6,
+          "CH08": 829.4,
+          "CH09": 830.2,
+          "CH10": 831
+        }
+      }
+    },
+    "Phenyx Pro PTM-10 Gen 2": {
+      "555-575": {
+        "G1": {
+          "Ch1": 555.925,
+          "Ch2": 556.425,
+          "Ch3": 558.675,
+          "Ch4": 561.925,
+          "Ch5": 562.95,
+          "Ch6": 571.725,
+          "Ch7": 572.05
+        },
+        "G2": {
+          "Ch1": 555.3,
+          "Ch2": 557.725,
+          "Ch3": 566.55,
+          "Ch4": 567.875,
+          "Ch5": 569.775,
+          "Ch6": 573.925,
+          "Ch7": 574.725
+        },
+        "G3": {
+          "Ch1": 556.925,
+          "Ch2": 558.85,
+          "Ch3": 559.4,
+          "Ch4": 562.9,
+          "Ch5": 567.45,
+          "Ch6": 572.9,
+          "Ch7": 574.3
+        },
+        "G4": {
+          "Ch1": 555.3,
+          "Ch2": 555.825,
+          "Ch3": 560.9,
+          "Ch4": 568.225,
+          "Ch5": 570.25,
+          "Ch6": 571.775,
+          "Ch7": 572.8
+        },
+        "G5": {
+          "Ch1": 555.05,
+          "Ch2": 555.6,
+          "Ch3": 556.8,
+          "Ch4": 562.825,
+          "Ch5": 566.6,
+          "Ch6": 569.375,
+          "Ch7": 571.625,
+          "Ch8": 574.9
+        },
+        "G6": {
+          "Ch1": 555.225,
+          "Ch2": 555.875,
+          "Ch3": 558.975,
+          "Ch4": 559.95,
+          "Ch5": 561.625,
+          "Ch6": 566.05,
+          "Ch7": 571.275,
+          "Ch8": 573.425,
+          "Ch9": 574.7
+        },
+        "G7": {
+          "Ch1": 555.075,
+          "Ch2": 556.125,
+          "Ch3": 557.9,
+          "Ch4": 560.025,
+          "Ch5": 565.625,
+          "Ch6": 567.05,
+          "Ch7": 570.2,
+          "Ch8": 573.65,
+          "Ch9": 574.4
+        },
+        "G8": {
+          "Ch1": 555.15,
+          "Ch2": 555.825,
+          "Ch3": 558.35,
+          "Ch4": 562.25,
+          "Ch5": 563.6,
+          "Ch6": 567.15,
+          "Ch7": 571.7,
+          "Ch8": 572.7,
+          "Ch9": 574.6
+        }
+      }
+    },
+    "Phenyx Pro PTM-10": {
+      "555-575": {
+        "G1": {
+          "Ch1": 573.65,
+          "Ch2": 562.425,
+          "Ch3": 565.4,
+          "Ch4": 566.5,
+          "Ch5": 567.9,
+          "Ch6": 574.3
+        },
+        "G2": {
+          "Ch1": 558.85,
+          "Ch2": 572.6,
+          "Ch3": 564.7,
+          "Ch4": 574.5,
+          "Ch5": 568.9,
+          "Ch6": 571.5
+        },
+        "G3": {
+          "Ch1": 561.15,
+          "Ch2": 562.1,
+          "Ch3": 563.5,
+          "Ch4": 564.6,
+          "Ch5": 566.475,
+          "Ch6": 567.575
+        },
+        "G4": {
+          "Ch1": 566.2,
+          "Ch2": 558.8,
+          "Ch3": 560.9,
+          "Ch4": 562,
+          "Ch5": 563.3,
+          "Ch6": 564.2,
+          "Ch7": 566.7,
+          "Ch8": 571.4
+        },
+        "G5": {
+          "Ch1": 555.9,
+          "Ch2": 557.1,
+          "Ch3": 561.2,
+          "Ch4": 564.3,
+          "Ch5": 569.1,
+          "Ch6": 571.1,
+          "Ch7": 572.2,
+          "Ch8": 574.6
+        },
+        "G6": {
+          "Ch1": 556.475,
+          "Ch2": 558.025,
+          "Ch3": 560.8,
+          "Ch4": 561.95,
+          "Ch5": 564.125,
+          "Ch6": 565.575,
+          "Ch7": 566.725,
+          "Ch8": 568.8
+        },
+        "G7": {
+          "Ch1": 569.4,
+          "Ch2": 556.925,
+          "Ch3": 558.65,
+          "Ch4": 559.85,
+          "Ch5": 562.4,
+          "Ch6": 568.775,
+          "Ch7": 565.275,
+          "Ch8": 566.55,
+          "Ch9": 574.775
+        },
+        "G8": {
+          "Ch1": 556.25,
+          "Ch2": 559.825,
+          "Ch3": 563.8,
+          "Ch4": 565.325,
+          "Ch5": 574.75,
+          "Ch6": 571.65,
+          "Ch7": 561.975,
+          "Ch8": 570.275,
+          "Ch9": 568.175
+        },
+        "G9": {
+          "Ch1": 566.05,
+          "Ch2": 558.125,
+          "Ch3": 571.5,
+          "Ch4": 561.65,
+          "Ch5": 562.25,
+          "Ch6": 563.725,
+          "Ch7": 556.4,
+          "Ch8": 567.4,
+          "Ch9": 568.5
+        },
+        "G10": {
+          "Ch1": 557.95,
+          "Ch2": 563.525,
+          "Ch3": 561.425,
+          "Ch4": 563.05,
+          "Ch5": 564.275,
+          "Ch6": 573.35,
+          "Ch7": 565.8,
+          "Ch8": 567.625,
+          "Ch9": 569.775,
+          "Ch10": 559.325
+        },
+        "G11": {
+          "Ch1": 555.6,
+          "Ch2": 557.05,
+          "Ch3": 564.875,
+          "Ch4": 562.625,
+          "Ch5": 561.85,
+          "Ch6": 563.55,
+          "Ch7": 559.275,
+          "Ch8": 560.75,
+          "Ch9": 567.35,
+          "Ch10": 568.45
+        }
+      }
     }
   },
   "presetSources": {
@@ -6119,11 +10839,11 @@
     },
     "Budget ISM 863-865": {
       "863-865": {
-        "source": null,
+        "source": "BEHR",
         "citations": [
-          "Sennheiser-recommended CH70 intermod-clean 4-set"
+          "Behringer UL 1000G2 quick start guide, EU table Group 1 Ch1–4 (863.100 / 863.500 / 864.300 / 864.900 MHz)"
         ],
-        "note": "No manufacturer document — generic CH70 4-set; pending manufacturer-sheet audit"
+        "note": "The same 4-set as the Sennheiser-recommended CH70 set. Budget systems share no single comb: the t.bone IEM 75 uses 863.1 / 863.9 / 864.5 / 864.9."
       }
     },
     "the t.bone IEM 75": {
@@ -6167,6 +10887,11 @@
           "LD Systems Frequency List D005233 (Adam Hall GmbH), LDMEI1000G2B5/B6 655-679 MHz, Group 10"
         ],
         "note": null
+      },
+      "B8": {
+        "source": "LD_MEI_FREQLIST",
+        "citations": [],
+        "note": "Base model LDMEI1000G2 (no band suffix): 823–832 + 863–865 MHz, 8 × 12. Same table as MEI 100 G2, U508 and U508 IEM."
       }
     },
     "Shure BLX": {
@@ -6371,6 +11096,65 @@
           "ew 100 G4 Range G frequency sheet, https://www.sennheiser.com/globalassets/digizuite/40913-en-ew_100_g4_g_range_frequency_sheet_01_2018.pdf (Publ. 01/18, 578625/A01), retrieved 2026-08-29",
           "ew 100 G4 Range G frequency sheet, Publ. 01/18 578625/A01 (see block header for URL)"
         ],
+        "note": null
+      }
+    },
+    "LD Systems U505": {
+      "584-608": {
+        "source": "LD_U500_FREQLIST",
+        "citations": [],
+        "note": "Same 10 × 12 table as the MEI 1000 G2 B5 list."
+      }
+    },
+    "LD Systems U518": {
+      "1785-1800": {
+        "source": "LD_U500_FREQLIST",
+        "citations": [],
+        "note": "Group 20 has 11 channels. G20 Ch7 is printed 1798.500, out of sequence between 1788.100 and 1790.550, and is left empty."
+      }
+    },
+    "the t.bone free solo 823": {
+      "823-832": {
+        "source": "THE_T_BONE_FREE_SOLO_FREE_SO_2",
+        "citations": [],
+        "note": "G8 Ch5 is printed 826,590 (off the 25 kHz grid; Behringer's matching cell is 826.950) and is left empty."
+      }
+    },
+    "Behringer UL 1000G2": {
+      "863-865": {
+        "source": "BEHR",
+        "citations": [],
+        "note": null
+      },
+      "823-832": {
+        "source": "BEHR",
+        "citations": [],
+        "note": null
+      },
+      "584-608": {
+        "source": "BEHR",
+        "citations": [],
+        "note": null
+      }
+    },
+    "Phenyx Pro PDP-1/PDP-2 EU": {
+      "823-832": {
+        "source": "PHENYX_PRO_PDP_1_PDP_2_DIGIT",
+        "citations": [],
+        "note": null
+      }
+    },
+    "Phenyx Pro PTM-10 Gen 2": {
+      "555-575": {
+        "source": "PHENYX_PRO_PTM_10_GEN_2",
+        "citations": [],
+        "note": null
+      }
+    },
+    "Phenyx Pro PTM-10": {
+      "555-575": {
+        "source": "PHENYX_PRO_PTM_10_GEN_1",
+        "citations": [],
         "note": null
       }
     }
