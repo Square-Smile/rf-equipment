@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-23",
+  "version": "2026-10-29",
   "sources": {
     "ULXD": {
       "title": "Shure ULX-D Wireless Systems Compatibility Frequency Bands Supplement",
@@ -841,6 +841,12 @@
       "url": "https://cdn.shopify.com/s/files/1/0257/7448/9660/files/PTM-10-PTM-20_User_Manual-V1.1-20260915_8d3c2b49-76b2-42c2-801b-571fe5a89795.pdf?v=1791950717",
       "retrieved": "2026-10-23",
       "tier": "primary"
+    },
+    "ANT_MIM_SERIES": {
+      "title": "ANT MiM 20 / MiM 30 user manual (v1.4, IT/EN/DE)",
+      "url": "https://www.ant-intomusic.com/files/immagini/prodotti/manuali/mim_series_manual-it_en_deu_1.4_lo.pdf",
+      "retrieved": "2026-10-29",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -1506,7 +1512,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "SHURE_BLX_GUIDE",
-      "note": "EU primary BLX band (K3E = European)."
+      "note": "EU primary BLX band (K3E = European). Same bands and group/channel tables for the BLX4, BLX4R (half-rack) and BLX88 receivers."
     },
     {
       "brand": "Shure",
@@ -1554,7 +1560,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "SHURE_BLX_GUIDE",
-      "note": "EU variant of H8."
+      "note": "EU variant of H8. Same bands and group/channel tables for the BLX4, BLX4R (half-rack) and BLX88 receivers."
     },
     {
       "brand": "Shure",
@@ -1590,7 +1596,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "PSM300",
-      "note": "PSM 300 (P3T) IEM transmitter. EU band K3E."
+      "note": "PSM 300 (P3T) IEM transmitter. EU band K3E, 30 mW."
     },
     {
       "brand": "Shure",
@@ -1650,7 +1656,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "PSM300",
-      "note": "PSM 300 IEM transmitter. License-free in DE and several EU countries (823–832 MHz duplex gap). Outside the 470–700 MHz scan window."
+      "note": "PSM 300 (P3T) IEM transmitter, 20 mW. License-free in DE and several EU countries (823–832 MHz duplex gap). Outside the 470–700 MHz scan window."
     },
     {
       "brand": "Shure",
@@ -1662,7 +1668,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "PSM300",
-      "note": "PSM 300 IEM transmitter. License-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
+      "note": "PSM 300 (P3T) IEM transmitter. License-free EU SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window."
     },
     {
       "brand": "Shure",
@@ -5620,6 +5626,27 @@
       "segments": null,
       "source": "DJI_HOLLYLAND_SARAMONIC_CREA",
       "note": "DJI Mic / Mic 2 / Mic Mini, Hollyland Lark M1 / M2 / Max, Saramonic Blink500: 2.4 GHz (2400–2483.5 MHz) frequency hopping. DJI Mic 3 also uses 5.15–5.85 GHz. Outside this UHF spectrum display; license-free, no fixed coordination."
+    },
+    {
+      "brand": "ANT",
+      "series": "MiM 20 / MiM 30",
+      "band": "823–832 / 863–865",
+      "freqStart": 823,
+      "freqEnd": 865,
+      "deviceType": "iem",
+      "stepKhz": null,
+      "segments": [
+        [
+          823,
+          832
+        ],
+        [
+          863,
+          865
+        ]
+      ],
+      "source": "ANT_MIM_SERIES",
+      "note": "UHF in-ear monitor (MiM 20T / MiM 30T transmitter, MiM 20R / MiM 30R bodypack), 10 mW. 96 channels: 8 groups × 12. The manual gives the two segments but no per-channel table. Discontinued. Outside the 470–700 MHz scan window."
     }
   ],
   "taxonomy": {
@@ -6267,6 +6294,11 @@
       "frequencyModel": "advisory",
       "inputMode": "advisory",
       "defaultInputMode": null
+    },
+    "ANT — MiM 20 / MiM 30": {
+      "frequencyModel": "band_range_free_tune",
+      "inputMode": "standard",
+      "defaultInputMode": "mhz"
     }
   },
   "bandAliases": {
