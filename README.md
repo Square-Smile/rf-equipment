@@ -4,6 +4,13 @@ Wireless microphone / IEM equipment frequency database used by **KlarFunk** (RTL
 
 This repository is the **only place equipment is edited**. KlarFunk and FreqSense vendor a copy of it at release time; KlarFunk can also download a newer list at runtime ("Update equipment list" in Settings).
 
+## Browse the list
+
+- **[EQUIPMENT.md](EQUIPMENT.md)**: every brand, band and range with a link to the manufacturer document it comes from.
+- **Searchable page:** https://square-smile.github.io/rf-equipment/ (search by brand, model, band or a frequency, e.g. `606`).
+
+Both are generated from `v1/rf-equipment.json` by `scripts/build-list.mjs`. Never edit `EQUIPMENT.md` by hand: after changing the JSON, run `node scripts/build-list.mjs` and commit both. CI fails when it is out of date.
+
 ## Published URL
 
 ```
@@ -80,7 +87,7 @@ FreqSense used to copy KlarFunk's `js/rf-equipment-data.js` (a classic script th
 
 ## Open audit list
 
-`pending-audit.json` lists the 11 entries that still need checking against the manufacturer's own documents: 10 dealer-sourced rows (Audio-Technica 3000 Series 4th Gen DE2, EE1, EF1, FG1; Audio-Technica 5000 Series DE1, EG1, GH1; Audio-Technica ATW-3255 DF2; AKG WMS 4500 / WMS 5000 BD7, BD8) and the generic Budget ISM 863-865 preset band. Shrinking this list is the open follow-up.
+`pending-audit.json` is empty since 2026-10-23: every ranged row and every preset band cites the manufacturer's own document. A new dealer-only entry cannot be added to make CI pass (rule 2); find the manufacturer's document or leave the row out.
 
 ## Licence
 

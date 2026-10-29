@@ -69,6 +69,9 @@ jobs:
             node scripts/validate.mjs
           fi
 
+      - name: EQUIPMENT.md is up to date
+        run: node scripts/build-list.mjs --check
+
   deploy:
     needs: validate
     if: github.event_name != 'pull_request'
@@ -83,6 +86,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Assemble site
         shell: bash
         run: |
@@ -90,14 +97,7 @@ jobs:
           mkdir -p _site/v1
           cp v1/rf-equipment.json _site/v1/rf-equipment.json
           cp LICENSE _site/LICENSE
-          cat > _site/index.html <<'HTML'
-          <!doctype html>
-          <meta charset="utf-8">
-          <title>rf-equipment</title>
-          <h1>rf-equipment</h1>
-          <p>Wireless mic/IEM equipment frequency database (CC BY 4.0).</p>
-          <p><a href="v1/rf-equipment.json">v1/rf-equipment.json</a></p>
-          HTML
+          node scripts/build-list.mjs --html _site/index.html
 
       - uses: actions/configure-pages@v5
 

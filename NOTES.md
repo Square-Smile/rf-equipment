@@ -16,6 +16,14 @@ Summary of the load-bearing decisions:
 - **MEI 1000 G2**: each group is intermod-free within itself; mixing groups defeats that.
 - **IEM-75 channel order is the manual's order. Never sort.**
 - **BLX channel keys are in display order Ch0..Ch9, ChA, ChB. Never sort.**
+- **LD U505 and LD U518 are no longer empty stubs (2026-10-23).** Both were transcribed
+  from LD's own frequency lists (U500 list D005329). The U505 table is identical, value
+  for value, to the MEI 1000 G2 B5 table already here. U518 G20 Ch7 is printed 1798.500
+  (out of sequence) and is left empty. Neither is mapped in `familyToSystem` yet.
+- **Series renamed 2026-10-23:** "Sennheiser — EW G4 / G5" -> "EW G4" (there is no analog
+  ew G5) and "Shure — Axient Digital (ADX / AXT)" -> "Axient Digital (AD / ADX)" (AXT is
+  the older analog Axient). The old row keys are aliased in `bandAliases`; the old taxonomy
+  keys stay (they only grow).
 
 The original comments follow, verbatim. (References to "Phase NN" and quick-task
 ids are KlarFunk-internal planning labels.)
