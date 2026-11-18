@@ -123,9 +123,9 @@
       "tier": "primary"
     },
     "SPECTERA": {
-      "title": "Sennheiser Spectera SEK product specification v1.2",
-      "url": "https://www.sennheiser.com/globalassets/digizuite/49086-en-spectera_sek_product_specification_v1.2_de.pdf",
-      "retrieved": "2026-10-14",
+      "title": "Sennheiser Spectera SEK Produktdatenblatt V1.6",
+      "url": "https://assets.sennheiser.com/download/assets/SPECTERA_SEK_Product_Specification_v1.6_DE.pdf/30ddeb90e7d211f0bfb2beb43c66122a?attachment=true",
+      "retrieved": "2026-11-17",
       "tier": "primary"
     },
     "LECHM": {
@@ -2829,7 +2829,11 @@
         ]
       ],
       "source": "SPECTERA",
-      "note": "Wideband multichannel (WMAS): one 6 or 8 MHz RF channel, set per country, carries many mics and in-ears. Tunes 470–608 and 630–698 MHz. Reserve that channel as a block rather than coordinating narrowband channels inside it."
+      "note": "Wideband multichannel (WMAS): one 6 or 8 MHz RF channel, set per country, carries many mics and in-ears. Tunes 470–608 and 630–698 MHz. Reserve that channel as a block rather than coordinating narrowband channels inside it.",
+      "widths_khz": [
+        6000,
+        8000
+      ]
     },
     {
       "brand": "Sennheiser",
@@ -2850,7 +2854,11 @@
         ]
       ],
       "source": "SPECTERA",
-      "note": "Wideband multichannel (WMAS) in 1350–1400 and 1435–1525 MHz — outside this UHF spectrum display."
+      "note": "Wideband multichannel (WMAS) in 1350–1400 and 1435–1525 MHz — outside this UHF spectrum display.",
+      "widths_khz": [
+        6000,
+        8000
+      ]
     },
     {
       "brand": "Sennheiser",
