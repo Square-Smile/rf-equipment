@@ -853,6 +853,12 @@
       "url": "https://docs.audio-technica.com/eu/2000a_Series_Owners_Manual.pdf",
       "retrieved": "2026-11-17",
       "tier": "primary"
+    },
+    "EV_R300_MANUAL": {
+      "title": "Electro-Voice R300 manual F.01U.311.591 Rev 04 (05/2016)",
+      "url": "https://products.electrovoice.com/binary/R300_manual_F01U311591.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -5071,7 +5077,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "ELECTRO_VOICE_R300",
+      "source": "EV_R300_MANUAL",
       "note": "32 channels, ClearScan. Check local rules before use."
     },
     {
@@ -6285,9 +6291,9 @@
       "defaultInputMode": "mhz"
     },
     "Electro-Voice — R300": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Behringer — ULM (Note)": {
       "frequencyModel": "advisory",
@@ -10904,6 +10910,50 @@
           "Ch12": 606.75
         }
       }
+    },
+    "Electro-Voice R300": {
+      "618-634": {
+        "Group 1": {
+          "Ch1": 618.5,
+          "Ch2": 622.7,
+          "Ch3": 624.4,
+          "Ch4": 628.3,
+          "Ch5": 628.8,
+          "Ch6": 630.7,
+          "Ch7": 631.4,
+          "Ch8": 633.5
+        },
+        "Group 2": {
+          "Ch1": 618.9,
+          "Ch2": 620.1,
+          "Ch3": 621.5,
+          "Ch4": 623.1,
+          "Ch5": 624.9,
+          "Ch6": 626.925,
+          "Ch7": 629.325,
+          "Ch8": 632.075
+        },
+        "Group 3": {
+          "Ch1": 619.3,
+          "Ch2": 620.5,
+          "Ch3": 621.9,
+          "Ch4": 623.5,
+          "Ch5": 625.3,
+          "Ch6": 627.325,
+          "Ch7": 629.725,
+          "Ch8": 632.475
+        },
+        "Group 4": {
+          "Ch1": 619.7,
+          "Ch2": 620.9,
+          "Ch3": 622.3,
+          "Ch4": 623.9,
+          "Ch5": 625.7,
+          "Ch6": 627.725,
+          "Ch7": 630.125,
+          "Ch8": 632.875
+        }
+      }
     }
   },
   "presetSources": {
@@ -11255,6 +11305,15 @@
         ],
         "note": "1 group x 12 channels. B6 and B8 have no table here."
       }
+    },
+    "Electro-Voice R300": {
+      "618-634": {
+        "source": "EV_R300_MANUAL",
+        "citations": [
+          "Electro-Voice R300 manual F.01U.311.591 Rev 04, pp. 28–31, band A frequency table (4 groups x 8 channels)"
+        ],
+        "note": "Band A only; bands B and C have no table here."
+      }
     }
   },
   "familyToSystem": {
@@ -11289,6 +11348,10 @@
     "Behringer — UL 1000G2 (Ultralink)": {
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E8): group + channel presets only. Behringer UL 1000G2 Quick Start Guide (Rev. 0, 2025-06-18) p. 11: \"Press up/down to select the desired frequency group (see frequency chart).\""
+    },
+    "Electro-Voice — R300": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E9): 4 groups x 8 preset channels per band. Electro-Voice R300 manual F.01U.311.591 Rev 04 p. 32: \"Frequency Range (RF) A Band 618 – 634 MHz … Number of Channels 32\"."
     }
   },
   "tableBandAliases": {
