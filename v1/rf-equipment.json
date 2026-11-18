@@ -865,6 +865,12 @@
       "url": "https://www.motorolasolutions.com/content/dam/msi/docs/EA_Collaterals/ENGLISH/MOTOTRBO/Portables/DP1400_DataSheet_ENG.pdf",
       "retrieved": "2026-11-17",
       "tier": "primary"
+    },
+    "SHURE_UHF_R_GUIDE_EN": {
+      "title": "Shure UHF-R user guide 27A20023 Rev. 4",
+      "url": "https://content-files.shure.com/FileRepository/27a20023-4-1-uhf-r.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -1887,7 +1893,7 @@
       "stepKhz": 25,
       "segments": null,
       "source": "SHURE_UHF_R_UR",
-      "note": "Only 823–832 and 863–865 MHz are usable in DE today; 790–821 MHz and 832–862 MHz are LTE 800. Outside the 470–700 MHz scan window."
+      "note": "Only 823–832 and 863–865 MHz are usable in DE today; 790–821 MHz and 832–862 MHz are LTE 800. Outside the 470–700 MHz scan window. 25 kHz step: Shure UHF-R user guide 27A20023 Rev. 4, p. 13 (\"Manual frequency selection in 0.025 MHz increments\")."
     },
     {
       "brand": "Shure",
