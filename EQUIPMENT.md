@@ -45,7 +45,7 @@ Wireless microphone, in-ear monitor (IEM) and WMAS frequency ranges as published
 | Series | Band | MHz | Type | Step | Source | Note |
 |---|---|---|---|---|---|---|
 | Stealth Wireless MKII | 540–570 (US/CA/AU/NZ) | 540–570 | IEM |  | [Alto Stealth Wireless MKII User Guide v1.4](https://www.altoprofessional.com/downloads/Stealth_Wireless_mk2_-_User_Guide_-_v1.4.pdf) | Wireless speaker feed (stereo line-level link to powered speakers), not a mic. US/CA/AU/NZ version. |
-| Stealth Wireless MKII | 863–865 (EU/UK) | 863–865 | IEM |  | [Alto Stealth Wireless MKII User Guide v1.4](https://www.altoprofessional.com/downloads/Stealth_Wireless_mk2_-_User_Guide_-_v1.4.pdf) | Wireless speaker feed, EU/UK version. License-free SRD, 10 mW. |
+| Stealth Wireless MKII | 863–865 (EU/UK) | 863–865 | IEM |  | [Alto Stealth Wireless MKII User Guide v1.4](https://www.altoprofessional.com/downloads/Stealth_Wireless_mk2_-_User_Guide_-_v1.4.pdf) | Wireless speaker feed, EU/UK version. License-free SRD. |
 
 ## ANT
 
