@@ -11,6 +11,14 @@
  * It returns { ok: true, version } or
  *         { ok: false, reason: "schema" | "invalid" | "too-large", errors: [..max 50] }.
  *
+ * Plausibility (review 2026-11-15, KF-093): tuning steps are a whole number of
+ * Hz from 1 to 1000 kHz and fit their row; a preset value lies inside the
+ * range of its own row (same band label, or a tableBandAliases entry, or a
+ * table band written "lo-hi"); compared with the baseline, a row keeps an
+ * overlapping range, preset table bands and familyToSystem links only grow,
+ * and a family's frequencyModel changes only when `frequencyModelChanges`
+ * declares it.
+ *
  * The app accepts source tier "dealer" and a null preset source; enforcing the
  * manufacturer-document ("primary") rule is the repo CI's job, with its
  * explicit pending-audit allowlist. Unknown extra keys are ignored on purpose
@@ -31,6 +39,7 @@ const MAX_NAME = 200; // brand / series / band
 const MAX_TITLE = 500;
 const MAX_URL = 1000;
 const MAX_NOTE = 2000;
+const MAX_STEP_KHZ = 1000; // largest real raster in the data: 800 kHz (Phenyx PDP EU)
 
 const FORBIDDEN_KEYS = ["__proto__", "constructor", "prototype"];
 const DEVICE_TYPES = ["mic", "iem", "wmas", "radio", "advisory"];
@@ -174,7 +183,14 @@ export function validateEquipmentPackage(pkg, options) {
       if (!advisory) {
         const okRange = isMhz(r.freqStart) && isMhz(r.freqEnd) && r.freqStart < r.freqEnd;
         if (!okRange) { err(id + ": range"); }
-        if (r.stepKhz !== null && r.stepKhz !== undefined && !(Number.isFinite(r.stepKhz) && r.stepKhz > 0)) err(id + ": stepKhz");
+        if (r.stepKhz !== null && r.stepKhz !== undefined) {
+          // KF-093: a raster the app can use: a whole number of Hz, 1 to 1000 kHz
+          // (12.5 / 6.25 kHz are real rasters), and no larger than the row
+          const st = r.stepKhz;
+          const wholeHz = typeof st === "number" && Number.isFinite(st) && Math.abs(st * 1000 - Math.round(st * 1000)) < 1e-6;
+          if (!(wholeHz && st >= 1 && st <= MAX_STEP_KHZ)) err(id + ": stepKhz must be a whole number of Hz from 1 to " + MAX_STEP_KHZ + " kHz");
+          else if (okRange && st / 1000 > r.freqEnd - r.freqStart + 1e-9) err(id + ": stepKhz is larger than the row's range");
+        }
         const seg = r.segments;
         if (seg !== null && seg !== undefined) {
           if (!Array.isArray(seg) || seg.length < 2) err(id + ": segments");
@@ -278,14 +294,122 @@ export function validateEquipmentPackage(pkg, options) {
       if (typeof sys !== "string" || !has(pkg.presetTables, sys)) err("familyToSystem." + fam + ": missing system");
     }
 
-    // ---- monotonic vs baseline: taxonomy and alias keys only ever grow
+    // ---- optional (KF-052): table ownership / row-label -> table-band declared in the data.
+    // Absent in older lists; 4.0.7 ignores them (unknown keys are ignored on purpose).
+    if (has(pkg, "familyPresetSystems")) {
+      const f = pkg.familyPresetSystems;
+      if (!isObj(f)) err("familyPresetSystems is not an object");
+      else {
+        if (Object.keys(f).length > MAX_MAP_KEYS) err("familyPresetSystems has more than " + MAX_MAP_KEYS + " keys");
+        for (const fam of Object.keys(f)) {
+          if (!has(pkg.taxonomy, fam)) err("familyPresetSystems." + fam + ": no taxonomy key");
+          if (!Array.isArray(f[fam]) || !f[fam].every((sys) => typeof sys === "string" && has(pkg.presetTables, sys))) {
+            err("familyPresetSystems." + fam + ": not a list of preset systems");
+          }
+        }
+      }
+    }
+    if (has(pkg, "tableBandAliases")) {
+      const t = pkg.tableBandAliases;
+      if (!isObj(t)) err("tableBandAliases is not an object");
+      else {
+        if (Object.keys(t).length > MAX_MAP_KEYS) err("tableBandAliases has more than " + MAX_MAP_KEYS + " keys");
+        for (const sys of Object.keys(t)) {
+          const m = t[sys];
+          if (!has(pkg.presetTables, sys) || !isObj(m)) { err("tableBandAliases." + sys + ": missing system"); continue; }
+          for (const label of Object.keys(m)) {
+            if (typeof m[label] !== "string" || !has(pkg.presetTables[sys], m[label])) err("tableBandAliases." + sys + "." + label + ": missing band");
+          }
+        }
+      }
+    }
+
+    // ---- KF-093: a preset value lies inside its own row. A table band is matched
+    // to the rows of the families that own the system (familyToSystem /
+    // familyPresetSystems) with the same band label (or a tableBandAliases entry);
+    // a band written "lo-hi" bounds its own values. Unmatched bands are not judged.
+    if (errors.length === 0) {
+      const owners = new Map();
+      const own = (fam, sys) => { if (!owners.has(sys)) owners.set(sys, new Set()); owners.get(sys).add(fam); };
+      for (const fam of Object.keys(pkg.familyToSystem)) own(fam, pkg.familyToSystem[fam]);
+      if (isObj(pkg.familyPresetSystems)) {
+        for (const fam of Object.keys(pkg.familyPresetSystems)) for (const sys of pkg.familyPresetSystems[fam]) own(fam, sys);
+      }
+      const tba = isObj(pkg.tableBandAliases) ? pkg.tableBandAliases : {};
+      const LOHI = /^(\d+(?:\.\d+)?)\s*[-\u2013]\s*(\d+(?:\.\d+)?)$/;
+      for (const sys of Object.keys(pkg.presetTables)) {
+        const fams = owners.get(sys);
+        const aliases = isObj(tba[sys]) ? tba[sys] : {};
+        for (const band of Object.keys(pkg.presetTables[sys])) {
+          const rows = fams ? pkg.manufacturers.filter((r) => fams.has(r.brand + " — " + r.series) && isMhz(r.freqStart)
+            && (r.band === band || aliases[r.band] === band)) : [];
+          const m = LOHI.exec(band);
+          const bounds = rows.length ? rows.map((r) => [r.freqStart, r.freqEnd]) : m ? [[Number(m[1]), Number(m[2])]] : null;
+          if (bounds === null) continue;
+          const groups = pkg.presetTables[sys][band];
+          for (const group of Object.keys(groups)) {
+            for (const ch of Object.keys(groups[group])) {
+              const v = groups[group][ch];
+              if (typeof v === "number" && !bounds.some((b) => v >= b[0] && v <= b[1])) {
+                err("presetTables." + sys + "." + band + "." + group + "." + ch + ": " + v + " MHz is outside its row (" + bounds.map((b) => b[0] + "-" + b[1]).join(", ") + ")");
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // ---- KF-093: optional frequencyModelChanges { family: { to, note? } } declares
+    // a deliberate frequency-model change (absent = {}; older apps ignore it)
+    const fmc = has(pkg, "frequencyModelChanges") ? pkg.frequencyModelChanges : {};
+    if (!isObj(fmc)) err("frequencyModelChanges is not an object");
+    else {
+      for (const fam of Object.keys(fmc)) {
+        const e = fmc[fam];
+        if (!has(pkg.taxonomy, fam)) err("frequencyModelChanges." + fam + ": no taxonomy key");
+        if (!isObj(e) || !FREQUENCY_MODELS.includes(e.to)) err("frequencyModelChanges." + fam + ".to");
+        else if (e.note !== undefined && e.note !== null && !(typeof e.note === "string" && e.note.length <= MAX_NOTE)) err("frequencyModelChanges." + fam + ".note");
+      }
+    }
+
+    // ---- monotonic vs baseline: taxonomy and alias keys only ever grow; KF-093:
+    // rows keep an overlapping range, preset table bands with values and
+    // familyToSystem links only grow, a frequency-model change must be declared
     const base = opts.baseline;
     if (isObj(base)) {
       for (const k of Object.keys(isObj(base.taxonomy) ? base.taxonomy : {})) {
         if (!has(pkg.taxonomy, k)) err("taxonomy key dropped: " + k);
+        else {
+          const was = isObj(base.taxonomy[k]) ? base.taxonomy[k].frequencyModel : undefined;
+          const now = isObj(pkg.taxonomy[k]) ? pkg.taxonomy[k].frequencyModel : undefined;
+          if (was !== undefined && now !== was && !(isObj(fmc) && isObj(fmc[k]) && fmc[k].to === now)) {
+            err("taxonomy." + k + ".frequencyModel changed from " + was + " to " + now + " without a frequencyModelChanges entry");
+          }
+        }
       }
       for (const k of Object.keys(isObj(base.bandAliases) ? base.bandAliases : {})) {
         if (!has(pkg.bandAliases, k)) err("bandAliases key dropped: " + k);
+      }
+      const baseRows = new Map();
+      for (const r of Array.isArray(base.manufacturers) ? base.manufacturers : []) if (isObj(r)) baseRows.set(rowId(r), r);
+      for (const r of pkg.manufacturers) {
+        const b = baseRows.get(rowId(r));
+        if (b && isMhz(b.freqStart) && isMhz(b.freqEnd) && isMhz(r.freqStart) && isMhz(r.freqEnd)
+            && !(r.freqStart < b.freqEnd && r.freqEnd > b.freqStart)) {
+          err(rowId(r) + ": " + r.freqStart + "-" + r.freqEnd + " no longer overlaps its previous range " + b.freqStart + "-" + b.freqEnd + " (a new band is a new row)");
+        }
+      }
+      const hasValue = (groups) => isObj(groups) && Object.keys(groups).some((g) => isObj(groups[g]) && Object.keys(groups[g]).some((c) => typeof groups[g][c] === "number"));
+      const bt = isObj(base.presetTables) ? base.presetTables : {};
+      for (const sys of Object.keys(bt)) {
+        for (const band of Object.keys(isObj(bt[sys]) ? bt[sys] : {})) {
+          if (hasValue(bt[sys][band]) && !(has(pkg.presetTables, sys) && isObj(pkg.presetTables[sys]) && hasValue(pkg.presetTables[sys][band]))) {
+            err("presetTables." + sys + "." + band + " dropped or emptied");
+          }
+        }
+      }
+      for (const fam of Object.keys(isObj(base.familyToSystem) ? base.familyToSystem : {})) {
+        if (!has(pkg.familyToSystem, fam)) err("familyToSystem key dropped: " + fam);
       }
     }
 
