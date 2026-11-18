@@ -11286,5 +11286,10 @@
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E6): group + channel presets only, no free tuning. LD Systems MEI 1000 G2 manual D005232 p. 9: \"Press the SET button repeatedly until \"GROUP SELECT\" appears … select the desired frequency group\"; p. 14: \"LDMEI100G2B5/B6: 120 (10 groups of 12 channels)\"."
     }
+  },
+  "tableBandAliases": {
+    "LD Systems MEI 1000 G2": {
+      "823–832 / 863–865": "B8"
+    }
   }
 }
