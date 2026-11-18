@@ -6116,9 +6116,9 @@
       "defaultInputMode": "mhz"
     },
     "the t.bone — free 300 HT / PT": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Alto Professional — Stealth Wireless MKII": {
       "frequencyModel": "band_range_free_tune",
@@ -11356,6 +11356,10 @@
     "Shure — PGX": {
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E12): group + channel selection only; the guide has no channel table. Shure PGX user guide p. 9, \"Manual Channel and Group Selection (receiver only)\": \"Press and hold the channel button… At the desired channel or group number, wait for the flashing to stop…\"."
+    },
+    "the t.bone — free 300 HT / PT": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E13): 3 groups x 10 preset channels; no channel list published. the t.bone free 300 manual p. 11: \"The system works with three pre-programmed frequency groups, each with ten available channels.\""
     }
   },
   "tableBandAliases": {
