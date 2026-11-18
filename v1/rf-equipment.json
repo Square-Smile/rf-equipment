@@ -3645,7 +3645,7 @@
       "stepKhz": 25,
       "segments": null,
       "source": "LD_SYSTEMS_WIN_42",
-      "note": "WIN 42 B5. 1680 frequencies in 25 kHz steps, 20 groups with 577 fixed frequencies + user bank."
+      "note": "WIN 42 B5. 1680 frequencies in 25 kHz steps, 20 groups with 515 fixed frequencies + user bank."
     },
     {
       "brand": "LD Systems",
