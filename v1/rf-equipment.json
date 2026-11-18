@@ -859,6 +859,12 @@
       "url": "https://products.electrovoice.com/binary/R300_manual_F01U311591.pdf",
       "retrieved": "2026-11-17",
       "tier": "primary"
+    },
+    "MOTO_DP1400": {
+      "title": "Motorola Solutions MOTOTRBO DP1400 Data Sheet (09-2019)",
+      "url": "https://www.motorolasolutions.com/content/dam/msi/docs/EA_Collaterals/ENGLISH/MOTOTRBO/Portables/DP1400_DataSheet_ENG.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -3669,7 +3675,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "MOTO",
-      "note": "Licensed DMR two-way radio. DP2400 / DP2600 UHF: 403–527 MHz (a DP1400 UHF tunes 403–470 MHz). The 470–527 MHz portion overlaps PMSE whitespace — coordinate to avoid co-channel conflicts with wireless mics."
+      "note": "Licensed DMR two-way radio. DP2400 / DP2600 UHF: 403–527 MHz (a DP1400 UHF tunes 403–470 MHz: Motorola MOTOTRBO DP1400 Data Sheet 09-2019, p. 3). The 470–527 MHz portion overlaps PMSE whitespace — coordinate to avoid co-channel conflicts with wireless mics."
     },
     {
       "brand": "Motorola",
