@@ -5800,9 +5800,9 @@
       "defaultInputMode": "mhz"
     },
     "Behringer — UL 1000G2 (Ultralink)": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Shure — PSM (300 / 900 / 1000)": {
       "frequencyModel": "band_range_free_tune",
@@ -11285,6 +11285,10 @@
     "LD Systems — MEI 1000 G2": {
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E6): group + channel presets only, no free tuning. LD Systems MEI 1000 G2 manual D005232 p. 9: \"Press the SET button repeatedly until \"GROUP SELECT\" appears … select the desired frequency group\"; p. 14: \"LDMEI100G2B5/B6: 120 (10 groups of 12 channels)\"."
+    },
+    "Behringer — UL 1000G2 (Ultralink)": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E8): group + channel presets only. Behringer UL 1000G2 Quick Start Guide (Rev. 0, 2025-06-18) p. 11: \"Press up/down to select the desired frequency group (see frequency chart).\""
     }
   },
   "tableBandAliases": {
