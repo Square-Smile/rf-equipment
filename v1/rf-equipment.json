@@ -5405,7 +5405,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "TBONE75",
-      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, license-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 1–4 are the spread set the manual recommends for running two systems at once; channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
+      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, license-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
     },
     {
       "brand": "the t.bone",
