@@ -6240,9 +6240,9 @@
       "defaultInputMode": "mhz"
     },
     "LD Systems — ANNY (wireless module)": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "LD Systems — MEI 100 G2": {
       "frequencyModel": "band_range_free_tune",
@@ -10886,6 +10886,24 @@
           "Ch10": 678.5
         }
       }
+    },
+    "LD Systems ANNY": {
+      "584-608": {
+        "Group 1": {
+          "Ch1": 584.4,
+          "Ch2": 587.5,
+          "Ch3": 589.575,
+          "Ch4": 591.05,
+          "Ch5": 593.425,
+          "Ch6": 595.2,
+          "Ch7": 598.45,
+          "Ch8": 599.65,
+          "Ch9": 601.275,
+          "Ch10": 603.775,
+          "Ch11": 605.5,
+          "Ch12": 606.75
+        }
+      }
     }
   },
   "presetSources": {
@@ -11227,6 +11245,16 @@
         ],
         "note": "Band D only. Bands I, U and F have no published channel plan here, so they get no table."
       }
+    },
+    "LD Systems ANNY": {
+      "584-608": {
+        "source": "LD_SYSTEMS_ANNY_WIRELESS_MOD",
+        "citations": [
+          "LD Systems ANNY 10 frequency list D005784, B5 584-608 MHz",
+          "LD Systems ANNY manual D005008b p. 23: \"Select one of the 12 available radio channels by pressing the arrow keys … (01 – 12).\""
+        ],
+        "note": "1 group x 12 channels. B6 and B8 have no table here."
+      }
     }
   },
   "familyToSystem": {
@@ -11249,6 +11277,10 @@
     "Samson — Concert 99": {
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E4): group + channel presets only. Samson Concert 99 owner's manual (Concert99_OM_5L_V4) p. 5: \"GROUP Button - Press and release button to cycle through the available groups…\". Preset tables not added yet (group x channel orientation unresolved)."
+    },
+    "LD Systems — ANNY (wireless module)": {
+      "to": "channel_preset_only",
+      "note": "Review 2026-11-15 (E5): 12 fixed channels, no free tuning. LD Systems ANNY manual D005008b p. 23: \"Select one of the 12 available radio channels by pressing the arrow keys … (01 – 12).\""
     }
   }
 }

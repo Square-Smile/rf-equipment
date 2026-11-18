@@ -570,6 +570,7 @@ Factory group and channel tables, transcribed from the manufacturers' frequency 
 | Phenyx Pro PTM-10 Gen 2 | 555-575 | 8 | 63 |
 | Phenyx Pro PTM-10 | 555-575 | 11 | 89 |
 | Audio-Technica 2000 Series | D | 1 | 10 |
+| LD Systems ANNY | 584-608 | 1 | 12 |
 
 <details><summary>Removed band names (kept so saved equipment still loads)</summary>
 
