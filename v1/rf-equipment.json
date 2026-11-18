@@ -1612,7 +1612,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 K3E (606–630)",
       "freqStart": 606,
       "freqEnd": 630,
@@ -1672,7 +1672,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 S8 (823–832)",
       "freqStart": 823,
       "freqEnd": 832,
@@ -1684,7 +1684,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 T11 (863–865)",
       "freqStart": 863,
       "freqEnd": 865,
@@ -1696,7 +1696,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 H8E (518–542)",
       "freqStart": 518,
       "freqEnd": 542,
@@ -5827,6 +5827,11 @@
       "inputMode": "standard",
       "defaultInputMode": "mhz"
     },
+    "Shure — PSM300": {
+      "frequencyModel": "bank_channel_preset_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
+    },
     "Sennheiser — 2000 IEM (SR 2000)": {
       "frequencyModel": "band_range_free_tune",
       "inputMode": "standard",
@@ -6399,7 +6404,11 @@
     "Sennheiser||EW G4 / G5||BW": "Sennheiser||EW G4||BW",
     "Sennheiser||EW G4 / G5||C": "Sennheiser||EW G4||C",
     "Sennheiser||EW G4 / G5||D": "Sennheiser||EW G4||D",
-    "Sennheiser||EW G4 / G5||E": "Sennheiser||EW G4||E"
+    "Sennheiser||EW G4 / G5||E": "Sennheiser||EW G4||E",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 K3E (606–630)": "Shure||PSM300||PSM300 K3E (606–630)",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 S8 (823–832)": "Shure||PSM300||PSM300 S8 (823–832)",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 T11 (863–865)": "Shure||PSM300||PSM300 T11 (863–865)",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 H8E (518–542)": "Shure||PSM300||PSM300 H8E (518–542)"
   },
   "legacyBands": [
     {
