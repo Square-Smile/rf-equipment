@@ -5686,9 +5686,9 @@
       "defaultInputMode": "mhz"
     },
     "Shure — PGX": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Shure — BLX": {
       "frequencyModel": "group_channel_only",
@@ -11352,6 +11352,10 @@
     "Electro-Voice — R300": {
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E9): 4 groups x 8 preset channels per band. Electro-Voice R300 manual F.01U.311.591 Rev 04 p. 32: \"Frequency Range (RF) A Band 618 – 634 MHz … Number of Channels 32\"."
+    },
+    "Shure — PGX": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E12): group + channel selection only; the guide has no channel table. Shure PGX user guide p. 9, \"Manual Channel and Group Selection (receiver only)\": \"Press and hold the channel button… At the desired channel or group number, wait for the flashing to stop…\"."
     }
   },
   "tableBandAliases": {
