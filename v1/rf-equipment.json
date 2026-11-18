@@ -5740,7 +5740,7 @@
       "defaultInputMode": "gc"
     },
     "LD Systems — MEI 1000 G2": {
-      "frequencyModel": "bank_channel_plus_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
       "defaultInputMode": "gc"
     },
@@ -11281,6 +11281,10 @@
     "LD Systems — ANNY (wireless module)": {
       "to": "channel_preset_only",
       "note": "Review 2026-11-15 (E5): 12 fixed channels, no free tuning. LD Systems ANNY manual D005008b p. 23: \"Select one of the 12 available radio channels by pressing the arrow keys … (01 – 12).\""
+    },
+    "LD Systems — MEI 1000 G2": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E6): group + channel presets only, no free tuning. LD Systems MEI 1000 G2 manual D005232 p. 9: \"Press the SET button repeatedly until \"GROUP SELECT\" appears … select the desired frequency group\"; p. 14: \"LDMEI100G2B5/B6: 120 (10 groups of 12 channels)\"."
     }
   }
 }
