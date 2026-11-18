@@ -6098,7 +6098,7 @@
       "defaultInputMode": "mhz"
     },
     "Phenyx Pro — PTM-10 Gen 2 / PTM-20": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_plus_free_tune",
       "inputMode": "standard",
       "defaultInputMode": "mhz"
     },
@@ -11347,6 +11347,9 @@
   "familyPresetSystems": {
     "Audio-Technica — 2000 Series": [
       "Audio-Technica 2000 Series"
+    ],
+    "Phenyx Pro — PTM-10 Gen 2 / PTM-20": [
+      "Phenyx Pro PTM-10 Gen 2"
     ]
   },
   "frequencyModelChanges": {
@@ -11385,6 +11388,10 @@
     "ANT — MiM 20 / MiM 30": {
       "to": "bank_channel_preset_only",
       "note": "Review 2026-11-15 (E14): 8 groups x 12 preset channels; the manual has no channel table. ANT MiM series manual v1.4 §5: \"Channels available 96 (8 groups with 12 channels each)\"."
+    },
+    "Phenyx Pro — PTM-10 Gen 2 / PTM-20": {
+      "to": "bank_channel_plus_free_tune",
+      "note": "Review 2026-11-15 (D9): group/channel presets (8 groups, 63 entries) plus manual tuning; step not stated (25 kHz grid assumed). PTM-10/PTM-20 User Manual V1.1 p. 6: \"⑥ TUNE: Allows manual adjustment of the transmitter frequency.\""
     }
   },
   "tableBandAliases": {
