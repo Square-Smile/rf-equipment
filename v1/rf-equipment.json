@@ -847,6 +847,12 @@
       "url": "https://www.ant-intomusic.com/files/immagini/prodotti/manuali/mim_series_manual-it_en_deu_1.4_lo.pdf",
       "retrieved": "2026-10-29",
       "tier": "primary"
+    },
+    "AT_2000A_MANUAL": {
+      "title": "Audio-Technica 2000a Series owner's manual (band D channel plan, p. 10)",
+      "url": "https://docs.audio-technica.com/eu/2000a_Series_Owners_Manual.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -5949,9 +5955,9 @@
       "defaultInputMode": null
     },
     "Audio-Technica — 2000 Series": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Audio-Technica — AT-One": {
       "frequencyModel": "band_range_free_tune",
@@ -10864,6 +10870,22 @@
           "Ch10": 568.45
         }
       }
+    },
+    "Audio-Technica 2000 Series": {
+      "D": {
+        "D": {
+          "Ch1": 656.125,
+          "Ch2": 659.375,
+          "Ch3": 660,
+          "Ch4": 662.125,
+          "Ch5": 665.125,
+          "Ch6": 669.75,
+          "Ch7": 671.5,
+          "Ch8": 677,
+          "Ch9": 678.125,
+          "Ch10": 678.5
+        }
+      }
     }
   },
   "presetSources": {
@@ -11196,6 +11218,15 @@
         "citations": [],
         "note": null
       }
+    },
+    "Audio-Technica 2000 Series": {
+      "D": {
+        "source": "AT_2000A_MANUAL",
+        "citations": [
+          "Audio-Technica 2000a Series owner's manual, p. 10, Band D channel plan (10 channels)"
+        ],
+        "note": "Band D only. Bands I, U and F have no published channel plan here, so they get no table."
+      }
     }
   },
   "familyToSystem": {
@@ -11204,5 +11235,16 @@
     "Shure — BLX": "Shure BLX",
     "the t.bone — IEM 75 (IEM-75T)": "the t.bone IEM 75",
     "LD Systems — MEI 1000 G2": "LD Systems MEI 1000 G2"
+  },
+  "familyPresetSystems": {
+    "Audio-Technica — 2000 Series": [
+      "Audio-Technica 2000 Series"
+    ]
+  },
+  "frequencyModelChanges": {
+    "Audio-Technica — 2000 Series": {
+      "to": "channel_preset_only",
+      "note": "Review 2026-11-15 (E3): 10 preset channels per band, no free tuning. Audio-Technica 2000a Series owner's manual p. 2: \"Each 2000 Series wireless system provides a choice of 10 PLL synthesized UHF frequencies in one of five UHF frequency ranges\"."
+    }
   }
 }
