@@ -5246,7 +5246,7 @@
       "freqStart": 863,
       "freqEnd": 865,
       "deviceType": "mic",
-      "stepKhz": 50,
+      "stepKhz": null,
       "segments": null,
       "source": "SAMSON_CONCERT_99",
       "note": "Not for USA/Canada. 32 channels on a 50 kHz grid, 863.050–864.950 MHz."
@@ -6270,9 +6270,9 @@
       "defaultInputMode": "mhz"
     },
     "Samson — Concert 99": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Samson — Concert 88 (Concert 288m)": {
       "frequencyModel": "band_range_free_tune",
@@ -11245,6 +11245,10 @@
     "Audio-Technica — 2000 Series": {
       "to": "channel_preset_only",
       "note": "Review 2026-11-15 (E3): 10 preset channels per band, no free tuning. Audio-Technica 2000a Series owner's manual p. 2: \"Each 2000 Series wireless system provides a choice of 10 PLL synthesized UHF frequencies in one of five UHF frequency ranges\"."
+    },
+    "Samson — Concert 99": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E4): group + channel presets only. Samson Concert 99 owner's manual (Concert99_OM_5L_V4) p. 5: \"GROUP Button - Press and release button to cycle through the available groups…\". Preset tables not added yet (group x channel orientation unresolved)."
     }
   }
 }
