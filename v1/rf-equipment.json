@@ -871,6 +871,12 @@
       "url": "https://content-files.shure.com/FileRepository/27a20023-4-1-uhf-r.pdf",
       "retrieved": "2026-11-17",
       "tier": "primary"
+    },
+    "BEHR_BUDGET_ISM": {
+      "title": "Behringer UL 1000G2 Quick Start Guide (Rev. 0, 2025-06-18), EU table Group 1 Ch1–4: Behringer's channel plan, used as the example for budget 863–865 MHz gear (not verified for XVive / Fame / t.bone)",
+      "url": "https://cdn-media.empowertribe.com/7b6bf70d8beb4797866acd84765b4c26/QSG_BE_0404-AAA_UL-1000G2_WW_2025-06-18_Rev.0.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
     }
   },
   "manufacturers": [
@@ -3716,8 +3722,8 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "TBONE75",
-      "note": "Fixed-channel budget systems in the license-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. Source: the t.bone IEM 75 channel table, a typical member of this class."
+      "source": "BEHR_BUDGET_ISM",
+      "note": "Fixed-channel budget systems in the license-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. The channel table is Behringer's UL 1000G2 plan (EU Group 1 Ch1–4), not verified for XVive, Fame or t.bone gear: unsourced for those brands."
     },
     {
       "brand": "Behringer",
@@ -10989,11 +10995,11 @@
     },
     "Budget ISM 863-865": {
       "863-865": {
-        "source": "BEHR",
+        "source": "BEHR_BUDGET_ISM",
         "citations": [
           "Behringer UL 1000G2 quick start guide, EU table Group 1 Ch1–4 (863.100 / 863.500 / 864.300 / 864.900 MHz)"
         ],
-        "note": "The same 4-set as the Sennheiser-recommended CH70 set. Budget systems share no single comb: the t.bone IEM 75 uses 863.1 / 863.9 / 864.5 / 864.9."
+        "note": "Behringer's channel plan (UL 1000G2 EU table, Group 1 Ch1–4), not verified for XVive / Fame / t.bone: unsourced for those brands. The same 4-set as the Sennheiser-recommended CH70 set. Budget systems share no single comb: the t.bone IEM 75 uses 863.1 / 863.9 / 864.5 / 864.9."
       }
     },
     "the t.bone IEM 75": {
