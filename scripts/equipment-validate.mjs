@@ -17,7 +17,9 @@
  * table band written "lo-hi"); compared with the baseline, a row keeps an
  * overlapping range, preset table bands and familyToSystem links only grow,
  * and a family's frequencyModel changes only when `frequencyModelChanges`
- * declares it.
+ * declares it. A deliberate removal (a family, a preset table or one of its
+ * bands, a familyToSystem link, a tableBandAliases entry) passes only when
+ * `declaredRemovals` lists it with a reason.
  *
  * The app accepts source tier "dealer" and a null preset source; enforcing the
  * manufacturer-document ("primary") rule is the repo CI's job, with its
@@ -372,13 +374,45 @@ export function validateEquipmentPackage(pkg, options) {
       }
     }
 
+    // ---- KF-093: optional declaredRemovals [{ kind, key, reason }] (absent = [];
+    // older apps ignore it): a removal the baseline rules would refuse passes
+    // only when declared here with a reason, and a declaration must name
+    // something that is really gone. kind / key:
+    //   family          "<brand> — <series>" (taxonomy key)
+    //   presetTable     "<system>" (the whole table) or "<system>||<band>"
+    //   familyToSystem  "<brand> — <series>"
+    //   tableBandAlias  "<system>||<row band label>"
+    const removed = { family: new Set(), presetTable: new Set(), familyToSystem: new Set(), tableBandAlias: new Set() };
+    const drs = has(pkg, "declaredRemovals") ? pkg.declaredRemovals : [];
+    if (!Array.isArray(drs) || drs.length > MAX_MAP_KEYS) err("declaredRemovals is not a list (max " + MAX_MAP_KEYS + ")");
+    else {
+      drs.forEach((d, i) => {
+        const where = "declaredRemovals[" + i + "]";
+        if (!isObj(d) || !has(removed, d.kind)) { err(where + ".kind"); return; }
+        if (!isStr(d.key, 2 * MAX_NAME + 2)) { err(where + ".key"); return; }
+        if (!(typeof d.reason === "string" && d.reason.trim().length > 0 && d.reason.length <= MAX_NOTE)) err(where + ".reason (say why)");
+        const [a, b] = d.key.split("||");
+        let still = false;
+        if (d.kind === "family") still = has(pkg.taxonomy, d.key);
+        else if (d.kind === "familyToSystem") still = has(pkg.familyToSystem, d.key);
+        else if (d.kind === "tableBandAlias") still = isObj(pkg.tableBandAliases) && isObj(pkg.tableBandAliases[a]) && b !== undefined && has(pkg.tableBandAliases[a], b);
+        else if (b === undefined) still = has(pkg.presetTables, a);
+        else {
+          const g = has(pkg.presetTables, a) && isObj(pkg.presetTables[a]) ? pkg.presetTables[a][b] : undefined;
+          still = isObj(g) && Object.keys(g).some((k) => isObj(g[k]) && Object.keys(g[k]).some((c) => typeof g[k][c] === "number"));
+        }
+        if (still) err(where + ": " + d.kind + " \"" + d.key + "\" is still in the list");
+        removed[d.kind].add(d.key);
+      });
+    }
+
     // ---- monotonic vs baseline: taxonomy and alias keys only ever grow; KF-093:
     // rows keep an overlapping range, preset table bands with values and
     // familyToSystem links only grow, a frequency-model change must be declared
     const base = opts.baseline;
     if (isObj(base)) {
       for (const k of Object.keys(isObj(base.taxonomy) ? base.taxonomy : {})) {
-        if (!has(pkg.taxonomy, k)) err("taxonomy key dropped: " + k);
+        if (!has(pkg.taxonomy, k)) { if (!removed.family.has(k)) err("taxonomy key dropped: " + k); }
         else {
           const was = isObj(base.taxonomy[k]) ? base.taxonomy[k].frequencyModel : undefined;
           const now = isObj(pkg.taxonomy[k]) ? pkg.taxonomy[k].frequencyModel : undefined;
@@ -403,13 +437,14 @@ export function validateEquipmentPackage(pkg, options) {
       const bt = isObj(base.presetTables) ? base.presetTables : {};
       for (const sys of Object.keys(bt)) {
         for (const band of Object.keys(isObj(bt[sys]) ? bt[sys] : {})) {
-          if (hasValue(bt[sys][band]) && !(has(pkg.presetTables, sys) && isObj(pkg.presetTables[sys]) && hasValue(pkg.presetTables[sys][band]))) {
+          if (hasValue(bt[sys][band]) && !(has(pkg.presetTables, sys) && isObj(pkg.presetTables[sys]) && hasValue(pkg.presetTables[sys][band]))
+              && !removed.presetTable.has(sys) && !removed.presetTable.has(sys + "||" + band)) {
             err("presetTables." + sys + "." + band + " dropped or emptied");
           }
         }
       }
       for (const fam of Object.keys(isObj(base.familyToSystem) ? base.familyToSystem : {})) {
-        if (!has(pkg.familyToSystem, fam)) err("familyToSystem key dropped: " + fam);
+        if (!has(pkg.familyToSystem, fam) && !removed.familyToSystem.has(fam)) err("familyToSystem key dropped: " + fam);
       }
     }
 

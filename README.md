@@ -41,6 +41,7 @@ Top-level keys of `v1/rf-equipment.json`, in this order:
 | `familyToSystem` | object | Taxonomy family key (em dash) to the `presetTables` system whose table backs it. |
 | `familyPresetSystems` | object, optional | Family key to a list of `presetTables` systems the family owns, when neither `familyToSystem` nor a shared source citation links them. Absent means `{}`; KlarFunk 4.0.7 and older ignore it. |
 | `tableBandAliases` | object, optional | `system` to `{ row band label: table band }`, for a row label that is not literally the table band's name and does not hold exactly one `lo–hi` range. Absent means `{}`; KlarFunk 4.0.7 and older ignore it. |
+| `declaredRemovals` | array, optional | `[{ kind, key, reason }]`: a deliberate removal the baseline rules would otherwise refuse. `kind` is `family` (key `<brand> — <series>`), `presetTable` (`<system>` or `<system>\|\|<band>`), `familyToSystem` (`<brand> — <series>`) or `tableBandAlias` (`<system>\|\|<row band label>`); `reason` says why. A declaration must name something that is really gone. Absent means `[]`; KlarFunk 4.0.7 and older ignore it, but **4.0.7 still refuses a dropped taxonomy or bandAliases key**, so never remove those while 4.0.7 is in use. |
 | `frequencyModelChanges` | object, optional | Family key to `{ to, note }`: declares a deliberate `taxonomy.frequencyModel` change (`to` = the new model, `note` = why, with the manufacturer document). Every family whose model differs from the previous list must be listed; entries may stay in later lists. Absent means `{}`. |
 
 A `manufacturers` row has, in this order: `brand`, `series`, `band`, `freqStart`, `freqEnd` (MHz, 24 to 6000, `freqStart < freqEnd`), `deviceType` (`mic`, `iem`, `wmas`, `radio`, `advisory`), `stepKhz`, `segments` (`[[start, end], ...]` spanning the range, or `null`), `source` (a `sources` id; the row is *denormalised* by resolving this id through `sources`) and `note`, optionally followed by `widths_khz` (the RF channel widths in kHz the device can use, e.g. `[6000, 8000]` for a WMAS channel; absent means a standard narrowband channel). Only `advisory` rows have no range (`freqStart`/`freqEnd` are `null`).
@@ -49,7 +50,7 @@ A `manufacturers` row has, in this order: `brand`, `series`, `band`, `freqStart`
 
 The full machine-checked rules are in `scripts/equipment-validate.mjs`.
 
-Compared with the previously published list, the validator also refuses a row whose range no longer overlaps its previous one (a new band is a new row plus a `bandAliases` entry), a preset table band with values that is dropped or emptied, a dropped `familyToSystem` key, and an undeclared `frequencyModel` change (see `frequencyModelChanges`). `validate.mjs` additionally refuses a `version` dated after today (UTC) plus one day.
+Compared with the previously published list, the validator also refuses a row whose range no longer overlaps its previous one (a new band is a new row plus a `bandAliases` entry), a preset table band with values that is dropped or emptied, a dropped `familyToSystem` key, and an undeclared `frequencyModel` change (see `frequencyModelChanges`), unless the removal is listed in `declaredRemovals`. `validate.mjs` additionally refuses a `version` dated after today (UTC) plus one day.
 
 ## Editing rules
 
