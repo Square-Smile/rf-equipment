@@ -123,9 +123,9 @@
       "tier": "primary"
     },
     "SPECTERA": {
-      "title": "Sennheiser Spectera SEK product specification v1.2",
-      "url": "https://www.sennheiser.com/globalassets/digizuite/49086-en-spectera_sek_product_specification_v1.2_de.pdf",
-      "retrieved": "2026-10-14",
+      "title": "Sennheiser Spectera SEK Produktdatenblatt V1.6",
+      "url": "https://assets.sennheiser.com/download/assets/SPECTERA_SEK_Product_Specification_v1.6_DE.pdf/30ddeb90e7d211f0bfb2beb43c66122a?attachment=true",
+      "retrieved": "2026-11-17",
       "tier": "primary"
     },
     "LECHM": {
@@ -846,6 +846,36 @@
       "title": "ANT MiM 20 / MiM 30 user manual (v1.4, IT/EN/DE)",
       "url": "https://www.ant-intomusic.com/files/immagini/prodotti/manuali/mim_series_manual-it_en_deu_1.4_lo.pdf",
       "retrieved": "2026-10-29",
+      "tier": "primary"
+    },
+    "AT_2000A_MANUAL": {
+      "title": "Audio-Technica 2000a Series owner's manual (band D channel plan, p. 10)",
+      "url": "https://docs.audio-technica.com/eu/2000a_Series_Owners_Manual.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
+    },
+    "EV_R300_MANUAL": {
+      "title": "Electro-Voice R300 manual F.01U.311.591 Rev 04 (05/2016)",
+      "url": "https://products.electrovoice.com/binary/R300_manual_F01U311591.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
+    },
+    "MOTO_DP1400": {
+      "title": "Motorola Solutions MOTOTRBO DP1400 Data Sheet (09-2019)",
+      "url": "https://www.motorolasolutions.com/content/dam/msi/docs/EA_Collaterals/ENGLISH/MOTOTRBO/Portables/DP1400_DataSheet_ENG.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
+    },
+    "SHURE_UHF_R_GUIDE_EN": {
+      "title": "Shure UHF-R user guide 27A20023 Rev. 4",
+      "url": "https://content-files.shure.com/FileRepository/27a20023-4-1-uhf-r.pdf",
+      "retrieved": "2026-11-17",
+      "tier": "primary"
+    },
+    "BEHR_BUDGET_ISM": {
+      "title": "Behringer UL 1000G2 Quick Start Guide (Rev. 0, 2025-06-18), EU table Group 1 Ch1–4: Behringer's channel plan, used as the example for budget 863–865 MHz gear (not verified for XVive / Fame / t.bone)",
+      "url": "https://cdn-media.empowertribe.com/7b6bf70d8beb4797866acd84765b4c26/QSG_BE_0404-AAA_UL-1000G2_WW_2025-06-18_Rev.0.pdf",
+      "retrieved": "2026-11-17",
       "tier": "primary"
     }
   },
@@ -1588,7 +1618,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 K3E (606–630)",
       "freqStart": 606,
       "freqEnd": 630,
@@ -1648,7 +1678,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 S8 (823–832)",
       "freqStart": 823,
       "freqEnd": 832,
@@ -1660,7 +1690,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 T11 (863–865)",
       "freqStart": 863,
       "freqEnd": 865,
@@ -1672,7 +1702,7 @@
     },
     {
       "brand": "Shure",
-      "series": "PSM (300 / 900 / 1000)",
+      "series": "PSM300",
       "band": "PSM300 H8E (518–542)",
       "freqStart": 518,
       "freqEnd": 542,
@@ -1869,7 +1899,7 @@
       "stepKhz": 25,
       "segments": null,
       "source": "SHURE_UHF_R_UR",
-      "note": "Only 823–832 and 863–865 MHz are usable in DE today; 790–821 MHz and 832–862 MHz are LTE 800. Outside the 470–700 MHz scan window."
+      "note": "Only 823–832 and 863–865 MHz are usable in DE today; 790–821 MHz and 832–862 MHz are LTE 800. Outside the 470–700 MHz scan window. 25 kHz step: Shure UHF-R user guide 27A20023 Rev. 4, p. 13 (\"Manual frequency selection in 0.025 MHz increments\")."
     },
     {
       "brand": "Shure",
@@ -2829,7 +2859,11 @@
         ]
       ],
       "source": "SPECTERA",
-      "note": "Wideband multichannel (WMAS): one 6 or 8 MHz RF channel, set per country, carries many mics and in-ears. Tunes 470–608 and 630–698 MHz. Reserve that channel as a block rather than coordinating narrowband channels inside it."
+      "note": "Wideband multichannel (WMAS): one 6 or 8 MHz RF channel, set per country, carries many mics and in-ears. Tunes 470–608 and 630–698 MHz. Reserve that channel as a block rather than coordinating narrowband channels inside it.",
+      "widths_khz": [
+        6000,
+        8000
+      ]
     },
     {
       "brand": "Sennheiser",
@@ -2850,7 +2884,11 @@
         ]
       ],
       "source": "SPECTERA",
-      "note": "Wideband multichannel (WMAS) in 1350–1400 and 1435–1525 MHz — outside this UHF spectrum display."
+      "note": "Wideband multichannel (WMAS) in 1350–1400 and 1435–1525 MHz — outside this UHF spectrum display.",
+      "widths_khz": [
+        6000,
+        8000
+      ]
     },
     {
       "brand": "Sennheiser",
@@ -3625,7 +3663,7 @@
       "stepKhz": 25,
       "segments": null,
       "source": "LD_SYSTEMS_WIN_42",
-      "note": "WIN 42 B5. 1680 frequencies in 25 kHz steps, 20 groups with 577 fixed frequencies + user bank."
+      "note": "WIN 42 B5. 1680 frequencies in 25 kHz steps, 20 groups with 515 fixed frequencies + user bank."
     },
     {
       "brand": "LD Systems",
@@ -3649,7 +3687,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "MOTO",
-      "note": "Licensed DMR two-way radio. DP2400 / DP2600 UHF: 403–527 MHz (a DP1400 UHF tunes 403–470 MHz). The 470–527 MHz portion overlaps PMSE whitespace — coordinate to avoid co-channel conflicts with wireless mics."
+      "note": "Licensed DMR two-way radio. DP2400 / DP2600 UHF: 403–527 MHz (a DP1400 UHF tunes 403–470 MHz: Motorola MOTOTRBO DP1400 Data Sheet 09-2019, p. 3). The 470–527 MHz portion overlaps PMSE whitespace — coordinate to avoid co-channel conflicts with wireless mics."
     },
     {
       "brand": "Motorola",
@@ -3684,8 +3722,8 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "TBONE75",
-      "note": "Fixed-channel budget systems in the license-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. Source: the t.bone IEM 75 channel table, a typical member of this class."
+      "source": "BEHR_BUDGET_ISM",
+      "note": "Fixed-channel budget systems in the license-free 863–865 MHz SRD band (max 10 mW ERP). Outside the 470–700 MHz scan window. The channel table is Behringer's UL 1000G2 plan (EU Group 1 Ch1–4), not verified for XVive, Fame or t.bone gear: unsourced for those brands."
     },
     {
       "brand": "Behringer",
@@ -4786,7 +4824,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "ALTO_PROFESSIONAL_STEALTH_WI",
-      "note": "Wireless speaker feed, EU/UK version. License-free SRD, 10 mW."
+      "note": "Wireless speaker feed, EU/UK version. License-free SRD."
     },
     {
       "brand": "Wisycom",
@@ -5057,7 +5095,7 @@
       "deviceType": "mic",
       "stepKhz": null,
       "segments": null,
-      "source": "ELECTRO_VOICE_R300",
+      "source": "EV_R300_MANUAL",
       "note": "32 channels, ClearScan. Check local rules before use."
     },
     {
@@ -5232,7 +5270,7 @@
       "freqStart": 863,
       "freqEnd": 865,
       "deviceType": "mic",
-      "stepKhz": 50,
+      "stepKhz": null,
       "segments": null,
       "source": "SAMSON_CONCERT_99",
       "note": "Not for USA/Canada. 32 channels on a 50 kHz grid, 863.050–864.950 MHz."
@@ -5385,7 +5423,7 @@
       "stepKhz": null,
       "segments": null,
       "source": "TBONE75",
-      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, license-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 1–4 are the spread set the manual recommends for running two systems at once; channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
+      "note": "In-ear monitor system (IEM-75T stereo transmitter). 16 fixed channels, 10 mW, license-free and registration-free across the EU. Outside the 470–700 MHz scan window. Channels 5–16 sit on a 100 kHz grid — closer than the 300 kHz default minimum spacing, so two rigs taken from 5–16 are correctly reported as too close. Never set two transmitters to the same channel."
     },
     {
       "brand": "the t.bone",
@@ -5666,9 +5704,9 @@
       "defaultInputMode": "mhz"
     },
     "Shure — PGX": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Shure — BLX": {
       "frequencyModel": "group_channel_only",
@@ -5726,7 +5764,7 @@
       "defaultInputMode": "gc"
     },
     "LD Systems — MEI 1000 G2": {
-      "frequencyModel": "bank_channel_plus_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
       "defaultInputMode": "gc"
     },
@@ -5786,14 +5824,19 @@
       "defaultInputMode": "mhz"
     },
     "Behringer — UL 1000G2 (Ultralink)": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Shure — PSM (300 / 900 / 1000)": {
       "frequencyModel": "band_range_free_tune",
       "inputMode": "standard",
       "defaultInputMode": "mhz"
+    },
+    "Shure — PSM300": {
+      "frequencyModel": "bank_channel_preset_only",
+      "inputMode": "standard",
+      "defaultInputMode": "gc"
     },
     "Sennheiser — 2000 IEM (SR 2000)": {
       "frequencyModel": "band_range_free_tune",
@@ -5941,9 +5984,9 @@
       "defaultInputMode": null
     },
     "Audio-Technica — 2000 Series": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Audio-Technica — AT-One": {
       "frequencyModel": "band_range_free_tune",
@@ -6061,7 +6104,7 @@
       "defaultInputMode": "mhz"
     },
     "Phenyx Pro — PTM-10 Gen 2 / PTM-20": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_plus_free_tune",
       "inputMode": "standard",
       "defaultInputMode": "mhz"
     },
@@ -6096,9 +6139,9 @@
       "defaultInputMode": "mhz"
     },
     "the t.bone — free 300 HT / PT": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Alto Professional — Stealth Wireless MKII": {
       "frequencyModel": "band_range_free_tune",
@@ -6226,9 +6269,9 @@
       "defaultInputMode": "mhz"
     },
     "LD Systems — ANNY (wireless module)": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "LD Systems — MEI 100 G2": {
       "frequencyModel": "band_range_free_tune",
@@ -6256,9 +6299,9 @@
       "defaultInputMode": "mhz"
     },
     "Samson — Concert 99": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Samson — Concert 88 (Concert 288m)": {
       "frequencyModel": "band_range_free_tune",
@@ -6271,9 +6314,9 @@
       "defaultInputMode": "mhz"
     },
     "Electro-Voice — R300": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     },
     "Behringer — ULM (Note)": {
       "frequencyModel": "advisory",
@@ -6296,9 +6339,9 @@
       "defaultInputMode": null
     },
     "ANT — MiM 20 / MiM 30": {
-      "frequencyModel": "band_range_free_tune",
+      "frequencyModel": "bank_channel_preset_only",
       "inputMode": "standard",
-      "defaultInputMode": "mhz"
+      "defaultInputMode": "gc"
     }
   },
   "bandAliases": {
@@ -6367,7 +6410,11 @@
     "Sennheiser||EW G4 / G5||BW": "Sennheiser||EW G4||BW",
     "Sennheiser||EW G4 / G5||C": "Sennheiser||EW G4||C",
     "Sennheiser||EW G4 / G5||D": "Sennheiser||EW G4||D",
-    "Sennheiser||EW G4 / G5||E": "Sennheiser||EW G4||E"
+    "Sennheiser||EW G4 / G5||E": "Sennheiser||EW G4||E",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 K3E (606–630)": "Shure||PSM300||PSM300 K3E (606–630)",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 S8 (823–832)": "Shure||PSM300||PSM300 S8 (823–832)",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 T11 (863–865)": "Shure||PSM300||PSM300 T11 (863–865)",
+    "Shure||PSM (300 / 900 / 1000)||PSM300 H8E (518–542)": "Shure||PSM300||PSM300 H8E (518–542)"
   },
   "legacyBands": [
     {
@@ -6890,8 +6937,7 @@
           "Ch63": 531.525,
           "Ch64": 532.3,
           "Ch65": 533.175,
-          "Ch66": 533.525,
-          "Ch67": 533.825
+          "Ch66": 533.525
         },
         "Group 4": {
           "Ch1": 470.125,
@@ -10857,6 +10903,84 @@
           "Ch10": 568.45
         }
       }
+    },
+    "Audio-Technica 2000 Series": {
+      "D": {
+        "D": {
+          "Ch1": 656.125,
+          "Ch2": 659.375,
+          "Ch3": 660,
+          "Ch4": 662.125,
+          "Ch5": 665.125,
+          "Ch6": 669.75,
+          "Ch7": 671.5,
+          "Ch8": 677,
+          "Ch9": 678.125,
+          "Ch10": 678.5
+        }
+      }
+    },
+    "LD Systems ANNY": {
+      "584-608": {
+        "Group 1": {
+          "Ch1": 584.4,
+          "Ch2": 587.5,
+          "Ch3": 589.575,
+          "Ch4": 591.05,
+          "Ch5": 593.425,
+          "Ch6": 595.2,
+          "Ch7": 598.45,
+          "Ch8": 599.65,
+          "Ch9": 601.275,
+          "Ch10": 603.775,
+          "Ch11": 605.5,
+          "Ch12": 606.75
+        }
+      }
+    },
+    "Electro-Voice R300": {
+      "618-634": {
+        "Group 1": {
+          "Ch1": 618.5,
+          "Ch2": 622.7,
+          "Ch3": 624.4,
+          "Ch4": 628.3,
+          "Ch5": 628.8,
+          "Ch6": 630.7,
+          "Ch7": 631.4,
+          "Ch8": 633.5
+        },
+        "Group 2": {
+          "Ch1": 618.9,
+          "Ch2": 620.1,
+          "Ch3": 621.5,
+          "Ch4": 623.1,
+          "Ch5": 624.9,
+          "Ch6": 626.925,
+          "Ch7": 629.325,
+          "Ch8": 632.075
+        },
+        "Group 3": {
+          "Ch1": 619.3,
+          "Ch2": 620.5,
+          "Ch3": 621.9,
+          "Ch4": 623.5,
+          "Ch5": 625.3,
+          "Ch6": 627.325,
+          "Ch7": 629.725,
+          "Ch8": 632.475
+        },
+        "Group 4": {
+          "Ch1": 619.7,
+          "Ch2": 620.9,
+          "Ch3": 622.3,
+          "Ch4": 623.9,
+          "Ch5": 625.7,
+          "Ch6": 627.725,
+          "Ch7": 630.125,
+          "Ch8": 632.875
+        }
+      }
     }
   },
   "presetSources": {
@@ -10871,11 +10995,11 @@
     },
     "Budget ISM 863-865": {
       "863-865": {
-        "source": "BEHR",
+        "source": "BEHR_BUDGET_ISM",
         "citations": [
           "Behringer UL 1000G2 quick start guide, EU table Group 1 Ch1–4 (863.100 / 863.500 / 864.300 / 864.900 MHz)"
         ],
-        "note": "The same 4-set as the Sennheiser-recommended CH70 set. Budget systems share no single comb: the t.bone IEM 75 uses 863.1 / 863.9 / 864.5 / 864.9."
+        "note": "Behringer's channel plan (UL 1000G2 EU table, Group 1 Ch1–4), not verified for XVive / Fame / t.bone: unsourced for those brands. The same 4-set as the Sennheiser-recommended CH70 set. Budget systems share no single comb: the t.bone IEM 75 uses 863.1 / 863.9 / 864.5 / 864.9."
       }
     },
     "the t.bone IEM 75": {
@@ -11189,6 +11313,34 @@
         "citations": [],
         "note": null
       }
+    },
+    "Audio-Technica 2000 Series": {
+      "D": {
+        "source": "AT_2000A_MANUAL",
+        "citations": [
+          "Audio-Technica 2000a Series owner's manual, p. 10, Band D channel plan (10 channels)"
+        ],
+        "note": "Band D only. Bands I, U and F have no published channel plan here, so they get no table."
+      }
+    },
+    "LD Systems ANNY": {
+      "584-608": {
+        "source": "LD_SYSTEMS_ANNY_WIRELESS_MOD",
+        "citations": [
+          "LD Systems ANNY 10 frequency list D005784, B5 584-608 MHz",
+          "LD Systems ANNY manual D005008b p. 23: \"Select one of the 12 available radio channels by pressing the arrow keys … (01 – 12).\""
+        ],
+        "note": "1 group x 12 channels. B6 and B8 have no table here."
+      }
+    },
+    "Electro-Voice R300": {
+      "618-634": {
+        "source": "EV_R300_MANUAL",
+        "citations": [
+          "Electro-Voice R300 manual F.01U.311.591 Rev 04, pp. 28–31, band A frequency table (4 groups x 8 channels)"
+        ],
+        "note": "Band A only; bands B and C have no table here."
+      }
     }
   },
   "familyToSystem": {
@@ -11197,5 +11349,60 @@
     "Shure — BLX": "Shure BLX",
     "the t.bone — IEM 75 (IEM-75T)": "the t.bone IEM 75",
     "LD Systems — MEI 1000 G2": "LD Systems MEI 1000 G2"
+  },
+  "familyPresetSystems": {
+    "Audio-Technica — 2000 Series": [
+      "Audio-Technica 2000 Series"
+    ],
+    "Phenyx Pro — PTM-10 Gen 2 / PTM-20": [
+      "Phenyx Pro PTM-10 Gen 2"
+    ]
+  },
+  "frequencyModelChanges": {
+    "Audio-Technica — 2000 Series": {
+      "to": "channel_preset_only",
+      "note": "Review 2026-11-15 (E3): 10 preset channels per band, no free tuning. Audio-Technica 2000a Series owner's manual p. 2: \"Each 2000 Series wireless system provides a choice of 10 PLL synthesized UHF frequencies in one of five UHF frequency ranges\"."
+    },
+    "Samson — Concert 99": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E4): group + channel presets only. Samson Concert 99 owner's manual (Concert99_OM_5L_V4) p. 5: \"GROUP Button - Press and release button to cycle through the available groups…\". Preset tables not added yet (group x channel orientation unresolved)."
+    },
+    "LD Systems — ANNY (wireless module)": {
+      "to": "channel_preset_only",
+      "note": "Review 2026-11-15 (E5): 12 fixed channels, no free tuning. LD Systems ANNY manual D005008b p. 23: \"Select one of the 12 available radio channels by pressing the arrow keys … (01 – 12).\""
+    },
+    "LD Systems — MEI 1000 G2": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E6): group + channel presets only, no free tuning. LD Systems MEI 1000 G2 manual D005232 p. 9: \"Press the SET button repeatedly until \"GROUP SELECT\" appears … select the desired frequency group\"; p. 14: \"LDMEI100G2B5/B6: 120 (10 groups of 12 channels)\"."
+    },
+    "Behringer — UL 1000G2 (Ultralink)": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E8): group + channel presets only. Behringer UL 1000G2 Quick Start Guide (Rev. 0, 2025-06-18) p. 11: \"Press up/down to select the desired frequency group (see frequency chart).\""
+    },
+    "Electro-Voice — R300": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E9): 4 groups x 8 preset channels per band. Electro-Voice R300 manual F.01U.311.591 Rev 04 p. 32: \"Frequency Range (RF) A Band 618 – 634 MHz … Number of Channels 32\"."
+    },
+    "Shure — PGX": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E12): group + channel selection only; the guide has no channel table. Shure PGX user guide p. 9, \"Manual Channel and Group Selection (receiver only)\": \"Press and hold the channel button… At the desired channel or group number, wait for the flashing to stop…\"."
+    },
+    "the t.bone — free 300 HT / PT": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E13): 3 groups x 10 preset channels; no channel list published. the t.bone free 300 manual p. 11: \"The system works with three pre-programmed frequency groups, each with ten available channels.\""
+    },
+    "ANT — MiM 20 / MiM 30": {
+      "to": "bank_channel_preset_only",
+      "note": "Review 2026-11-15 (E14): 8 groups x 12 preset channels; the manual has no channel table. ANT MiM series manual v1.4 §5: \"Channels available 96 (8 groups with 12 channels each)\"."
+    },
+    "Phenyx Pro — PTM-10 Gen 2 / PTM-20": {
+      "to": "bank_channel_plus_free_tune",
+      "note": "Review 2026-11-15 (D9): group/channel presets (8 groups, 63 entries) plus manual tuning; step not stated (25 kHz grid assumed). PTM-10/PTM-20 User Manual V1.1 p. 6: \"⑥ TUNE: Allows manual adjustment of the transmitter frequency.\""
+    }
+  },
+  "tableBandAliases": {
+    "LD Systems MEI 1000 G2": {
+      "823–832 / 863–865": "B8"
+    }
   }
 }

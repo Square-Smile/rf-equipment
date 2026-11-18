@@ -12,6 +12,7 @@
 //   - every pending-audit entry must still exist AND still be non-primary, so
 //     the audit list can only shrink honestly
 //   - with --previous: the version must strictly increase whenever content changed
+//   - the version must not be dated after today (UTC) plus one day of grace
 //   - the file bytes must equal JSON.stringify(pkg, null, 2) + "\n" (no
 //     reformatting, no key sorting)
 
@@ -117,6 +118,17 @@ function main() {
   }
   for (const key of auditBands) {
     if (!seenBands.has(key)) err("pending-audit preset band has no non-empty preset band (stale): " + key);
+  }
+
+  // No version dated in the future (KlarFunk KF-081): a list only ever replaces
+  // an older one, so a future date would outrank every later honest list. One
+  // day of grace for time zones, as in the app.
+  const vm = /^(\d{4})-(\d{2})-(\d{2})(?:\.\d+)?$/.exec(String(pkg.version));
+  if (vm) {
+    const listDay = Date.UTC(Number(vm[1]), Number(vm[2]) - 1, Number(vm[3]));
+    const now = new Date();
+    const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+    if (listDay > today + 86400000) err("version " + pkg.version + " is dated in the future (publish only with today's date or earlier)");
   }
 
   // Version must increase when content changed.
