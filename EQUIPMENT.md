@@ -533,7 +533,7 @@ Factory group and channel tables, transcribed from the manufacturers' frequency 
 
 | System | Band | Groups | Channels |
 |---|---|---|---|
-| Shure ULXD | G50 | 5 | 291 |
+| Shure ULXD | G50 | 5 | 290 |
 | Budget ISM 863-865 | 863-865 | 1 | 4 |
 | the t.bone IEM 75 | 863-865 | 1 | 16 |
 | LD Systems MEI 1000 G2 | B5 | 10 | 120 |
